@@ -690,7 +690,7 @@
 1	ta	ta	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	tʰaun	tʰaun	NUM	_	Number=Plur	1	nummod	_	_
 3	o-gə	o	VERB	_	_	0	root	_	NativeVerbForm=Fut
-4	bu	bu	AUX	_	Polarity=Q	3	dep	_	NativeCopType=Yes|SpaceAfter=No
+4	bu	bu	AUX	_	_	3	dep	_	NativeCopType=Yes|NativePolarity=Q|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_73
@@ -1441,7 +1441,7 @@
 # sent_id = Bonan_grammar_140
 # text = jaŋgə ʁali-kə=ku=nə da ələ medə-na.
 # text[eng] = And I didn't know what to look at.
-1	jaŋgə	jaŋgə	PRON	_	PronType=Int	2	mark	_	_
+1	jaŋgə	jaŋgə	PRON	_	PronType=Int	2	dep	_	_
 2	ʁali-kə	ʁali-kə	VERB	_	_	6	ccomp	_	NativeVerbForm=VBZ|SpaceAfter=No
 3	=ku	=ku	PART	_	_	2	acl	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 4	=nə	=nə	PART	_	Case=Acc	2	obj	_	_
@@ -1649,7 +1649,7 @@
 # sent_id = Bonan_grammar_159
 # text = mannə çəŋga=da da sowo ʁar udər wo.
 # text[eng] = Here in Cenga, there are also two important days.
-1	mannə	mannə	PRON	_	PronType=Prs	6	advmod	_	_
+1	mannə	mannə	PRON	_	PronType=Prs	6	obl	_	_
 2	çəŋga	çəŋga	PROPN	_	_	6	dep	_	SpaceAfter=No
 3	=da	_	X	_	_	6	dep	_	_
 4	da	da	ADV	_	_	6	advmod	_	_
@@ -1699,7 +1699,7 @@
 # text = kʰətɕəχaŋ=sanə liujueχue ənə. wi-saŋ
 # text[eng] = So when did this “liuyuehui” (festival) start?
 1	kʰətɕəχaŋ	kʰətɕəχaŋ	ADV	_	_	6	advmod	_	SpaceAfter=No
-2	=sanə	_	X	_	_	1	advmod	_	_
+2	=sanə	_	X	_	_	1	obl	_	_
 3	liujueχue	liujueχue	PROPN	_	_	6	nsubj	_	_
 4	ənə	ənə	DET	_	PronType=Dem	3	det	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	6	punct	_	_
@@ -3409,7 +3409,7 @@
 1	atɕaŋ	3SG	PRON	_	PronType=Prs	5	nsubj	_	_
 2	χotɕʰa	book	NOUN	_	_	5	obj	_	_
 3	hko	big	ADJ	_	_	2	amod	_	SpaceAfter=No
-4	=gə	SG.INDEF	NUM	_	_	2	det	_	_
+4	=gə	SG.INDEF	NUM	_	_	2	nummod	_	_
 5	war	hold	VERB	_	_	0	root	_	_
 6	su-tɕo	stay-IMPF.OBJ	AUX	_	_	5	dep	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -3845,7 +3845,7 @@
 2	dzəjaŋ	dish	NOUN	_	_	4	obj	_	SpaceAfter=No
 3	=nə	ACC	ADP	_	_	2	case	_	_
 4	na-ʁa	fall-CAUS-PERF	VERB	_	_	0	root	_	_
-5	81-tɕə	_	NUM	_	_	4	advmod	_	SpaceAfter=No
+5	81-tɕə	_	NUM	_	_	4	obl	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_356
@@ -4147,7 +4147,7 @@
 # text = tʰə-gə=ku tɕʰəχaŋnaŋ pə wakə ətɕə kina.
 # text[eng] = At that time I wasn’t at all afraid.
 1	tʰə-gə=ku	that-VBZ=IMPF.NMLZ	DET	_	PronType=Dem	2	nmod	_	_
-2	tɕʰəχaŋnaŋ	time	NOUN	_	_	5	advmod	_	_
+2	tɕʰəχaŋnaŋ	time	NOUN	_	_	5	obl	_	_
 3	pə	1SG	PRON	_	PronType=Prs	5	nsubj	_	_
 4	wakə	completely	ADV	_	_	5	advmod	_	_
 5	ətɕə	fear	NOUN	_	_	6	obj	_	_
@@ -5347,7 +5347,7 @@
 1	jiŋju	jiŋju	NOUN	_	Case=Acc	5	obj	_	SpaceAfter=No|Topic=Yes
 2	=nə	nə	PART	_	Case=Acc	1	case	_	_
 3	χani	χani	DET	_	PronType=Tot	5	nsubj	_	SpaceAfter=No
-4	=la	la	PART	_	Number=Plur	3	det	_	_
+4	=la	la	PART	_	Number=Plur	3	dep	_	_
 5	ɬoptɕoŋ	ɬoptɕoŋ	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin	0	root	_	_
 6	naŋdaŋ	naŋdaŋ	ADV	_	_	5	advmod	_	SpaceAfter=No
 7	-kə	kə	AUX	_	_	5	dep	_	Nominalizer=Yes|SpaceAfter=No
@@ -5664,7 +5664,7 @@
 # text = atɕaŋʁula χala o-sa odə-kə.
 # text[eng] = Let them go where they want.
 1	atɕaŋʁula	atɕaŋʁula	PRON	_	Number=Pauc|Person=3|PronType=Prs	4	nsubj	_	_
-2	χala	χala	PRON	_	PronType=Int	3	advmod	_	_
+2	χala	χala	PRON	_	PronType=Int	3	obl	_	_
 3	o-sa	o	VERB	_	Mood=Cnd	4	advcl	_	_
 4	odə-kə	odə	VERB	_	Mood=Imp|Person=3	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -5802,7 +5802,7 @@
 3	kʰəl	kʰəl	VERB	_	Aspect=Imp	5	nsubj	_	SpaceAfter=No
 4	=ku	=ku	PART	_	_	3	mark	_	Nominalizer=Yes
 5	wa	wa	AUX	_	_	0	root	_	NativeVerbType=Cop|SpaceAfter=No
-6	-u	-u	PART	_	Polarity=Q	5	discourse	_	_
+6	-u	-u	PART	_	_	5	discourse	_	NativePolarity=Q
 
 # sent_id = Bonan_grammar_551
 # text = natʰə-saŋ jaksa wa
@@ -7693,7 +7693,7 @@
 3	kʰətʰə	kʰətʰə	NOUN	_	Number=Sing	7	obl	_	SpaceAfter=No
 4	=ku	=ku	PART	_	VerbForm=Part	3	case	_	_
 5	aku	aku	NOUN	_	Number=Sing	7	nsubj	_	SpaceAfter=No
-6	=la	=la	PART	_	Number=Plur	5	nummod	_	_
+6	=la	=la	PART	_	Number=Plur	5	dep	_	_
 7	wi-sa	wi	VERB	_	Mood=Cnd	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -7709,7 +7709,7 @@
 # text = aku=la werə bi-saŋ htɕa ço.
 # text[eng] = Daughters and wives are no exception.
 1	aku	aku	NOUN	_	Number=Sing	4	nsubj	_	SpaceAfter=No
-2	=la	=la	PART	_	Number=Plur	1	nummod	_	_
+2	=la	=la	PART	_	Number=Plur	1	dep	_	_
 3	werə	werə	NOUN	_	Number=Sing	1	conj	_	_
 4	bi-saŋ	bi	VERB	_	Tense=Past	0	root	_	_
 5	htɕa	htɕa	NOUN	_	_	4	xcomp	_	_
@@ -7740,7 +7740,7 @@
 # text = dedə=la kʰər-saŋ jiχ çəwa.
 # text[eng] = Don’t the grandfathers have to do it?
 1	dedə	dedə	NOUN	_	Number=Plur	3	nsubj	_	SpaceAfter=No
-2	=la	=la	PART	_	Number=Plur	1	nummod	_	_
+2	=la	=la	PART	_	Number=Plur	1	dep	_	_
 3	kʰər-saŋ	kʰər	VERB	_	Mood=Nec|Tense=Past	0	root	_	_
 4	jiχ	jiχ	VERB	_	VerbForm=Inf	3	xcomp	_	_
 5	çəwa	çəwa	PART	_	Polarity=Neg	3	advmod	_	SpaceAfter=No
@@ -8153,7 +8153,7 @@
 3	wi	wi	VERB	_	Mood=Ind	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 5	wi-dʑi	wi	AUX	_	Aspect=Prog	8	aux	_	_
-6	wi-sa	wi	AUX	_	VerbForm=Conv	8	mark	_	SpaceAfter=No
+6	wi-sa	wi	AUX	_	VerbForm=Conv	8	dep	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	meˡdə	meˡdə	VERB	_	Polarity=Neg|Tense=Pres	3	parataxis	_	_
 9	ħala	ħala	ADV	_	PronType=Int	10	advmod	_	_
@@ -8923,7 +8923,7 @@
 2	atəgda	atəgda	ADV	_	Degree=Sup	3	advmod	_	_
 3	tɕataŋ	tɕataŋ	ADJ	_	Case=Gen	4	amod	_	_
 4	gɵŋsə	gɵŋsə	NOUN	_	_	6	nsubj	_	_
-5	ħala	ħala	PRON	_	PronType=Int	6	advmod	_	_
+5	ħala	ħala	PRON	_	PronType=Int	6	obl	_	_
 6	wi	wi	AUX	_	Aspect=Imp|VerbForm=Part	9	ccomp	_	_
 7	mən	mən	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	_	Deriv=Sig
 8	kel	kel	VERB	_	Aspect=Prog|VerbForm=Part	9	xcomp	_	Deriv=Sig
@@ -9278,7 +9278,7 @@
 # text = mənə bəjaŋ χar ebdə-dʑɵ. endəχaŋnaŋ ebdə-dʑɵ.
 # text[eng] = The right arm. Now, there is a pain here.
 1	mənə	mənə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	bəjaŋ	bəjaŋ	NOUN	_	_	3	det	_	_
+2	bəjaŋ	bəjaŋ	NOUN	_	_	3	nmod	_	_
 3	χar	χar	NOUN	_	_	4	obj	_	_
 4	ebdə-dʑɵ	ebdə-dʑɵ	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=PRG
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -11360,7 +11360,7 @@
 # text[eng] = Jiashi is sitting between the door and the window.
 1	tɕaçi	tɕaçi	PROPN	_	_	6	nsubj	_	_
 2	daŋ	daŋ	NOUN	_	_	5	parataxis	_	_
-3	dʐama	dʐama	NOUN	_	Case=Acc|Number=Dual	2	cc	_	_
+3	dʐama	dʐama	NOUN	_	Case=Acc|Number=Dual	2	conj	_	_
 4	htɕida	htɕida	ADP	_	_	6	obl	_	_
 5	su	su	VERB	_	Aspect=Imp	6	advcl	_	_
 6	su-tɕo	su	VERB	_	Aspect=Imp	0	root	_	SpaceAfter=No
@@ -12200,7 +12200,7 @@
 4	χamda	χamda	ADV	_	_	5	advmod	_	_
 5	o	o	VERB	_	Mood=Sub|Tense=Fut	0	root	_	SpaceAfter=No
 6	-gi-saŋ	-gi-saŋ	X	_	_	5	dep	_	AspectOrig=Pos
-7	bu	bu	AUX	_	Polarity=Q	5	dep	_	NativeCopType=Cop2Subj|SpaceAfter=No
+7	bu	bu	AUX	_	_	5	dep	_	NativeCopType=Cop2Subj|NativePolarity=Q|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_1136
@@ -12317,7 +12317,7 @@
 # text = pə tɕənda ər-sala saʁa-ja.
 # text[eng] = Let me wait until you come!
 1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	tɕənda	tɕənda	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	mark	_	_
+2	tɕənda	tɕənda	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	dep	_	_
 3	ər-sala	ər-sala	VERB	_	_	4	advcl	_	NativeVerbForm=Term
 4	saʁa-ja	saʁa-ja	VERB	_	_	0	root	_	NativeVerbForm=Imp|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -12446,7 +12446,7 @@
 # text = maŋgəʁala nəkə~nəkə da nohkor-kə-ja.
 # text[eng] = Let's help each other.
 1	maŋgəʁala	maŋgəʁala	PRON	_	PronType=Prs	3	nsubj	_	_
-2	nəkə~nəkə	nəkə~nəkə	NUM	_	_	3	advmod	_	_
+2	nəkə~nəkə	nəkə~nəkə	NUM	_	_	3	obl	_	_
 3	da	da	VERB	_	Number=Plur|Person=1	0	root	_	NativeVerbForm=Imp
 4	nohkor-kə-ja	nohkor-kə-ja	VERB	_	_	3	xcomp	_	NativeVerbForm=Vbz1Imp|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
