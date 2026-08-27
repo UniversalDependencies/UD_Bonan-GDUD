@@ -67,8 +67,8 @@
 # sent_id = Bonan_grammar_5
 # text = tɕi ħdɵrmɵ-da ɵd-sa, məʂgu jaŋ-gə məʂ-gi.
 # text[eng] = If you were to go to the party, what kind of clothes would you wear?
-1	tɕi	tɕi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
-2	ħdɵrmɵ-da	ħdɵrmɵ	NOUN	_	Case=Dat	4	obl	_	_
+1	tɕi	tɕi	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	7	nsubj	_	_
+2	ħdɵrmɵ-da	ħdɵrmɵ	NOUN	_	Case=Dat	7	obl	_	_
 3	ɵd-sa	ɵd	VERB	_	Mood=Cnd|VerbForm=Conv	7	advcl	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	məʂgu	məʂgu	DET	_	PronType=Int	6	det	_	_
@@ -157,8 +157,8 @@
 1	tɕin-da	tɕi	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
 2	landʑaɢ	landʑaɢ	NOUN	_	Case=Nom	4	obj	_	_
 3	wadʑi-sa-da	wadʑi	VERB	_	Case=Dat|Mood=Cnd|VerbForm=Conv	4	advcl	_	_
-4	dʑila-ngə	dʑila	NOUN	_	Case=Acc	7	obj	_	NativeDerivation=Sig
-5	ħilə-dʑi-ngə	ħilə	VERB	_	Aspect=Imp|VerbForm=Conv	7	advcl	_	NativeDerivation=Sig
+4	dʑila-ngə	dʑila	NOUN	_	Case=Acc	6	obj	_	NativeDerivation=Sig
+5	ħilə-dʑi-ngə	ħilə	VERB	_	Aspect=Imp|VerbForm=Conv	6	advcl	_	NativeDerivation=Sig
 6	ˡdaːgəɢtə	ˡdaːgəɢtə	VERB	_	_	0	root	_	NativeVerbForm=Imp|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -386,7 +386,7 @@
 8	jaksa-tɕə	jaksa	VERB	_	Aspect=Imp	5	conj	_	_
 9	natʰə	natʰə	ADV	_	_	8	advmod	_	_
 10	da	da	ADV	_	_	8	advmod	_	_
-11	kʰər-saŋ	kʰər	VERB	_	Aspect=Perf|Mood=Nec	8	aux	_	SpaceAfter=No
+11	kʰər-saŋ	kʰər	AUX	_	Aspect=Perf|Mood=Nec	8	aux	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_40
@@ -590,9 +590,9 @@
 # sent_id = Bonan_grammar_59
 # text = atɕaŋ mənda χotɕʰa χənə=gə oχ-tɕo.
 # text[eng] = She gave me a new book.
-1	atɕaŋ	atɕaŋ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
-2	mənda	1SG	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
-3	χotɕʰa	χotɕʰa	NOUN	_	Case=Nom	6	obj	_	_
+1	atɕaŋ	atɕaŋ	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	mənda	1SG	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
+3	χotɕʰa	χotɕʰa	NOUN	_	Case=Nom	5	obj	_	_
 4	χənə=gə	χənə	DET	_	PronType=Dem	3	det	_	_
 5	oχ-tɕo	oχ	VERB	_	Aspect=Imp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -672,7 +672,7 @@
 2	tʰaun	tʰaun	NUM	_	Number=Plur	1	nummod	_	_
 3	χamda	χamda	VERB	_	_	0	root	_	_
 4	ju	ju	ADV	_	_	3	advmod	_	_
-5	ba	ba	AUX	_	CopType=Yes|VerbForm=Cop2	3	aux	_	SpaceAfter=No
+5	ba	ba	AUX	_	CopType=Yes	3	aux	_	NativeVerbForm=Cop2|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_71
@@ -681,7 +681,7 @@
 1	pətə	pətə	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	tʰaun	tʰaun	NUM	_	Number=Plur	1	nummod	_	_
 3	χamda	χamda	VERB	_	_	0	root	_	_
-4	o-gi	o	VERB	_	Mood=Sub|VerbForm=Fut	3	aux	_	SpaceAfter=No
+4	o-gi	o	AUX	_	Mood=Sub	3	aux	_	NativeVerbForm=Fut|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_72
@@ -689,7 +689,7 @@
 # text[eng] = Are you five going to go?
 1	ta	ta	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 2	tʰaun	tʰaun	NUM	_	Number=Plur	1	nummod	_	_
-3	o-gə	o	VERB	_	VerbForm=Fut	0	root	_	_
+3	o-gə	o	VERB	_	_	0	root	_	NativeVerbForm=Fut
 4	bu	bu	AUX	_	CopType=Yes|Polarity=Q	3	aux	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -738,9 +738,9 @@
 2	kʰə	kʰə	NOUN	_	Case=Abl	4	nmod	_	SpaceAfter=No
 3	=sa	=sa	PART	_	_	2	dep	_	_
 4	jama	jama	NOUN	_	Case=Nom	6	obj	_	_
-5	u-tɕi	u-tɕi	VERB	_	Mood=Sub|VerbForm=Impf	0	root	_	_
+5	u-tɕi	u-tɕi	VERB	_	Mood=Sub	0	root	_	NativeVerbForm=Impf
 6	saʁaŋ	saʁaŋ	NOUN	_	Case=Nom	5	obl	_	_
-7	u-tɕə	u-tɕə	AUX	_	VerbForm=Impf	5	aux	_	_
+7	u-tɕə	u-tɕə	AUX	_	_	5	aux	_	NativeVerbForm=Impf
 8	ki	ki	PART	_	CopType=Cop1|Polarity=Neg	5	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -753,14 +753,14 @@
 4	pətə	pətə	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	Coll=Yes
 5	χeɕaŋ	χeɕaŋ	NOUN	_	Case=Acc	12	obj	_	_
 6	pitəʁaŋ	pitəʁaŋ	ADJ	_	_	5	amod	_	_
-7	kʰər-saŋ	kʰər-saŋ	VERB	_	VerbForm=Perf	5	acl	_	SpaceAfter=No|Nmlz=Yes
+7	kʰər-saŋ	kʰər-saŋ	VERB	_	_	5	acl	_	NativeVerbForm=Perf|Nmlz=Yes|SpaceAfter=No
 8	=nə	=nə	PART	_	_	7	dep	_	_
 9	tʰorun	tʰorun	NOUN	_	Case=Acc	12	obj	_	_
 10	hko	hko	ADJ	_	_	9	amod	_	SpaceAfter=No
 11	=nə	=nə	PART	_	_	10	dep	_	_
 12	kʰərə	tʰorun	VERB	_	Mood=Pos	0	root	_	NativeVerbForm=Req|SpaceAfter=No
 13	=tɕə	=tɕə	PART	_	_	12	dep	_	_
-14	kʰəl-saŋ	kʰəl-saŋ	VERB	_	VerbForm=Pos	12	ccomp	_	SpaceAfter=No
+14	kʰəl-saŋ	kʰəl-saŋ	VERB	_	_	12	ccomp	_	NativeVerbForm=Pos|SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Bonan_grammar_78
@@ -768,7 +768,7 @@
 # text[eng] = They are stronger than us.
 1	atɕaŋla	atɕaŋla	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	pətəlanə	pətəlanə	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
-3	utɕə-tɕə	utɕə-tɕə	VERB	_	Degree=Cmp|VerbForm=Impf	4	advmod	_	_
+3	utɕə-tɕə	utɕə-tɕə	VERB	_	Degree=Cmp	4	advmod	_	NativeVerbForm=Impf
 4	χedə	χedə	ADJ	_	_	0	root	_	_
 5	wa	wa	AUX	_	CopType=Cop1	4	cop	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -779,10 +779,10 @@
 1	tɕʰə	tɕʰə	PRON	_	Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
 2	silaŋ	silaŋ	NOUN	_	Case=Dat	3	nmod	_	SpaceAfter=No
 3	=da	=da	PART	_	_	4	dep	_	_
-4	o-sa	o-sa	VERB	_	VerbForm=Cond	0	root	_	_
+4	o-sa	o-sa	VERB	_	_	0	root	_	NativeVerbForm=Cond
 5	pətənə	pətənə	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Coll=Yes
 6	kʰətə	kʰətə	NOUN	_	Case=Dat	7	nmod	_	_
-7	su-sa	su-sa	VERB	_	VerbForm=Cond	4	ccomp	_	_
+7	su-sa	su-sa	VERB	_	_	4	ccomp	_	NativeVerbForm=Cond
 8	tʰəke-saŋ	tʰəke-saŋ	AUX	_	Polarity=Pos	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -792,14 +792,14 @@
 1	kudə	kudə	ADV	_	_	3	advmod	_	_
 2	atɕaŋla	atɕaŋla	PRON	_	Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 3	rakə	rakə	NOUN	_	Case=Nom	8	nsubj	_	_
-4	u	u	VERB	_	VerbForm=ImpfNmlz	3	acl	_	SpaceAfter=No
+4	u	u	VERB	_	_	3	acl	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 5	=ku	=ku	PART	_	_	4	dep	_	_
 6	tɕʰəχaŋnaŋ	tɕʰəχaŋnaŋ	NOUN	_	_	8	obj	_	_
 7	ɬawa	ɬawa	NOUN	_	Case=Nom	8	nsubj	_	_
 8	a=tsʰaŋ=nə	a=tsʰaŋ=nə	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	nmod	_	_
 9	kʰətə	kʰətə	NOUN	_	Case=Dat	12	nmod	_	_
-10	χol-tɕə	χol-tɕə	VERB	_	VerbForm=Impf	12	advcl	_	_
-11	o-tɕə	o-tɕə	VERB	_	VerbForm=Perf	12	ccomp	_	SpaceAfter=No
+10	χol-tɕə	χol-tɕə	VERB	_	_	12	advcl	_	NativeVerbForm=Impf
+11	o-tɕə	o-tɕə	VERB	_	_	12	ccomp	_	NativeVerbForm=Perf|SpaceAfter=No
 12	0	0	X	_	_	0	root	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
@@ -823,9 +823,9 @@
 # text = ɕida χargu-tɕə gər na-tɕə=tɕo.
 # text[eng] = They say (they) went outside, and the house fell in.
 1	ɕida	ɕida	ADV	_	_	2	advmod	_	_
-2	χargu-tɕə	χargu-tɕə	VERB	_	VerbForm=Impf	0	root	_	_
+2	χargu-tɕə	χargu-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf
 3	gər	gər	NOUN	_	Case=Nom	5	nsubj	_	_
-4	na-tɕə	na-tɕə	VERB	_	VerbForm=Perf	2	conj	_	SpaceAfter=No
+4	na-tɕə	na-tɕə	VERB	_	_	2	conj	_	NativeVerbForm=Perf|SpaceAfter=No
 5	=tɕo	=tɕo	PART	_	Polarity=Pos	4	dep	_	NativeMood=QuotImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -835,18 +835,18 @@
 1	sə=sə	sə=sə	PRON	_	Case=Acc|PronType=Prs	4	obj	_	_
 2	nə	nə	PART	_	_	1	discourse	_	_
 3	kutɕə	kutɕə	NOUN	_	Case=Nom	4	nsubj	_	_
-4	oχ-sa	oχ-sa	VERB	_	VerbForm=Cond	0	root	_	_
+4	oχ-sa	oχ-sa	VERB	_	_	0	root	_	NativeVerbForm=Cond
 5	atɕaŋ=tsʰaŋ=nə	atɕaŋ=tsʰaŋ=nə	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nsubj	_	_
 6	tsʰowa	tsʰowa	NOUN	_	Case=Nom	4	ccomp	_	_
 7	kutɕə	kutɕə	NOUN	_	Case=Nom	6	nsubj	_	_
 8	sola	sola	NOUN	_	Case=Acc	6	obj	_	_
-9	h-ta-na	hta-na	VERB	_	Polarity=Pos|VerbForm=Dur	6	ccomp	_	SpaceAfter=No
+9	h-ta-na	hta-na	VERB	_	Polarity=Pos	6	ccomp	_	NativeVerbForm=Dur|SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_84
 # text = hkutə=ku kʰi hko=ʁala atɕaŋ=tsʰaŋ=nə gər=nə dəp-kə-ʁa-tɕə.
 # text[eng] = Yesterday's big wind caused their house to collapse.
-1	hkutə=ku	hkutə=ku	ADV	_	VerbForm=ImpfNmlz	6	advmod	_	_
+1	hkutə=ku	hkutə=ku	ADV	_	_	6	advmod	_	NativeVerbForm=ImpfNmlz
 2	kʰi	kʰi	ADJ	_	Degree=Pos	3	amod	_	_
 3	hko=ʁala	hko=ʁala	ADJ	_	Case=Ins|Degree=Pos|Number=Sing	5	amod	_	_
 4	atɕaŋ=tsʰaŋ=nə	atɕaŋ=tsʰaŋ=nə	PRON	_	Case=Acc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
@@ -859,8 +859,8 @@
 # text[eng] = The bread, has she taken (any)?
 1	htemə=nə	htemə=nə	NOUN	_	Case=Acc	4	obj	_	_
 2	taʁala	taʁala	PRON	_	Number=Dual|Person=2|PronType=Prs	4	nsubj	_	_
-3	ap-tɕe	ap-tɕe	VERB	_	VerbForm=Impf	4	ccomp	_	_
-4	ər-saŋ	ər-saŋ	VERB	_	VerbForm=Pos	0	root	_	_
+3	ap-tɕe	ap-tɕe	VERB	_	_	4	ccomp	_	NativeVerbForm=Impf
+4	ər-saŋ	ər-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Pos
 5	bu	bu	AUX	_	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -869,9 +869,9 @@
 # text[eng] = (He) said that he went to see that.
 1	oroŋ	oroŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	tʰər=nə	tʰər=nə	DET	_	Case=Acc|PronType=Dem	4	obj	_	_
-3	ʁali-la	ʁali-la	VERB	_	VerbForm=Purp	4	acl	_	_
-4	tɕə-to	tɕə-to	VERB	_	VerbForm=Perf	6	ccomp	_	SpaceAfter=No
-5	kʰəl-saŋ	kʰəl-saŋ	VERB	_	VerbForm=Pos	0	root	_	_
+3	ʁali-la	ʁali-la	VERB	_	_	4	acl	_	NativeVerbForm=Purp
+4	tɕə-to	tɕə-to	VERB	_	_	6	ccomp	_	NativeVerbForm=Perf|SpaceAfter=No
+5	kʰəl-saŋ	kʰəl-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Pos
 6	ja	ja	PART	_	_	5	discourse	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -881,9 +881,9 @@
 1	dʐoma	dʐoma	NOUN	_	Case=Nom	5	nsubj	_	_
 2	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
 3	roŋ=da	roŋ=da	NOUN	_	Case=Dat	5	obl	_	_
-4	o-gi	o-gi	VERB	_	VerbForm=FutSubj	5	ccomp	_	SpaceAfter=No
+4	o-gi	o-gi	VERB	_	_	5	ccomp	_	NativeVerbForm=FutSubj|SpaceAfter=No
 5	=tɕə	=tɕə	PART	_	Mood=QuotImpf|Polarity=Pos	0	root	_	SpaceAfter=No
-6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=ImpfObj	5	advcl	_	SpaceAfter=No
+6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	5	advcl	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_88
@@ -904,7 +904,7 @@
 3	kormu	kormu	NOUN	_	Case=Nom	6	obj	_	_
 4	ki	ki	AUX	_	Polarity=Neg	6	aux	_	SpaceAfter=No
 5	=tɕə	=tɕə	PART	_	Mood=QuotImpf	6	aux	_	_
-6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_90
@@ -915,7 +915,7 @@
 3	oroŋʁalagaŋ	oroŋʁalagaŋ	PRON	_	Number=Dual|Person=3|Poss=Yes|PronType=Prs	6	nsubj	_	_
 4	ji	ji	AUX	_	_	6	aux	_	SpaceAfter=No
 5	=tɕə	=tɕə	PART	_	Mood=QuotImpf	6	aux	_	_
-6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_91
@@ -925,12 +925,12 @@
 2	koʑə	koʑə	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	1	nmod	_	SpaceAfter=No
 3	=da	=da	PART	_	_	2	case	_	_
 4	tundaχ	tundaχ	NOUN	_	Case=Nom	7	obj	_	_
-5	jaŋgə	jaŋgə	VERB	_	VerbForm=Cond	7	advcl	_	_
-6	ɲoŋgə-sa	ɲoŋgə-sa	VERB	_	VerbForm=Cond	7	advcl	_	_
+5	jaŋgə	jaŋgə	VERB	_	_	7	advcl	_	NativeVerbForm=Cond
+6	ɲoŋgə-sa	ɲoŋgə-sa	VERB	_	_	7	advcl	_	NativeVerbForm=Cond
 7	koʑə	koʑə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	SpaceAfter=No
 8	=da	=da	PART	_	_	7	case	_	_
 9	nohkur-kə	nohkur-kə	NOUN	_	Case=Nom	10	nsubj	_	_
-10	ji-saŋ	ji-saŋ	VERB	_	VerbForm=Pos	0	root	_	SpaceAfter=No
+10	ji-saŋ	ji-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Pos|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Bonan_grammar_92
@@ -942,7 +942,7 @@
 4	koʑə	koʑə	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	dep	_	SpaceAfter=No
 5	=la	=la	PART	_	Number=Plur	7	dep	_	SpaceAfter=No
 6	=nə	=nə	PART	_	Case=Acc	7	dep	_	_
-7	ʁali-tɕo	ʁali-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+7	ʁali-tɕo	ʁali-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_93
@@ -953,7 +953,7 @@
 3	natʰə	natʰə	NOUN	_	_	6	dep	_	SpaceAfter=No
 4	=ku	=ku	PART	_	_	6	dep	_	SpaceAfter=No
 5	=gə	=gə	PART	_	_	6	dep	_	_
-6	wi-saŋ	wi-saŋ	VERB	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+6	wi-saŋ	wi-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_94
@@ -967,7 +967,7 @@
 6	naŋda	naŋda	ADP	_	Case=Dat	9	dep	_	_
 7	koʑə	koʑə	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	9	dep	_	SpaceAfter=No
 8	=nə	=nə	PART	_	Case=Acc	9	dep	_	_
-9	ʁali-tɕo	ʁali-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+9	ʁali-tɕo	ʁali-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Bonan_grammar_95
@@ -981,7 +981,7 @@
 6	naŋda	naŋda	ADP	_	Case=Dat	9	dep	_	_
 7	koʑə~koʑə	koʑə~koʑə	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	dep	_	SpaceAfter=No
 8	=nə	=nə	PART	_	Case=Acc	9	dep	_	_
-9	ʁali-tɕo	ʁali-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+9	ʁali-tɕo	ʁali-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Bonan_grammar_96
@@ -990,7 +990,7 @@
 1	pə	pə	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	koʑə	koʑə	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
 3	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	4	obj	_	_
-4	htɕəl	htɕəl	VERB	_	VerbForm=ImpfSubj	0	root	_	_
+4	htɕəl	htɕəl	VERB	_	_	0	root	_	NativeVerbForm=ImpfSubj
 5	wa	wa	AUX	_	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1003,7 +1003,7 @@
 4	=la	=la	PART	_	_	7	dep	_	_
 5	tʰaŋkʰa	tʰaŋkʰa	NOUN	_	Case=Acc	7	dep	_	SpaceAfter=No
 6	=nə	=nə	PART	_	_	7	dep	_	_
-7	pʰitɕə-tɕo	pʰitɕə-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+7	pʰitɕə-tɕo	pʰitɕə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_98
@@ -1030,7 +1030,7 @@
 2	mərku	mərku	NOUN	_	Case=Nom	1	compound	_	_
 3	kʰada	kʰada	ADP	_	_	5	obl	_	_
 4	tsʰə	tsʰə	NOUN	_	Case=Nom	5	obj	_	_
-5	tɕʰəkʰə-tɕo	tɕʰəkʰə-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	tɕʰəkʰə-tɕo	tɕʰəkʰə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_101
@@ -1039,7 +1039,7 @@
 1	nokə	nokə	DET	_	PronType=Dem	4	nsubj	_	_
 2	kʰada	kʰada	ADP	_	_	4	obl	_	_
 3	tsʰə	tsʰə	NOUN	_	Case=Nom	4	obj	_	_
-4	tɕʰəkʰə	su-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+4	tɕʰəkʰə	su-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_102
@@ -1047,14 +1047,14 @@
 # text[eng] = That house collapsed.
 1	tʰər	tʰər	DET	_	PronType=Dem	3	nsubj	_	_
 2	gər	gər	NOUN	_	Case=Nom	3	compound	_	_
-3	ədəpkə-tɕo	ədəpkə-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+3	ədəpkə-tɕo	ədəpkə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_103
 # text = tʰər ədəpkə-tɕo.
 # text[eng] = That collapsed.
 1	tʰər	tʰər	DET	_	PronType=Dem	2	nsubj	_	_
-2	ədəpkə-tɕo	ədəpkə-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+2	ədəpkə-tɕo	ədəpkə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_104
@@ -1070,8 +1070,8 @@
 8	jindamənda	jindamənda	NOUN	_	_	9	nmod	_	_
 9	tɕʰopa	tɕʰopa	NOUN	_	Case=Nom	4	obj	_	_
 10	ənə	ənə	DET	_	PronType=Dem	11	det	_	_
-11	wi	wi	VERB	_	CopType=Yes	4	aux	_	NativeVerbForm=Cop1Subj
-12	kʰər=ku	kʰər=ku	VERB	_	Mood=Nec|VerbForm=ImpfNmlz	11	acl	_	SpaceAfter=No
+11	wi	wi	AUX	_	CopType=Yes	4	aux	_	NativeVerbForm=Cop1Subj
+12	kʰər=ku	kʰər=ku	VERB	_	Mood=Nec	11	acl	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_105
@@ -1080,12 +1080,12 @@
 1	tʰər	tʰər	DET	_	PronType=Dem	6	nsubj	_	SpaceAfter=No
 2	=la	=la	ADP	_	Number=Plur	1	case	_	_
 3	pʰəhtoŋ	pʰəhtoŋ	DET	_	PronType=Dem	6	det	_	Quant=All
-4	natʰə-tɕə	natʰə-tɕə	VERB	_	VerbForm=Impf	6	acl	_	SpaceAfter=No
+4	natʰə-tɕə	natʰə-tɕə	VERB	_	_	6	acl	_	NativeVerbForm=Impf|SpaceAfter=No
 5	=ku	=ku	ADP	_	_	4	case	_	CaseOrig=NMLZ
 6	udər	udər	NOUN	_	Case=Nom	0	root	_	_
 7	χatcʰər	χatcʰər	NUM	_	_	6	nummod	_	_
 8	nəkə	nəkə	NUM	_	_	6	nummod	_	_
-9	wo	wo	VERB	_	_	6	cop	_	SpaceAfter=No
+9	wo	wo	AUX	_	_	6	cop	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_106
@@ -1098,21 +1098,21 @@
 5	da	da	PRON	_	PronType=Prs	9	nsubj	_	_
 6	ənə	ənə	DET	_	PronType=Dem	7	det	_	_
 7	tɕə	tɕə	VERB	_	VerbForm=Inf	9	acl	_	_
-8	sutə=ku	sutə=ku	VERB	_	VerbForm=ImpfNmlz	7	advcl	_	_
-9	tɕaŋgo-tɕə	tɕaŋgo-tɕə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+8	sutə=ku	sutə=ku	VERB	_	_	7	advcl	_	NativeVerbForm=ImpfNmlz
+9	tɕaŋgo-tɕə	tɕaŋgo-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Bonan_grammar_107
 # text = tʰəŋgə ke-sa ənə "liuyuehui" ənda tʰər jantɕʰada wa.
 # text[eng] = Given that, this "liuyuehui" was here before that.
 1	tʰəŋgə	tʰəŋgə	DET	_	PronType=Dem	2	nsubj	_	_
-2	ke-sa	ke-sa	VERB	_	VerbForm=Cond	0	root	_	_
+2	ke-sa	ke-sa	VERB	_	_	0	root	_	NativeVerbForm=Cond
 3	ənə	ənə	DET	_	PronType=Dem	5	det	_	_
 4	"liuyuehui"	liuyuehui	PROPN	_	_	5	obj	_	_
 5	ənda	ənda	ADV	_	_	2	obl	_	_
 6	tʰər	tʰər	DET	_	PronType=Dem	7	obl	_	_
 7	jantɕʰada	jantɕʰada	ADV	_	_	2	obl	_	_
-8	wa	wa	VERB	_	CopType=Yes|VerbForm=Cop1Obj	2	aux	_	SpaceAfter=No
+8	wa	wa	AUX	_	CopType=Yes	2	aux	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_108
@@ -1124,7 +1124,7 @@
 4	tʰər	tʰər	DET	_	PronType=Dem	7	nsubj	_	SpaceAfter=No
 5	=nə	=nə	ADP	_	Case=Acc	4	case	_	_
 6	o-də-ʁa=ku	o-də-ʁa=ku	VERB	_	Voice=Cau	7	acl	_	NativeVerbForm=Imp
-7	∅-to=	tɕo	VERB	_	VerbForm=Perf	0	root	_	NativeMood=QuotImpfObj|SpaceAfter=No
+7	∅-to=	tɕo	VERB	_	_	0	root	_	NativeMood=QuotImpfObj|NativeVerbForm=Perf|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_109
@@ -1136,7 +1136,7 @@
 4	məχ	məχ	NOUN	_	_	7	nsubj	_	_
 5	tʰər	tʰər	DET	_	PronType=Dem	6	det	_	_
 6	jaŋgə	jaŋgə	NOUN	_	_	7	obj	_	_
-7	natʰə	kʰər-si	VERB	_	Mood=Nec|VerbForm=Q	0	root	_	SpaceAfter=No
+7	natʰə	kʰər-si	VERB	_	Mood=Nec	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_110
@@ -1145,7 +1145,7 @@
 1	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	dep	_	_
 2	ənə	ənə	DET	_	PronType=Dem	4	dep	_	SpaceAfter=No
 3	=nə	=nə	ADP	_	Case=Acc	4	dep	_	_
-4	jiχ-tɕo	jiχ-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	jiχ-tɕo	jiχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_111
@@ -1169,7 +1169,7 @@
 7	=da	=da	ADP	_	Case=Dat	10	dep	_	_
 8	jantʰoχ	jantʰoχ	NOUN	_	Number=Sing	10	dep	_	SpaceAfter=No
 9	=gə	=gə	ADP	_	Definite=Ind|Number=Sing	10	dep	_	_
-10	wi-si	wi-si	VERB	_	CopType=Cop1|VerbForm=Q	0	root	_	SpaceAfter=No
+10	wi-si	wi-si	VERB	_	CopType=Cop1	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Bonan_grammar_113
@@ -1179,7 +1179,7 @@
 2	kuda	kuda	ADV	_	_	6	advmod	_	_
 3	jinjəχ	jinjəχ	NOUN	_	_	6	nsubj	_	_
 4	ɬaoʂi	ɬaoʂi	NOUN	_	_	6	nmod	_	_
-5	oχ-saŋ	oχ-saŋ	VERB	_	VerbForm=PerfNmlz	6	acl	_	_
+5	oχ-saŋ	oχ-saŋ	VERB	_	_	6	acl	_	NativeVerbForm=PerfNmlz
 6	χotɕʰa=Gə	χotɕʰa=gə	NOUN	_	Definite=Ind|Number=Sing	0	root	_	SpaceAfter=No
 7	wa	wa	AUX	_	CopType=Cop1	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -1191,7 +1191,7 @@
 2	ən=da	ən=da	DET	_	Case=Dat|PronType=Dem	4	nmod	_	_
 3	loχtɕi	loχtɕi	NOUN	_	Number=Sing	4	obj	_	SpaceAfter=No
 4	=gə	=gə	ADP	_	Definite=Ind|Number=Sing	5	case	_	_
-5	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+5	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_115
@@ -1200,7 +1200,7 @@
 1	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	ən=da	ən=da	DET	_	Case=Dat|PronType=Dem	4	nmod	_	_
 3	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	4	obj	_	_
-4	u-ʁa-tɕo	u-ʁa-tɕo	VERB	_	VerbForm=Caus	0	root	_	SpaceAfter=No
+4	u-ʁa-tɕo	u-ʁa-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Caus|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_116
@@ -1218,13 +1218,13 @@
 1	tʰər=ʁala	tʰər=ʁala	PRON	_	Case=Ins|PronType=Prs	4	nsubj	_	_
 2	tɕərʁoŋ	tɕərʁoŋ	NUM	_	_	3	nummod	_	_
 3	də	də	NOUN	_	_	4	obl	_	_
-4	wi=ku	wi=ku	AUX	_	CopType=Cop1|VerbForm=ImpfNmlz	0	root	_	SpaceAfter=No
+4	wi=ku	wi=ku	AUX	_	CopType=Cop1	0	root	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 5	zigə	zigə	ADJ	_	_	4	advmod	_	_
 6	ʂitɕan	ʂitɕan	NOUN	_	_	4	obl	_	_
 7	tʂʰaŋ	tʂʰaŋ	ADV	_	_	4	advmod	_	_
 8	tɕərʁoŋ	tɕərʁoŋ	NUM	_	_	9	nummod	_	_
 9	də	də	NOUN	_	_	10	nsubj	_	_
-10	wi=ku	wi=ku	AUX	_	CopType=Cop1|VerbForm=ImpfNmlz	4	parataxis	_	_
+10	wi=ku	wi=ku	AUX	_	CopType=Cop1	4	parataxis	_	NativeVerbForm=ImpfNmlz
 11	tʰər	tʰər	PRON	_	Case=Acc|PronType=Prs	12	obj	_	_
 12	wo	wo	ADJ	_	_	10	xcomp	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
@@ -1235,7 +1235,7 @@
 1	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	tʰər=ʁala	tʰər=ʁala	DET	_	Case=Ins|PronType=Dem	4	nmod	_	_
 3	htema	htema	NOUN	_	_	4	obj	_	_
-4	χəra-tɕo	χəra-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	χəra-tɕo	χəra-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_119
@@ -1244,7 +1244,7 @@
 1	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	nokə=ʁala	nokə=ʁala	DET	_	Case=Ins|PronType=Dem	4	nmod	_	_
 3	htema	htema	NOUN	_	_	4	obj	_	_
-4	χəra-tɕo	χəra-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	χəra-tɕo	χəra-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_120
@@ -1255,7 +1255,7 @@
 3	=ʁala	=ʁala	PART	_	_	2	advmod	_	Feat=Instr
 4	jimaŋ	jimaŋ	NOUN	_	Case=Acc	6	obj	_	SpaceAfter=No
 5	=nə	=nə	PART	_	_	4	advmod	_	Feat=Acc
-6	ala-tɕə	ala-tɕə	VERB	_	VerbForm=Perf|Voice=Act	0	root	_	SpaceAfter=No
+6	ala-tɕə	ala-tɕə	VERB	_	Voice=Act	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_121
@@ -1265,27 +1265,27 @@
 2	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 3	χeɕaŋ=da	χeɕaŋ=da	NOUN	_	Case=Dat	4	obl	_	_
 4	ər-da-gə	ər-da-gə	VERB	_	_	0	root	_	NativeVerbForm=CanFut
-5	ço	ço	PART	_	Polarity=Neg|VerbForm=Cop2	4	aux	_	SpaceAfter=No
+5	ço	ço	PART	_	Polarity=Neg	4	aux	_	NativeVerbForm=Cop2|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_122
 # text = tʰə=sa χar-tɕə sə=tɕə golər=nə oloŋ tʰi-tɕəatɕaŋnə htɕərgə-tɕə.
 # text[eng] = From there, add more water and flour and stir it.
 1	tʰə=sa	tʰə=sa	PRON	_	Case=Abl|PronType=Prs	6	obl	_	_
-2	χar-tɕə	χar-tɕə	VERB	_	VerbForm=Impf	6	advcl	_	_
+2	χar-tɕə	χar-tɕə	VERB	_	_	6	advcl	_	NativeVerbForm=Impf
 3	sə=tɕə	sə=tɕə	CCONJ	_	_	5	cc	_	_
 4	golər=nə	golər=nə	NOUN	_	Case=Acc	6	obj	_	_
 5	oloŋ	oloŋ	NOUN	_	_	4	conj	_	_
-6	tʰi-tɕə	tʰi-tɕə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+6	tʰi-tɕə	tʰi-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 7	atɕaŋnə	atɕaŋnə	PRON	_	Case=Acc|PronType=Prs	6	obj	_	_
-8	htɕərgə-tɕə	htɕərgə-tɕə	VERB	_	VerbForm=Perf	6	conj	_	SpaceAfter=No
+8	htɕərgə-tɕə	htɕərgə-tɕə	VERB	_	_	6	conj	_	NativeVerbForm=Perf|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_123
 # text = tʰə=sa ər-saŋ pʰiŋkwo.
 # text[eng] = apples that come from there
 1	tʰə=sa	tʰə=sa	PRON	_	Case=Abl|PronType=Prs	3	obl	_	_
-2	ər-saŋ	ər-saŋ	VERB	_	VerbForm=PerfNmlz	3	acl	_	_
+2	ər-saŋ	ər-saŋ	VERB	_	_	3	acl	_	NativeVerbForm=PerfNmlz
 3	pʰiŋkwo	pʰiŋkwo	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1295,7 +1295,7 @@
 1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
 2	mərku	mərku	NOUN	_	_	5	nsubj	_	_
 3	ən=sa	ən=sa	PRON	_	Case=Abl|PronType=Prs	5	obl	_	_
-4	ap	ap	VERB	_	VerbForm=Perf	5	acl	_	_
+4	ap	ap	VERB	_	_	5	acl	_	NativeVerbForm=Perf
 5	wa	wa	AUX	_	CopType=Cop1	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1303,8 +1303,8 @@
 # text = ən=sa ap-tɕə o-saŋ alma.
 # text[eng] = apricots that were taken from here
 1	ən=sa	ən=sa	PRON	_	Case=Abl|PronType=Prs	2	obl	_	_
-2	ap-tɕə	ap-tɕə	VERB	_	VerbForm=Impf	4	acl	_	_
-3	o-saŋ	o-saŋ	VERB	_	VerbForm=PerfNmlz	4	aux	_	_
+2	ap-tɕə	ap-tɕə	VERB	_	_	4	acl	_	NativeVerbForm=Impf
+3	o-saŋ	o-saŋ	AUX	_	_	4	aux	_	NativeVerbForm=PerfNmlz
 4	alma	alma	NOUN	_	Number=Plur	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1313,8 +1313,8 @@
 # text[eng] = The date that they all dance on is about the same.
 1	tʰər=la	tʰər=la	PRON	_	PronType=Prs	6	obl	_	CaseOrig=Pl
 2	pʰəhtoŋ	pʰəhtoŋ	NOUN	_	Number=Plur	6	nsubj	_	_
-3	natʰə-tɕə	natʰə-tɕə	VERB	_	VerbForm=Impf	6	acl	_	SpaceAfter=No
-4	=ku	=ku	AUX	_	VerbForm=ImpfNmlz	3	aux	_	_
+3	natʰə-tɕə	natʰə-tɕə	VERB	_	_	6	acl	_	NativeVerbForm=Impf|SpaceAfter=No
+4	=ku	=ku	AUX	_	_	3	aux	_	NativeVerbForm=ImpfNmlz
 5	udər	udər	NOUN	_	_	6	obj	_	_
 6	χatɕʰər	nəkə	ADJ	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1360,7 +1360,7 @@
 1	tɕaɕi	tɕaɕi	PROPN	_	_	4	nsubj	_	_
 2	tsʰamdoχ=nə	tsʰamdoχ=nə	NOUN	_	Case=Acc	4	obj	_	_
 3	dʐoma=da	dʐoma=da	PROPN	_	Case=Dat	4	obl	_	_
-4	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_132
@@ -1369,7 +1369,7 @@
 1	tɕaɕi	tɕaɕi	PROPN	_	_	4	nsubj	_	_
 2	tsʰamdoχ=nə	tsʰamdoχ=nə	NOUN	_	Case=Acc	4	obj	_	_
 3	kʰaŋ=da	kʰaŋ=da	PRON	_	Case=Dat|PronType=Int	4	obl	_	_
-4	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_133
@@ -1380,7 +1380,7 @@
 3	nohkor=la=nə	nohkor=la=nə	NOUN	_	_	6	obl	_	CaseOrig=Pl
 4	χamda	χamda	ADP	_	_	6	case	_	_
 5	silaŋ=da	silaŋ=da	PROPN	_	Case=Dat	6	obl	_	_
-6	o-tɕo	o-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+6	o-tɕo	o-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_134
@@ -1390,7 +1390,7 @@
 2	kʰaŋ=nə	kʰaŋ=nə	PRON	_	Case=Acc|PronType=Int	4	obj	_	_
 3	χamda	χamda	ADP	_	_	4	case	_	_
 4	silaŋ=da	silaŋ=da	PROPN	_	Case=Dat	0	root	_	SpaceAfter=No
-5	o-tɕo	o-tɕo	VERB	_	VerbForm=Impf	4	ccomp	_	SpaceAfter=No
+5	o-tɕo	o-tɕo	VERB	_	_	4	ccomp	_	NativeVerbForm=Impf|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_135
@@ -1425,7 +1425,7 @@
 1	tʰər=da	tʰər=da	DET	_	PronType=Dem	4	nsubj	_	_
 2	jaŋ	jaŋ	PRON	_	PronType=Int	4	nsubj	_	_
 3	tɕənsan=gə	tɕənsan=gə	NOUN	_	Definite=Ind|Number=Sing	4	nmod	_	_
-4	wi=ku	wi=ku	AUX	_	CopType=Cop1|VerbForm=ImpfNmlz	0	root	_	SpaceAfter=No
+4	wi=ku	wi=ku	AUX	_	CopType=Cop1	0	root	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_139
@@ -1434,7 +1434,7 @@
 1	ərhte	ərhte	NOUN	_	_	4	obl	_	_
 2	tʕə	tʕə	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 3	jaŋgə	jaŋgə	PRON	_	PronType=Int	4	obj	_	_
-4	u	u	VERB	_	VerbForm=Cop	0	root	_	_
+4	u	u	VERB	_	_	0	root	_	NativeVerbForm=Cop
 5	wa	wa	AUX	_	CopType=Cop1	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1442,12 +1442,12 @@
 # text = jaŋgə ʁali-kə=ku=nə da ələ medə-na.
 # text[eng] = And I didn't know what to look at.
 1	jaŋgə	jaŋgə	PRON	_	PronType=Int	2	mark	_	_
-2	ʁali-kə	ʁali-kə	VERB	_	VerbForm=VBZ	6	ccomp	_	SpaceAfter=No
-3	=ku	=ku	PART	_	VerbForm=ImpfNmlz	2	acl	_	SpaceAfter=No
+2	ʁali-kə	ʁali-kə	VERB	_	_	6	ccomp	_	NativeVerbForm=VBZ|SpaceAfter=No
+3	=ku	=ku	PART	_	_	2	acl	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 4	=nə	=nə	PART	_	Case=Acc	2	obj	_	_
 5	da	da	ADV	_	_	6	advmod	_	_
-6	ələ	ələ	AUX	_	Polarity=Neg|VerbForm=Dur	0	root	_	_
-7	medə-na	medə-na	VERB	_	VerbForm=Dur	6	xcomp	_	SpaceAfter=No
+6	ələ	ələ	AUX	_	Polarity=Neg	0	root	_	NativeVerbForm=Dur
+7	medə-na	medə-na	VERB	_	_	6	xcomp	_	NativeVerbForm=Dur|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_141
@@ -1455,20 +1455,20 @@
 # text[eng] = (You) can say whatever you want to say.
 1	tsʰəm=da	tsʰəm=da	NOUN	_	Case=Loc	7	obl	_	_
 2	jaŋgə	jaŋgə	PRON	_	PronType=Int	4	obj	_	_
-3	kʰəl=ku	kʰəl=ku	VERB	_	VerbForm=ImpfNmlz	4	xcomp	_	_
-4	taraŋ	taraŋ	VERB	_	VerbForm=Cond	7	advcl	_	_
-5	ər-sa	ər-sa	VERB	_	VerbForm=Cond	4	xcomp	_	_
+3	kʰəl=ku	kʰəl=ku	VERB	_	_	4	xcomp	_	NativeVerbForm=ImpfNmlz
+4	taraŋ	taraŋ	VERB	_	_	7	advcl	_	NativeVerbForm=Cond
+5	ər-sa	ər-sa	VERB	_	_	4	xcomp	_	NativeVerbForm=Cond
 6	jaŋgə	jaŋgə	PRON	_	PronType=Int	8	obj	_	_
-7	kʰəl-sa	kʰəl-sa	VERB	_	VerbForm=Cond	0	root	_	_
-8	tʰəke-saŋ	tʰəke-saŋ	AUX	_	VerbForm=Pos	7	aux	_	SpaceAfter=No
+7	kʰəl-sa	kʰəl-sa	VERB	_	_	0	root	_	NativeVerbForm=Cond
+8	tʰəke-saŋ	tʰəke-saŋ	AUX	_	_	7	aux	_	NativeVerbForm=Pos|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_142
 # text = jaŋgə kʰəl-sa tʰəke-na pe.
 # text[eng] = (I) can say whatever, right?
 1	jaŋgə	jaŋgə	PRON	_	PronType=Int	2	obj	_	_
-2	kʰəl-sa	kʰəl-sa	VERB	_	VerbForm=Cond	0	root	_	_
-3	tʰəke-na	tʰəke-na	AUX	_	VerbForm=Dur	2	aux	_	_
+2	kʰəl-sa	kʰəl-sa	VERB	_	_	0	root	_	NativeVerbForm=Cond
+3	tʰəke-na	tʰəke-na	AUX	_	_	2	aux	_	NativeVerbForm=Dur
 4	pe	pe	PART	_	_	2	discourse	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -1478,8 +1478,8 @@
 1	aː	aː	INTJ	_	_	7	discourse	_	_
 2	mehpotɕahpo=da	mehpotɕahpo=da	NOUN	_	Case=Loc	7	obl	_	_
 3	χani=da	χani=da	PRON	_	Case=Loc|Number=Plur|PronType=Prs	7	nsubj	_	_
-4	mantəl-ʁa	mantəl-ʁa	VERB	_	VerbForm=Caus	7	xcomp	_	_
-5	kʰər-na	kʰər-na	VERB	_	VerbForm=Dur	4	aux	_	_
+4	mantəl-ʁa	mantəl-ʁa	VERB	_	_	7	xcomp	_	NativeVerbForm=Caus
+5	kʰər-na	kʰər-na	AUX	_	_	4	aux	_	NativeVerbForm=Dur
 6	pe	pe	PART	_	_	7	discourse	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	0	root	_	_
 
@@ -1490,14 +1490,14 @@
 2	χani=la	χani=la	PRON	_	Number=Plur|PronType=Prs	5	nsubj	_	_
 3	tɕʰaɲum-kə-tɕə	tɕʰaɲum-kə-tɕə	VERB	_	_	5	xcomp	_	NativeVerbForm=VbzImpf
 4	mər	mər	ADJ	_	_	3	amod	_	_
-5	kʰər-na	kʰər-na	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+5	kʰər-na	kʰər-na	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_145
 # text = məχχun=tɕə ur=ku sanə.
 # text[eng] = Besides calling them “military officer”, ...
 1	məχχun=tɕə	məχχun=tɕə	NOUN	_	_	3	obl	_	CaseOrig=QuotImpf
-2	ur=ku	ur=ku	VERB	_	VerbForm=ImpfNmlz	3	xcomp	_	_
+2	ur=ku	ur=ku	VERB	_	_	3	xcomp	_	NativeVerbForm=ImpfNmlz
 3	sanə	sanə	ADP	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1507,7 +1507,7 @@
 1	da	da	PART	_	_	4	discourse	_	_
 2	lərse=nə	lərse=nə	NOUN	_	Case=Acc	4	nsubj	_	_
 3	kʰama	kʰama	NOUN	_	_	4	nmod	_	_
-4	wo	wo	VERB	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+4	wo	wo	VERB	_	_	0	root	_	NativeVerbForm=Cop|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_147
@@ -1516,7 +1516,7 @@
 1	nokə	nokə	DET	_	Deixis=Remt|PronType=Dem	2	det	_	_
 2	alma	alma	NOUN	_	_	4	nsubj	_	_
 3	mohtun	mohtun	ADJ	_	Degree=Pos	4	amod	_	_
-4	undər	undər	VERB	_	Polarity=Pos|VerbForm=Cop	0	root	_	_
+4	undər	undər	VERB	_	Polarity=Pos	0	root	_	NativeVerbForm=Cop
 5	wa	wa	AUX	_	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1527,7 +1527,7 @@
 2	=da	=da	PART	_	Case=Dat	1	case	_	_
 3	tɕama	tɕama	NOUN	_	Number=Plur	5	nsubj	_	_
 4	ʁar	ʁar	NUM	_	NumType=Card	5	nummod	_	_
-5	wi	wi	VERB	_	Polarity=Pos|VerbForm=Cop	0	root	_	SpaceAfter=No
+5	wi	wi	VERB	_	Polarity=Pos	0	root	_	NativeVerbForm=Cop|SpaceAfter=No
 6	-saŋ	-saŋ	AUX	_	_	5	aux	_	SpaceAfter=No|AspectOrig=Pos
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -1537,7 +1537,7 @@
 1	su	su	ADV	_	_	5	discourse	_	_
 2	kama	kama	NOUN	_	Number=Plur	5	obl:tmod	_	_
 3	tʰaun	tʰaun	NUM	_	NumType=Card	2	nummod	_	_
-4	χar-kə-tɕə	χar	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=VBZ	5	advcl	_	_
+4	χar-kə-tɕə	χar	VERB	_	Aspect=Imp|Polarity=Pos	5	advcl	_	NativeVerbForm=VBZ
 5	mənda	mənda	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	0	root	_	_
 6	ər-ʁa-to	ər	VERB	_	Aspect=Perf|Polarity=Pos|Voice=Cau	5	xcomp	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
@@ -1566,7 +1566,7 @@
 1	u	u	DET	_	PronType=Dem	3	det	_	_
 2	səmba-mo	səmba	NUM	_	NumType=Ord	3	nummod	_	_
 3	gərgən	gərgən	NOUN	_	_	4	nsubj	_	_
-4	bi-saŋ	bi-saŋ	VERB	_	VerbForm=Cop2SubjPos	0	root	_	SpaceAfter=No
+4	bi-saŋ	bi-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop2SubjPos|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_152
@@ -1576,20 +1576,20 @@
 2	niwə-mo	niwə	ADJ	_	NumType=Ord|Polarity=Pos	1	amod	_	_
 3	attʰogə	attʰogə	ADJ	_	Degree=Sup|Polarity=Pos	5	xcomp	_	_
 4	jaksa	jaksa	NOUN	_	_	5	obj	_	_
-5	wa	wa	AUX	_	Polarity=Pos|VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+5	wa	wa	AUX	_	Polarity=Pos	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_153
 # text = kʰətʰə=ku adzi iχtɕədu aku χani=nə kʰəl-tɕi-saŋ.
 # text[eng] = (This) includes (lit. ‘says (to)’) all older sisters, younger sisters, and girls who are at home.
 1	kʰətʰə	kʰətʰə	NOUN	_	Case=Dat	6	obl	_	SpaceAfter=No
-2	=ku	=ku	PART	_	VerbForm=ImpfNmlz	6	mark	_	_
+2	=ku	=ku	PART	_	_	6	mark	_	NativeVerbForm=ImpfNmlz
 3	adzi	adzi	NOUN	_	Number=Sing	6	nsubj	_	_
 4	iχtɕədu	iχtɕədu	NOUN	_	Number=Sing	3	conj	_	_
 5	aku	aku	NOUN	_	Number=Sing	3	conj	_	_
 6	χani	χani	NOUN	_	Case=Acc|Number=Plur	8	obj	_	SpaceAfter=No
 7	=nə	=nə	PART	_	_	6	mark	_	_
-8	kʰəl-tɕi-saŋ	kʰəl	VERB	_	Polarity=Pos|VerbForm=ImpfSubj	0	root	_	SpaceAfter=No
+8	kʰəl-tɕi-saŋ	kʰəl	VERB	_	Polarity=Pos	0	root	_	NativeVerbForm=ImpfSubj|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Bonan_grammar_154
@@ -1600,7 +1600,7 @@
 3	çarwaŋ	çarwaŋ	PROPN	_	_	6	nmod	_	_
 4	χani=la	χani	PRON	_	Number=Plur|PronType=Prs	6	nmod	_	SpaceAfter=No
 5	=gaŋ	_	X	_	_	4	flat	_	_
-6	ba	ba	VERB	_	VerbForm=Cop2Obj	0	root	_	SpaceAfter=No
+6	ba	ba	VERB	_	_	0	root	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_155
@@ -1619,7 +1619,7 @@
 3	rakə	rakə	NOUN	_	_	6	obj	_	_
 4	dampe	dampe	NUM	_	NumType=Card	3	nummod	_	_
 5	ʁuraŋ	ʁuraŋ	NOUN	_	_	3	nmod	_	_
-6	u-tɕə	u-tɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+6	u-tɕə	u-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_157
@@ -1630,7 +1630,7 @@
 3	rakə	rakə	NOUN	_	_	6	obj	_	_
 4	ʁuraŋ	ʁuraŋ	NOUN	_	_	3	nmod	_	_
 5	maŋ	maŋ	NUM	_	NumType=Card	4	nummod	_	_
-6	u-tɕə	u-tɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+6	u-tɕə	u-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_158
@@ -1642,8 +1642,8 @@
 4	maʁa	maʁa	NOUN	_	_	7	dep	_	_
 5	ʁuraŋ	ʁuraŋ	NOUN	_	_	7	dep	_	_
 6	maŋ	maŋ	NUM	_	NumType=Card	7	dep	_	_
-7	ap	ap	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
-8	wa	wa	VERB	_	VerbForm=Cop1Obj	7	aux	_	SpaceAfter=No
+7	ap	ap	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
+8	wa	wa	AUX	_	_	7	aux	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_159
@@ -1656,7 +1656,7 @@
 5	sowo	sowo	ADJ	_	_	6	amod	_	_
 6	ʁar	ʁar	NOUN	_	_	0	root	_	_
 7	udər	udər	NUM	_	NumType=Card	6	nummod	_	_
-8	wo	wo	VERB	_	VerbForm=Cop1Obj	6	cop	_	SpaceAfter=No
+8	wo	wo	AUX	_	_	6	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_160
@@ -1669,7 +1669,7 @@
 5	=da	_	X	_	_	8	dep	_	_
 6	samtəχ	samtəχ	NOUN	_	_	8	dep	_	SpaceAfter=No
 7	=gə	_	X	_	_	8	dep	_	_
-8	oχ-gəwa	oχ-gəwa	VERB	_	VerbForm=Fut	0	root	_	SpaceAfter=No
+8	oχ-gəwa	oχ-gəwa	VERB	_	_	0	root	_	NativeVerbForm=Fut|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Bonan_grammar_161
@@ -1680,7 +1680,7 @@
 3	amiɕatʂʰon	amiɕatʂʰon	PROPN	_	_	6	nmod	_	SpaceAfter=No
 4	=nə	_	X	_	_	3	case	_	_
 5	məχ	məχ	NOUN	_	_	6	cop	_	_
-6	bi-saŋ	bi-saŋ	VERB	_	VerbForm=Cop2Subj	0	root	_	SpaceAfter=No
+6	bi-saŋ	bi-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_162
@@ -1688,11 +1688,11 @@
 # text[eng] = The person who painted this painting went to Xining.
 1	rəmo	rəmo	NOUN	_	_	7	dep	_	_
 2	ənə	ənə	DET	_	PronType=Dem	7	dep	_	_
-3	pʰətɕə-saŋ	pʰətɕə-saŋ	VERB	_	VerbForm=PerfNmlz	7	dep	_	_
+3	pʰətɕə-saŋ	pʰətɕə-saŋ	VERB	_	_	7	dep	_	NativeVerbForm=PerfNmlz
 4	kʰoŋ	kʰoŋ	NOUN	_	_	7	dep	_	_
 5	silaŋ	silaŋ	PROPN	_	_	7	dep	_	SpaceAfter=No
 6	=da	_	X	_	_	7	dep	_	_
-7	χatcə-to	χatcə-to	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+7	χatcə-to	χatcə-to	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_163
@@ -1703,7 +1703,7 @@
 3	liujueχue	liujueχue	PROPN	_	_	6	nsubj	_	_
 4	ənə	ənə	DET	_	PronType=Dem	3	det	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	6	punct	_	_
-6	wi-saŋ	wi-saŋ	VERB	_	VerbForm=Cop1SubjPos	0	root	_	SpaceAfter=No
+6	wi-saŋ	wi-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjPos|SpaceAfter=No
 
 # sent_id = Bonan_grammar_164
 # text = ənə da amimatɕʰin=nə tɕənsan.
@@ -1712,7 +1712,7 @@
 2	da	da	NOUN	_	_	5	nsubj	_	_
 3	amimatɕʰin	amimatɕʰin	PROPN	_	_	5	obl	_	SpaceAfter=No
 4	=nə	_	X	_	_	3	case	_	_
-5	tɕənsan	tɕənsan	VERB	_	VerbForm=Cop2Obj	0	root	_	SpaceAfter=No
+5	tɕənsan	tɕənsan	VERB	_	_	0	root	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_165
@@ -1723,7 +1723,7 @@
 3	loʂi	loʂi	NOUN	_	_	2	compound	_	_
 4	mənda	1SG	PRON	_	PronType=Prs	6	obj	_	_
 5	dʐəsi	dʐəsi	NOUN	_	_	6	obj	_	_
-6	asox-tɕo	asox-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	asox-tɕo	asox-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_166
@@ -1734,7 +1734,7 @@
 3	mehtoχ	mehtoχ	NOUN	_	_	4	amod	_	_
 4	tɕəχaŋ	tɕəχaŋ	NOUN	_	_	6	obj	_	SpaceAfter=No
 5	=gə	_	X	_	_	4	case	_	_
-6	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_167
@@ -1742,11 +1742,11 @@
 # text[eng] = (They) have significant meaning; these have significant meaning.
 1	naŋdun	naŋdun	ADJ	_	_	2	amod	_	_
 2	hko	hko	NOUN	_	_	3	nsubj	_	_
-3	wi-tsʰoŋ	wi-tsʰoŋ	VERB	_	VerbForm=Cop1SubjPos	0	root	_	_
+3	wi-tsʰoŋ	wi-tsʰoŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjPos
 4	ənə	ənə	DET	_	PronType=Dem	6	det	_	_
 5	naŋdun	naŋdun	ADJ	_	_	6	amod	_	_
 6	hko	hko	NOUN	_	_	7	nsubj	_	_
-7	wi-tsʰoŋ	wi-tsʰoŋ	VERB	_	VerbForm=Cop1SubjPos	3	parataxis	_	SpaceAfter=No
+7	wi-tsʰoŋ	wi-tsʰoŋ	VERB	_	_	3	parataxis	_	NativeVerbForm=Cop1SubjPos|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_168
@@ -1760,13 +1760,13 @@
 6	=tsʰaŋ	_	X	_	_	14	dep	_	_
 7	nə	nə	PART	_	_	14	obj	_	_
 8	ana	ana	NOUN	_	_	14	obj	_	_
-9	ap-saŋ	ap-saŋ	VERB	_	VerbForm=PerfNmlz	14	acl	_	_
+9	ap-saŋ	ap-saŋ	VERB	_	_	14	acl	_	NativeVerbForm=PerfNmlz
 10	χənə	χənə	ADJ	_	_	11	amod	_	_
 11	çəra	çəra	ADJ	_	_	12	amod	_	_
 12	lərki	lərki	ADJ	_	_	14	obl	_	_
 13	hko	hko	NOUN	_	_	12	compound	_	_
-14	naŋda	naŋda	VERB	_	VerbForm=ImpfObj	0	root	_	_
-15	ke-tɕo	ke-tɕo	VERB	_	VerbForm=ImpfObj	14	conj	_	SpaceAfter=No
+14	naŋda	naŋda	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj
+15	ke-tɕo	ke-tɕo	VERB	_	_	14	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = Bonan_grammar_169
@@ -1787,7 +1787,7 @@
 2	aku	aku	NOUN	_	_	4	nsubj	_	SpaceAfter=No
 3	=tsʰaŋ	_	X	_	_	2	case	_	_
 4	kormu	kormu	NOUN	_	_	5	nsubj	_	_
-5	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+5	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_171
@@ -1797,8 +1797,8 @@
 2	mənda	1SG	PRON	_	PronType=Prs	6	iobj	_	_
 3	wartʰoŋ	wartʰoŋ	NOUN	_	_	4	amod	_	_
 4	mehtoχ	mehtoχ	NOUN	_	_	6	obj	_	_
-5	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=ImpfObj	6	acl	_	SpaceAfter=No
-6	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	oχ-tɕo	oχ-tɕo	VERB	_	_	6	acl	_	NativeVerbForm=ImpfObj|SpaceAfter=No
+6	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_172
@@ -1814,7 +1814,7 @@
 1	nokə	nokə	DET	_	PronType=Dem	3	det	_	_
 2	mohton	mohton	NOUN	_	_	3	nsubj	_	_
 3	undər	undər	ADJ	_	_	4	amod	_	_
-4	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+4	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_174
@@ -1822,7 +1822,7 @@
 # text[eng] = Jiashi is a teacher.
 1	tɕaɕi	tɕaɕi	PROPN	_	_	3	nsubj	_	_
 2	gərgən	gərgən	NOUN	_	_	3	cop	_	_
-3	bi-saŋ	bi-saŋ	VERB	_	VerbForm=Cop2SubjPos	0	root	_	SpaceAfter=No
+3	bi-saŋ	bi-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Cop2SubjPos|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_175
@@ -1832,7 +1832,7 @@
 2	=da	_	X	_	_	1	case	_	_
 3	noʁi	noʁi	NOUN	_	_	4	obj	_	_
 4	ʁar	ʁar	NUM	_	_	5	amod	_	_
-5	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+5	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_176
@@ -1841,7 +1841,7 @@
 1	tɕaɕi	tɕaɕi	PROPN	_	_	4	dep	_	_
 2	silaŋ	silaŋ	PROPN	_	_	4	dep	_	SpaceAfter=No
 3	=da	_	X	_	_	4	dep	_	_
-4	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+4	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_177
@@ -1849,7 +1849,7 @@
 # text[eng] = He goes slowly.
 1	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	3	nsubj	_	_
 2	tamo-tɕə	tamo-tɕə	ADV	_	_	3	advmod	_	_
-3	o-tɕo	o-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+3	o-tɕo	o-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_178
@@ -1857,7 +1857,7 @@
 # text[eng] = The pears are big, and (they) give (them).
 1	tɕʰaŋli	tɕʰaŋli	NOUN	_	_	3	nsubj	_	_
 2	hko-tɕə	hko-tɕə	ADJ	_	_	3	amod	_	_
-3	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+3	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_179
@@ -1872,8 +1872,8 @@
 # text = tʰəŋgətɕə kʰəl=ku ø-tɕə mənda gakə-ʁa-tɕə.
 # text[eng] = When I heard that, it made me happy.
 1	tʰəŋgətɕə	tʰəŋgətɕə	ADV	_	_	3	mark	_	_
-2	kʰəl=ku	kʰəl	VERB	_	VerbForm=ImpfNmlz	5	advcl	_	_
-3	ø-tɕə	ø-tɕə	AUX	_	VerbForm=Impf	5	cop	_	_
+2	kʰəl=ku	kʰəl	VERB	_	_	5	advcl	_	NativeVerbForm=ImpfNmlz
+3	ø-tɕə	ø-tɕə	AUX	_	_	5	cop	_	NativeVerbForm=Impf
 4	mənda	mənda	PRON	_	Case=Acc|PronType=Prs	5	obj	_	_
 5	gakə-ʁa-tɕə	gakə-ʁa-tɕə	ADJ	_	_	0	root	_	NativeVerbForm=CausPerf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -1884,11 +1884,11 @@
 1	disot	disot	NOUN	_	_	5	nsubj	_	_
 2	nəkə	nəkə	NUM	_	NumType=Card	1	nummod	_	SpaceAfter=No
 3	=də	=də	PART	_	Case=Dat	1	obl	_	SpaceAfter=No
-4	=ku	=ku	PART	_	VerbForm=ImpfNmlz	5	mark	_	_
+4	=ku	=ku	PART	_	_	5	mark	_	NativeVerbForm=ImpfNmlz
 5	tɕʰitɕʰə	tɕʰitɕʰə	NOUN	_	_	0	root	_	_
 6	ɕikə	ɕikə	ADJ	_	Degree=Pos	5	amod	_	_
 7	tamo	tamo	ADV	_	_	6	advmod	_	_
-8	wa	wa	AUX	_	VerbForm=Cop1Obj	5	aux	_	SpaceAfter=No
+8	wa	wa	AUX	_	_	5	aux	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_182
@@ -1898,7 +1898,7 @@
 2	kʰoŋ	kʰoŋ	NOUN	_	_	3	nsubj	_	_
 3	ɕikə	ɕikə	ADJ	_	Degree=Pos	0	root	_	_
 4	hko	hko	ADV	_	_	3	advmod	_	_
-5	wa	wa	AUX	_	VerbForm=Cop1Obj	3	aux	_	SpaceAfter=No
+5	wa	wa	AUX	_	_	3	aux	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_183
@@ -1906,7 +1906,7 @@
 # text[eng] = 'The third is the best.'
 1	səmba-mo	səmba	ADJ	_	NumType=Ord	3	nsubj	_	_
 2	ɕikə	ɕikə	ADJ	_	Degree=Pos	3	amod	_	_
-3	ʂa-no	ʂa	ADJ	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+3	ʂa-no	ʂa	ADJ	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_184
@@ -1915,7 +1915,7 @@
 1	məχɕə	məχɕə	ADV	_	_	5	advmod	_	_
 2	tɕaɕi	tɕaɕi	PROPN	_	_	5	nsubj	_	_
 3	ɕikə	ɕikə	ADJ	_	_	5	advmod	_	_
-4	gakə-gəwa	gakə-gəwa	ADJ	_	VerbForm=FutObj	5	xcomp	_	SpaceAfter=No
+4	gakə-gəwa	gakə-gəwa	ADJ	_	_	5	xcomp	_	NativeVerbForm=FutObj|SpaceAfter=No
 5	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_185
@@ -1924,7 +1924,7 @@
 1	ɲəntoχlakʰa	ɲəntoχlakʰa	PROPN	_	_	4	nsubj	_	_
 2	attʰogə	attʰogə	ADJ	_	_	4	amod	_	_
 3	ŋamada	ŋamada	ADV	_	_	4	advmod	_	_
-4	natʰə-tɕo	natʰə-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+4	natʰə-tɕo	natʰə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_186
@@ -1934,7 +1934,7 @@
 2	da	da	NOUN	_	_	5	nsubj	_	_
 3	amimatɕʰin=nə	amimatɕʰin=ACC	PROPN	_	Case=Acc	5	obj	_	_
 4	dʑəmsan	dʑəmsan	NOUN	_	_	5	obl	_	_
-5	ba	ba	AUX	_	VerbForm=Cop2Obj	0	root	_	SpaceAfter=No
+5	ba	ba	AUX	_	_	0	root	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_187
@@ -1942,8 +1942,8 @@
 # text[eng] = ‘The elderly grandfather’s shoe was ruined.’
 1	hko	hko	ADJ	_	_	3	amod	_	_
 2	dedə=né	dedə=ACC	PROPN	_	Case=Acc	3	nmod:poss	_	_
-3	kʰoldaku	kʰoldaku	NOUN	_	_	5	nsubj	_	_
-4	dasəra-tɕo	dasəra-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+3	kʰoldaku	kʰoldaku	NOUN	_	_	4	nsubj	_	_
+4	dasəra-tɕo	dasəra-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_188
@@ -1953,17 +1953,17 @@
 2	dedə	dedə	PROPN	_	_	3	nmod:poss	_	_
 3	tʰaun=la=nə	tʰaun=PL=ACC	NUM	_	Case=Acc	4	nummod	_	_
 4	kʰoldaku	kʰoldaku	NOUN	_	_	5	nsubj	_	_
-5	dasəra-tɕo	dasəra-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	dasəra-tɕo	dasəra-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_189
 # text = tʰaŋka pitɕə=ku kʰoŋ=nə kʰoldaku dasəra-tɕo.
 # text[eng] = ‘The shoe of the person who paints tangka was ruined.’
 1	tʰaŋka	tʰaŋka	VERB	_	_	2	acl:relcl	_	_
-2	pitɕə=ku	pitɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	4	acl	_	_
+2	pitɕə=ku	pitɕə=IMPF.NMLZ	VERB	_	_	4	acl	_	NativeVerbForm=ImpfNmlz
 3	kʰoŋ=nə	kʰoŋ=ACC	PROPN	_	Case=Acc	4	nmod	_	_
 4	kʰoldaku	kʰoldaku	NOUN	_	_	5	nsubj	_	_
-5	dasəra-tɕo	dasəra-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	dasəra-tɕo	dasəra-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_190
@@ -1981,17 +1981,17 @@
 # text = əmba-mo o-tɕo.
 # text[eng] = ‘The third (one) is going.’
 1	əmba-mo	əmba-MO	NUM	_	_	2	nsubj	_	_
-2	o-tɕo	o-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+2	o-tɕo	o-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_192
 # text = χani=la ɲəm-kə-tɕə natʰə-sa jaksa wa.
 # text[eng] = ‘If all dance nicely, (it) is pretty.’
 1	χani=la	χani=PL	DET	_	PronType=Dem	4	nsubj	_	CaseOrig=PL
-2	ɲəm-kə-tɕə	ɲəm-kə-tɕə	VERB	_	VerbForm=Impf	4	advcl	_	_
-3	natʰə-sa	natʰə-SA	VERB	_	VerbForm=Cond	4	aux	_	_
+2	ɲəm-kə-tɕə	ɲəm-kə-tɕə	VERB	_	_	4	advcl	_	NativeVerbForm=Impf
+3	natʰə-sa	natʰə-SA	AUX	_	_	4	aux	_	NativeVerbForm=Cond
 4	jaksa	jaksa	ADJ	_	_	0	root	_	_
-5	wa	wa	AUX	_	VerbForm=Cop1Obj	4	cop	_	SpaceAfter=No
+5	wa	wa	AUX	_	_	4	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_193
@@ -2000,7 +2000,7 @@
 1	dʐoma=gaŋ	dʐoma=POSS	PROPN	_	_	2	nsubj	_	CaseOrig=PredPoss
 2	ɬokʰaŋ	ɬokʰaŋ	NOUN	_	Case=Loc	0	root	_	_
 3	naŋda	naŋda	ADJ	_	_	2	amod	_	_
-4	wa	wa	AUX	_	VerbForm=Cop1Obj	2	cop	_	SpaceAfter=No
+4	wa	wa	AUX	_	_	2	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_194
@@ -2008,7 +2008,7 @@
 # text[eng] = ‘Mine is at home.’
 1	məngaŋ	məngaŋ	PRON	_	Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	2	nsubj	_	_
 2	kʰətʰə	kʰətʰə	NOUN	_	Case=Loc	0	root	_	_
-3	ji	ji	AUX	_	VerbForm=Cop2Subj	2	cop	_	SpaceAfter=No
+3	ji	ji	AUX	_	_	2	cop	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_195
@@ -2020,7 +2020,7 @@
 4	χani	χani	PRON	_	PronType=Prs	6	nsubj	_	CaseOrig=PL
 5	χatɕʰər	χatɕʰər	NUM	_	_	6	obl	_	_
 6	nəkə	nəkə	PRON	_	Case=Acc|PronType=Prs	0	root	_	_
-7	wo	wo	AUX	_	VerbForm=Cop1Obj	6	cop	_	SpaceAfter=No
+7	wo	wo	AUX	_	_	6	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_196
@@ -2031,23 +2031,23 @@
 3	tʕe	tʕe	ADV	_	_	6	advmod	_	_
 4	ɬarse	ɬarse	NOUN	_	_	5	conj	_	_
 5	lərse=ʁula	lərse=PAU	NOUN	_	_	6	nsubj	_	_
-6	natʰə-tɕə=ku	natʰə-tɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	0	root	_	_
+6	natʰə-tɕə=ku	natʰə-tɕə=IMPF.NMLZ	VERB	_	_	0	root	_	NativeVerbForm=ImpfNmlz
 7	naŋdun	naŋdun	NOUN	_	_	6	obj	_	_
 8	nəkə	nəkə	NUM	_	_	6	obj	_	_
 9	da	da	CCONJ	_	_	7	cc	_	_
 10	nəkə	nəkə	NUM	_	_	6	obj	_	_
-11	ji-saŋ	ji-saŋ	AUX	_	VerbForm=Cop2Subj	6	cop	_	SpaceAfter=No
+11	ji-saŋ	ji-saŋ	AUX	_	_	6	cop	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_197
 # text = da tʰokə-tɕə=ku χani naŋdun nəkə woda nəkə.
 # text[eng] = ‘The meaning of all the burnt offerings is the same.’
 1	da	da	CCONJ	_	_	6	cc	_	_
-2	tʰokə-tɕə=ku	tʰokə-tɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	6	acl	_	_
+2	tʰokə-tɕə=ku	tʰokə-tɕə=IMPF.NMLZ	VERB	_	_	6	acl	_	NativeVerbForm=ImpfNmlz
 3	χani	χani	DET	_	PronType=Dem	4	det	_	_
 4	naŋdun	naŋdun	NOUN	_	_	2	obj	_	_
 5	nəkə	nəkə	NUM	_	_	4	nummod	_	_
-6	wo	wo	AUX	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+6	wo	wo	AUX	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 7	da	da	CCONJ	_	_	6	cc	_	_
 8	nəkə	nəkə	NUM	_	_	6	obj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
@@ -2056,12 +2056,12 @@
 # text = tʰəmtʰoχ htɕəl-tɕə=ku tʰər aku dortɕe=tsʰaŋ=nə ana ba.
 # text[eng] = ‘That woman making mianpian noodles is Dorje’s mother.’
 1	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	2	compound	_	_
-2	htɕəl-tɕə=ku	htɕəl-tɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	5	acl	_	_
+2	htɕəl-tɕə=ku	htɕəl-tɕə=IMPF.NMLZ	VERB	_	_	5	acl	_	NativeVerbForm=ImpfNmlz
 3	tʰər	tʰər	DET	_	PronType=Dem	5	det	_	_
 4	aku	aku	NOUN	_	_	5	nsubj	_	_
 5	dortɕe=tsʰaŋ=nə	dortɕe=family=ACC	NOUN	_	_	6	nsubj	_	_
 6	ana	ana	NOUN	_	_	0	root	_	_
-7	ba	ba	AUX	_	VerbForm=Cop2Obj	6	cop	_	SpaceAfter=No
+7	ba	ba	AUX	_	_	6	cop	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_199
@@ -2069,20 +2069,20 @@
 # text[eng] = ‘The person who painted this painting went to Xining.’
 1	rəmo	rəmo	NOUN	_	_	3	compound	_	_
 2	ənə	ənə	DET	_	PronType=Dem	3	det	_	_
-3	pʰətɕə-saŋ	pʰətɕə-PERF.NMLZ	VERB	_	VerbForm=PerfNmlz	6	acl	_	_
+3	pʰətɕə-saŋ	pʰətɕə-PERF.NMLZ	VERB	_	_	6	acl	_	NativeVerbForm=PerfNmlz
 4	kʰoŋ	kʰoŋ	NOUN	_	_	6	nsubj	_	_
 5	silaŋ=da	silaŋ=LOC	NOUN	_	Case=Loc	6	obl	_	_
-6	χatcə-to	χatcə-to	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+6	χatcə-to	χatcə-to	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_200
 # text = tʰəmtʰoχ htɕəl-tɕə=ku dortɕe=tsʰaŋ=nə ana ba.
 # text[eng] = ‘(The one) making mianpian noodles is Dorje’s mother.’
 1	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	2	compound	_	_
-2	htɕəl-tɕə=ku	htɕəl-tɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	5	acl	_	_
+2	htɕəl-tɕə=ku	htɕəl-tɕə=IMPF.NMLZ	VERB	_	_	5	acl	_	NativeVerbForm=ImpfNmlz
 3	dortɕe=tsʰaŋ=nə	dortɕe=family=ACC	NOUN	_	_	5	nsubj	_	_
 4	ana	ana	NOUN	_	_	5	nsubj	_	_
-5	ba	ba	AUX	_	VerbForm=Cop2Obj	0	root	_	SpaceAfter=No
+5	ba	ba	AUX	_	_	0	root	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_201
@@ -2090,9 +2090,9 @@
 # text[eng] = ‘(The one who) painted this painting went to Xining.’
 1	rəmo	rəmo	NOUN	_	_	3	compound	_	_
 2	ənə	ənə	DET	_	PronType=Dem	3	det	_	_
-3	pʰətɕə-saŋ	pʰətɕə-PERF.NMLZ	VERB	_	VerbForm=PerfNmlz	4	acl	_	_
+3	pʰətɕə-saŋ	pʰətɕə-PERF.NMLZ	VERB	_	_	4	acl	_	NativeVerbForm=PerfNmlz
 4	silaŋ=da	silaŋ=LOC	NOUN	_	Case=Loc	5	obl	_	_
-5	χatcə-to	χatcə-to	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+5	χatcə-to	χatcə-to	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_202
@@ -2113,11 +2113,11 @@
 1	dortɕə	dortɕə	NOUN	_	Number=Sing	8	dep	_	_
 2	samtəχ	samtəχ	NOUN	_	Case=Acc	8	dep	_	SpaceAfter=No
 3	=gə	=gə	PART	_	_	8	dep	_	Feat=DAT
-4	oχ	oχ	VERB	_	VerbForm=PerfNmlz	8	dep	_	SpaceAfter=No
+4	oχ	oχ	VERB	_	_	8	dep	_	NativeVerbForm=PerfNmlz|SpaceAfter=No
 5	-saŋ	-saŋ	PART	_	_	8	dep	_	_
 6	aku	aku	NOUN	_	Number=Sing	7	nsubj	_	_
 7	əndə	əndə	ADV	_	_	8	advmod	_	_
-8	su-tɕo	su-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+8	su-tɕo	su-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Bonan_grammar_204
@@ -2125,7 +2125,7 @@
 # text[eng] = ‘I am going to go to Xining.’
 1	pə	pə	PRON	_	PronType=Prs	3	nsubj	_	_
 2	silaŋ=da	silaŋ=LOC	NOUN	_	Case=Loc	3	obl	_	_
-3	o-gi	o-gi	VERB	_	VerbForm=FutSubj	0	root	_	SpaceAfter=No
+3	o-gi	o-gi	VERB	_	_	0	root	_	NativeVerbForm=FutSubj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_205
@@ -2133,11 +2133,11 @@
 # text[eng] = 'The place I have just gone to is Xining.'
 1	pə	pə	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	əde	əde	ADV	_	_	3	advmod	_	_
-3	o-tɕə	o-tɕə	VERB	_	VerbForm=ImpfNmlz	0	root	_	SpaceAfter=No
+3	o-tɕə	o-tɕə	VERB	_	_	0	root	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 4	=ku	=ku	PART	_	_	3	mark	_	Feat=Loc
 5	satɕʰa	satɕʰa	NOUN	_	_	6	nsubj	_	_
 6	silaŋ	silaŋ	NOUN	_	Case=Dat	3	obl	_	_
-7	yi	yi	AUX	_	VerbForm=Cop2Subj	3	cop	_	SpaceAfter=No
+7	yi	yi	AUX	_	_	3	cop	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_206
@@ -2147,7 +2147,7 @@
 2	dzəjaŋ=nə	dzəjaŋ=ACC	NOUN	_	Case=Acc	5	obj	_	_
 3	tɕʰakʰa	tɕʰakʰa	NOUN	_	_	5	obl	_	_
 4	kʰada	kʰada	ADP	_	_	3	case	_	_
-5	ke-tɕo	ke-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	ke-tɕo	ke-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_207
@@ -2156,9 +2156,9 @@
 1	dortɕə	dortɕə	NOUN	_	_	7	nsubj	_	_
 2	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	4	nsubj	_	_
 3	dzəjaŋ=nə	dzəjaŋ=ACC	NOUN	_	Case=Acc	4	obj	_	_
-4	ke-tɕə=ku	ke-tɕə=IMPF.NMLZ	VERB	_	VerbForm=ImpfNmlz	6	acl	_	_
+4	ke-tɕə=ku	ke-tɕə=IMPF.NMLZ	VERB	_	_	6	acl	_	NativeVerbForm=ImpfNmlz
 5	tɕʰakʰa=da	tɕʰakʰa=LOC	NOUN	_	Case=Loc	7	obl	_	_
-6	tʰoχ-kə-tɕo	tʰoχ-kə-tɕo	VERB	_	VerbForm=ImpfObj	7	acl	_	_
+6	tʰoχ-kə-tɕo	tʰoχ-kə-tɕo	VERB	_	_	7	acl	_	NativeVerbForm=ImpfObj
 7	ROOT	ROOT	VERB	_	_	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -2168,8 +2168,8 @@
 1	pə	pə	PRON	_	PronType=Prs	5	nsubj	_	_
 2	atɕaŋnə	atɕaŋ=GEN	PRON	_	Poss=Yes|PronType=Prs	3	nmod:poss	_	_
 3	χotɕʰa=nə	χotɕʰa=ACC	NOUN	_	Case=Acc	5	obj	_	_
-4	ʁui	ʁui	VERB	_	VerbForm=Perf	5	acl	_	_
-5	wa	wa	AUX	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+4	ʁui	ʁui	VERB	_	_	5	acl	_	NativeVerbForm=Perf
+5	wa	wa	AUX	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_209
@@ -2177,11 +2177,11 @@
 # text[eng] = ‘The person whose book I borrowed is my teacher.’
 1	pə	pə	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	χotɕʰa	χotɕʰa	NOUN	_	_	3	nmod	_	_
-3	ʁui-saŋ	ʁui-PERF.NMLZ	VERB	_	VerbForm=PerfNmlz	6	acl	_	_
+3	ʁui-saŋ	ʁui-PERF.NMLZ	VERB	_	_	6	acl	_	NativeVerbForm=PerfNmlz
 4	kʰoŋ	kʰoŋ	NOUN	_	_	6	nsubj	_	_
 5	mənnə	mənnə	PRON	_	PronType=Prs	6	nmod:poss	_	_
 6	laoʂi	laoʂi	NOUN	_	_	0	root	_	SpaceAfter=No
-7	yi	yi	AUX	_	VerbForm=Cop2Subj	6	cop	_	SpaceAfter=No
+7	yi	yi	AUX	_	_	6	cop	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_210
@@ -2191,8 +2191,8 @@
 2	əde	əde	ADV	_	_	5	advmod	_	_
 3	χənə	χənə	ADJ	_	_	5	advmod	_	_
 4	silaŋ=sa	silaŋ=ABL	NOUN	_	Case=Abl	5	obl	_	_
-5	ər	ər	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
-6	wa	wa	AUX	_	VerbForm=Cop1Obj	5	cop	_	SpaceAfter=No
+5	ər	ər	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
+6	wa	wa	AUX	_	_	5	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_211
@@ -2201,9 +2201,9 @@
 1	tɕaɕi	tɕaɕi	PROPN	_	_	5	nsubj	_	_
 2	nokə	nokə	PRON	_	PronType=Prs	5	obl	_	_
 3	kʰoŋ	kʰoŋ	ADV	_	_	4	advmod	_	_
-4	utɕə-tɕə	utɕə-tɕə	VERB	_	VerbForm=Impf	5	acl	_	_
+4	utɕə-tɕə	utɕə-tɕə	VERB	_	_	5	acl	_	NativeVerbForm=Impf
 5	meχpʰo	meχpʰo	ADJ	_	_	0	root	_	SpaceAfter=No
-6	wa	wa	AUX	_	VerbForm=Cop1Obj	5	cop	_	SpaceAfter=No
+6	wa	wa	AUX	_	_	5	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_212
@@ -2213,7 +2213,7 @@
 2	tʕaɕi	tʕaɕi	PROPN	_	_	10	dep	_	_
 3	utɕə-tɕə	utɕə	VERB	_	Aspect=Imp|Voice=Act	10	dep	_	_
 4	meχpʰo	meχpʰo	ADJ	_	Degree=Pos	10	dep	_	_
-5	wi	wi	AUX	_	VerbForm=ImpfNmlz	10	dep	_	_
+5	wi	wi	AUX	_	_	10	dep	_	NativeVerbForm=ImpfNmlz
 6	ku	ku	PART	_	_	10	dep	_	_
 7	kʰoŋ	kʰoŋ	NOUN	_	Case=Dat	10	dep	_	_
 8	da	da	PART	_	_	10	dep	_	_
@@ -2239,12 +2239,12 @@
 # text[eng] = 'As for the bowls on the shelf, I have finished washing them.'
 1	tɕʰaka	tɕʰaka	NOUN	_	_	4	obl	_	_
 2	derə	derə	ADP	_	_	1	acl:relcl	_	SpaceAfter=No
-3	=ku	=ku	PART	_	VerbForm=ImpfNmlz	2	mark	_	_
+3	=ku	=ku	PART	_	_	2	mark	_	NativeVerbForm=ImpfNmlz
 4	dzejal	dzejal	NOUN	_	Number=Plur	7	obj	_	SpaceAfter=No
 5	=la	=la	PART	_	_	4	dep	_	_
 6	nə	nə	DET	_	Case=Acc|PronType=Dem	4	det	_	_
 7	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-8	waʁa	waʁa	VERB	_	VerbForm=Perf|Voice=Act	0	root	_	SpaceAfter=No
+8	waʁa	waʁa	VERB	_	Voice=Act	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 9	war-o	war	VERB	_	Aspect=Perf|Polarity=Pos	8	xcomp	_	SpaceAfter=No|Obj=Yes
 10	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -2255,7 +2255,7 @@
 2	lo	lo	NOUN	_	_	4	nmod	_	_
 3	dʐotɕə	dʐotɕə	NUM	_	NumType=Card	2	nummod	_	_
 4	naŋda	naŋda	NOUN	_	_	6	acl	_	SpaceAfter=No
-5	=ku	=ku	PART	_	VerbForm=ImpfNmlz	4	mark	_	_
+5	=ku	=ku	PART	_	_	4	mark	_	NativeVerbForm=ImpfNmlz
 6	dedə	dedə	NOUN	_	Number=Plur	17	nsubj	_	SpaceAfter=No
 7	=la	=la	PART	_	Number=Plur	6	case	_	_
 8	satɕə-tɕə	satɕə	VERB	_	Aspect=Imp	6	acl	_	_
@@ -2279,7 +2279,7 @@
 3	naŋda	naŋda	ADP	_	Case=Dat	2	case	_	SpaceAfter=No
 4	=ku	=ku	PART	_	_	3	mark	_	Feat=Loc
 5	ɕola	ɕola	NOUN	_	_	6	nsubj	_	_
-6	çu-tɕə	çu-tɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+6	çu-tɕə	çu-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_217
@@ -2289,7 +2289,7 @@
 2	goŋsi	goŋsi	NOUN	_	Case=Nom	3	nsubj	_	_
 3	naŋda	naŋda	NOUN	_	Case=Dat	4	nmod	_	_
 4	ɕola	ɕola	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
-5	çu-tɕə	çu	VERB	_	VerbForm=Perf	4	aux	_	SpaceAfter=No
+5	çu-tɕə	çu	AUX	_	_	4	aux	_	NativeVerbForm=Perf|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_218
@@ -2345,7 +2345,7 @@
 # text = hkutə=ku kʰi hko=ʁala atɕə=tsʰaŋ gər=nə dəp-kə-ʁa-tɕə.
 # text[eng] = 'Yesterday’s big wind caused their house to collapse.'
 1	hkutə	hkutə	NOUN	_	_	10	dep	_	SpaceAfter=No
-2	=ku	=ku	PART	_	VerbForm=ImpfNmlz	10	dep	_	_
+2	=ku	=ku	PART	_	_	10	dep	_	NativeVerbForm=ImpfNmlz
 3	kʰi	kʰi	NOUN	_	_	10	dep	_	_
 4	hko	hko	ADJ	_	Degree=Pos	10	dep	_	SpaceAfter=No
 5	=ʁala	=ʁala	PART	_	Case=Ins	10	dep	_	_
@@ -2522,7 +2522,7 @@
 7	=nə	_	X	_	_	0	root	_	_
 8	dəʁa	dəʁa	ADJ	_	Polarity=Neg	7	amod	_	_
 9	ələ	ələ	ADJ	_	_	7	amod	_	_
-10	htɕigə-na	htɕigə	VERB	_	Polarity=Neg|VerbForm=Dur	7	cop	_	SpaceAfter=No
+10	htɕigə-na	htɕigə	AUX	_	Polarity=Neg	7	cop	_	NativeVerbForm=Dur|SpaceAfter=No
 11	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_236
@@ -2546,7 +2546,7 @@
 1	ənə	ənə	PRON	_	PronType=Prs	12	nsubj	_	_
 2	“	“	PUNCT	_	_	12	punct	_	_
 3	sə	sə	PRON	_	PronType=Prs	12	dep	_	_
-4	sola-tɕə	sola	VERB	_	VerbForm=Impf	12	dep	_	SpaceAfter=No
+4	sola-tɕə	sola	VERB	_	_	12	dep	_	NativeVerbForm=Impf|SpaceAfter=No
 5	=ku	_	X	_	_	12	dep	_	_
 6	tɕə	tɕə	CCONJ	_	_	12	dep	_	_
 7	natʰoŋ	natʰoŋ	NOUN	_	Number=Dual	12	dep	_	SpaceAfter=No
@@ -2578,7 +2578,7 @@
 10	tsaŋtem	tsaŋtem	NOUN	_	Case=Acc|Number=Dual	0	root	_	SpaceAfter=No
 11	=ʁala	_	X	_	_	10	dep	_	SpaceAfter=No
 12	=nə	_	X	_	_	10	dep	_	_
-13	saga-tɕə	saga	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
+13	saga-tɕə	saga	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Bonan_grammar_239
@@ -2596,7 +2596,7 @@
 10	tʂʰidzə	tʂʰidzə	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	dera	dera	NOUN	_	Number=Plur	10	obj	_	SpaceAfter=No
 12	=la	_	X	_	_	11	dep	_	_
-13	kə-ko	kə	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
+13	kə-ko	kə	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Bonan_grammar_240
@@ -2630,7 +2630,7 @@
 10	=nə	_	X	_	_	0	root	_	_
 11	roŋ	roŋ	NOUN	_	Case=Dat	10	nmod	_	SpaceAfter=No
 12	=sa	_	X	_	_	11	dep	_	_
-13	ap-saŋ	ap	VERB	_	Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
+13	ap-saŋ	ap	AUX	_	Mood=Ind|VerbForm=Fin	10	cop	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = Bonan_grammar_242
@@ -2667,16 +2667,16 @@
 14	tsaŋtem	tsaŋtem	NOUN	_	Case=Acc|Number=Dual	12	obj	_	SpaceAfter=No
 15	=ʁala	_	X	_	_	14	dep	_	SpaceAfter=No
 16	=nə	_	X	_	_	14	dep	_	_
-17	saga-tɕə	saga	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	12	cop	_	SpaceAfter=No
+17	saga-tɕə	saga	AUX	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	12	cop	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Bonan_grammar_244
 # text = pə o-sa kʰətə o-tɕətʕiatʂaŋ=da kʰəl-tɕə.
 # text[eng] = If I was going to go, I was to go home and talk to my parents.
 1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	o-sa	o	VERB	_	VerbForm=Cond	4	advcl	_	_
+2	o-sa	o	VERB	_	_	4	advcl	_	NativeVerbForm=Cond
 3	kʰətə	kʰətə	NOUN	_	Case=Dat	4	nmod	_	_
-4	o-tɕə	o	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	o-tɕə	o	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	tʕiatʂaŋ	tʕiatʂaŋ	NOUN	_	Case=Dat	4	nmod	_	SpaceAfter=No
 6	=da	_	X	_	_	5	dep	_	_
 7	kʰəl-tɕə	kʰəl	VERB	_	Aspect=Perf|Mood=Ind|VerbForm=Fin	4	conj	_	SpaceAfter=No
@@ -2686,15 +2686,15 @@
 # text = dortɕə wor-tɕəhtoŋ=nə waχa-tɕə tɕʰa u-tɕə ɬoptɕa=da o-tɕo.
 # text[eng] = Dorje woke up, and brushed his teeth, and ate breakfast, and went to school.
 1	dortɕə	dortɕə	PROPN	_	Number=Sing	2	nsubj	_	_
-2	wor-tɕə	wor-tɕə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+2	wor-tɕə	wor-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 3	htoŋ	htoŋ	NOUN	_	Case=Acc	2	dep	_	SpaceAfter=No
 4	=nə	=nə	PART	_	_	2	dep	_	Feat=Acc
-5	waχa-tɕə	waχa-tɕə	VERB	_	VerbForm=Impf	2	conj	_	_
+5	waχa-tɕə	waχa-tɕə	VERB	_	_	2	conj	_	NativeVerbForm=Impf
 6	tɕʰa	tɕʰa	NOUN	_	Case=Acc	5	obj	_	_
-7	u-tɕə	u-tɕə	VERB	_	VerbForm=Impf	2	conj	_	_
+7	u-tɕə	u-tɕə	VERB	_	_	2	conj	_	NativeVerbForm=Impf
 8	ɬoptɕa	ɬoptɕa	NOUN	_	Case=Dat	2	dep	_	SpaceAfter=No
 9	=da	=da	PART	_	_	2	dep	_	Feat=Loc
-10	o-tɕo	o-tɕo	VERB	_	VerbForm=ImpfObj	2	conj	_	SpaceAfter=No
+10	o-tɕo	o-tɕo	VERB	_	_	2	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_246
@@ -2702,10 +2702,10 @@
 # text[eng] = The classroom teacher entered the classroom looking for me.
 1	pantʂurən	pantʂurən	NOUN	_	_	3	nsubj	_	_
 2	mənda	1SG	PRON	_	Case=Acc|PronType=Prs	3	obj	_	_
-3	dzagə-tɕə	dzagə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+3	dzagə-tɕə	dzagə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 4	hlokʰaŋ	hlokʰaŋ	NOUN	_	Case=Dat	3	nmod	_	_
 5	naŋda	naŋda	ADP	_	_	4	case	_	_
-6	χatə-tɕə	χatə	VERB	_	VerbForm=Perf	3	conj	_	SpaceAfter=No
+6	χatə-tɕə	χatə	VERB	_	_	3	conj	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_247
@@ -2713,10 +2713,10 @@
 # text[eng] = Kuantaiji ate mianpian noodles, and Jiashi ate meat.
 1	kʰontʰarhtɕə	kʰontʰarhtɕə	PROPN	_	Number=Sing	2	nsubj	_	_
 2	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	3	obj	_	_
-3	u-tɕə	u	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+3	u-tɕə	u	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 4	tɕaɕi	tɕaɕi	PROPN	_	Number=Sing	5	nsubj	_	_
 5	maʁa	meat	NOUN	_	_	6	obj	_	_
-6	de-tɕo	de	VERB	_	VerbForm=ImpfObj	3	conj	_	SpaceAfter=No
+6	de-tɕo	de	VERB	_	_	3	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_248
@@ -2725,28 +2725,28 @@
 1	tɕala	tɕala	SCONJ	_	_	6	mark	_	_
 2	nəkə	nəkə	PRON	_	PronType=Prs	6	nsubj	_	_
 3	kʰoŋ	kʰoŋ	PRON	_	PronType=Prs	4	obj	_	_
-4	əsə	əsə	VERB	_	VerbForm=Neg	6	advcl	_	_
-5	χal-sa	χal	VERB	_	VerbForm=Cond	4	dep	_	_
+4	əsə	əsə	VERB	_	_	6	advcl	_	NativeVerbForm=Neg
+5	χal-sa	χal	VERB	_	_	4	dep	_	NativeVerbForm=Cond
 6	ɬawa	ɬawa	NOUN	_	_	0	root	_	SpaceAfter=No
 7	amaŋ	amaŋ	NOUN	_	_	6	nmod	_	SpaceAfter=No
 8	=da	_	X	_	_	7	dep	_	_
 9	nəkə	nəkə	PRON	_	PronType=Prs	6	iobj	_	_
 10	nəkə	nəkə	PRON	_	PronType=Prs	6	iobj	_	_
-11	jiχ-tɕo	jiχ	VERB	_	VerbForm=ImpfObj	6	conj	_	SpaceAfter=No
+11	jiχ-tɕo	jiχ	VERB	_	_	6	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 12	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_249
 # text = əsə çorigə-sa χena kʰətə ər-sa orhtɕə dʐiχ pʰakʰə kʰər-saŋ.
 # text[eng] = If you don’t (study) hard, when you come home you’ll have to take the test again.
 1	əsə	əsə	PRON	_	PronType=Prs	2	nsubj	_	_
-2	çorigə-sa	çorigə	VERB	_	VerbForm=Cond	9	advcl	_	_
+2	çorigə-sa	çorigə	VERB	_	_	9	advcl	_	NativeVerbForm=Cond
 3	χena	χena	ADV	_	_	2	advmod	_	_
 4	kʰətə	kʰətə	NOUN	_	Case=Dat	5	nmod	_	_
-5	ər-sa	ər	VERB	_	VerbForm=Cond	9	advcl	_	_
+5	ər-sa	ər	VERB	_	_	9	advcl	_	NativeVerbForm=Cond
 6	orhtɕə	orhtɕə	NOUN	_	_	7	obj	_	_
 7	dʐiχ	dʐiχ	NOUN	_	_	9	nmod	_	_
 8	pʰakʰə	pʰakʰə	NOUN	_	_	9	obj	_	_
-9	kʰər-saŋ	kʰər	VERB	_	VerbForm=Pos	0	root	_	SpaceAfter=No
+9	kʰər-saŋ	kʰər	VERB	_	_	0	root	_	NativeVerbForm=Pos|SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Bonan_grammar_250
@@ -2755,10 +2755,10 @@
 1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	ɕaʑə	ɕaʑə	NOUN	_	_	6	obj	_	_
 3	hko	hko	ADJ	_	_	4	advmod	_	_
-4	ol-sa	ol	VERB	_	VerbForm=Cond	6	advcl	_	_
+4	ol-sa	ol	VERB	_	_	6	advcl	_	NativeVerbForm=Cond
 5	maba=maba	_	X	_	_	6	nmod	_	_
-6	ol-ʁa-sa	ol	VERB	_	VerbForm=Cond	0	root	_	SpaceAfter=No
-7	siχde-tɕo	siχde	VERB	_	VerbForm=ImpfObj	6	xcomp	_	SpaceAfter=No
+6	ol-ʁa-sa	ol	VERB	_	_	0	root	_	NativeVerbForm=Cond|SpaceAfter=No
+7	siχde-tɕo	siχde	VERB	_	_	6	xcomp	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_251
@@ -2778,13 +2778,13 @@
 2	taɕue	taɕue	NOUN	_	Case=Nom	10	dep	_	_
 3	naŋ	naŋ	NOUN	_	Case=Dat	10	dep	_	SpaceAfter=No
 4	=sa	=sa	PART	_	_	10	dep	_	Feat=Loc
-5	tʰarɕin-gə-sada	tʰarɕin-gə-sada	VERB	_	VerbForm=Perf	10	dep	_	_
+5	tʰarɕin-gə-sada	tʰarɕin-gə-sada	VERB	_	_	10	dep	_	NativeVerbForm=Perf
 6	dau	dau	ADV	_	_	10	dep	_	_
 7	ɕawa	ɕawa	NOUN	_	Case=Acc	10	dep	_	_
-8	χar	χar	VERB	_	VerbForm=Impf	10	dep	_	SpaceAfter=No
+8	χar	χar	VERB	_	_	10	dep	_	NativeVerbForm=Impf|SpaceAfter=No
 9	=də	=də	PART	_	_	10	dep	_	Feat=Acc
-10	ər-tɕə	ər-tɕə	VERB	_	VerbForm=Conc	0	root	_	_
-11	kina	kina	AUX	_	VerbForm=Neg	10	dep	_	SpaceAfter=No
+10	ər-tɕə	ər-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Conc
+11	kina	kina	AUX	_	_	10	dep	_	NativeVerbForm=Neg|SpaceAfter=No
 12	.	.	PUNCT	_	_	10	dep	_	_
 
 # sent_id = Bonan_grammar_253
@@ -2794,12 +2794,12 @@
 2	wor	wor	NOUN	_	_	5	nmod	_	_
 3	gə	gə	NUM	_	_	5	nummod	_	_
 4	ʁuraŋ	ʁuraŋ	NOUN	_	_	5	obj	_	_
-5	χoŋ=da	χoŋ	VERB	_	VerbForm=Conc	9	advcl	_	_
-6	tsʰər-sada	tsʰər	VERB	_	VerbForm=Conc	9	advcl	_	_
+5	χoŋ=da	χoŋ	VERB	_	_	9	advcl	_	NativeVerbForm=Conc
+6	tsʰər-sada	tsʰər	VERB	_	_	9	advcl	_	NativeVerbForm=Conc
 7	dau	dau	ADV	_	_	9	advmod	_	_
 8	kʰəl	kʰəl	VERB	_	_	9	xcomp	_	_
-9	me-tɕə	me	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
-10	kina	kina	AUX	_	VerbForm=Neg	9	aux	_	SpaceAfter=No
+9	me-tɕə	me	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
+10	kina	kina	AUX	_	_	9	aux	_	NativeVerbForm=Neg|SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = Bonan_grammar_254
@@ -2820,7 +2820,7 @@
 1	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	3	nsubj	_	_
 2	rakə	rakə	NOUN	_	_	3	obj	_	_
 3	u-tɕəte	u	VERB	_	_	0	root	_	NativeVerbForm=Reason|SpaceAfter=No
-4	əphtə-saŋ	əphtə	VERB	_	VerbForm=Pos	3	xcomp	_	SpaceAfter=No
+4	əphtə-saŋ	əphtə	VERB	_	_	3	xcomp	_	NativeVerbForm=Pos|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_256
@@ -2833,7 +2833,7 @@
 5	mannə	mannə	PRON	_	PronType=Prs	9	nsubj	_	_
 6	ɲəntʰoχ	ɲəntʰoχ	NOUN	_	_	9	nsubj	_	_
 7	ma	ma	PART	_	_	5	discourse	_	_
-8	wi-sa	wi	VERB	_	VerbForm=Cond	9	cop	_	_
+8	wi-sa	wi	AUX	_	_	9	cop	_	NativeVerbForm=Cond
 9	da	da	CCONJ	_	_	0	root	_	_
 10	lərse	lərse	NOUN	_	_	9	parataxis	_	SpaceAfter=No
 11	=nə	=nə	PART	_	_	10	mark	_	Feat=Acc
@@ -2848,10 +2848,10 @@
 2	meχse	meχse	NOUN	_	_	5	nsubj	_	_
 3	lərse	lərse	NOUN	_	_	5	obj	_	_
 4	tʰər	tʰər	DET	_	PronType=Dem	5	det	_	_
-5	wi-sada	wi	VERB	_	VerbForm=Conc	0	root	_	SpaceAfter=No
+5	wi-sada	wi	VERB	_	_	0	root	_	NativeVerbForm=Conc|SpaceAfter=No
 6	əntʰongə	əntʰongə	ADJ	_	_	5	amod	_	_
 7	tɕap	tɕap	NOUN	_	_	5	obj	_	_
-8	kina	kina	AUX	_	VerbForm=Neg	5	aux	_	SpaceAfter=No
+8	kina	kina	AUX	_	_	5	aux	_	NativeVerbForm=Neg|SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_258
@@ -2860,31 +2860,31 @@
 1	tɕʰə	tɕʰə	PRON	_	PronType=Prs	2	det	_	_
 2	anə	anə	PRON	_	PronType=Prs	4	nsubj	_	_
 3	gər	gər	NOUN	_	Case=Dat	4	obl	_	_
-4	su-tɕi	su	VERB	_	VerbForm=ImpfSubj	0	root	_	SpaceAfter=No
+4	su-tɕi	su	VERB	_	_	0	root	_	NativeVerbForm=ImpfSubj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_259
 # text = su kʰəl=kʊ=daɬotʂa o-tɕə tʂigə-tɕə gaoər=nə ɬoma χarənʁar=da nəkə pisai-ʁa-tɕi.
 # text[eng] = The school discussed it and decided that twelve sophomores would be allowed to compete in a competition.
 1	su	su	PRON	_	PronType=Prs	2	discourse	_	_
-2	kʰəl=kʊ=da	kʰəl	VERB	_	VerbForm=ImpfNmlz	0	root	_	SpaceAfter=No
+2	kʰəl=kʊ=da	kʰəl	VERB	_	_	0	root	_	NativeVerbForm=ImpfNmlz|SpaceAfter=No
 3	ɬotʂa	ɬotʂa	NOUN	_	_	4	nsubj	_	_
-4	o-tɕə	o	VERB	_	VerbForm=Impf	2	xcomp	_	_
-5	tʂigə-tɕə	tʂigə	VERB	_	VerbForm=Impf	4	xcomp	_	_
+4	o-tɕə	o	VERB	_	_	2	xcomp	_	NativeVerbForm=Impf
+5	tʂigə-tɕə	tʂigə	VERB	_	_	4	xcomp	_	NativeVerbForm=Impf
 6	gaoər=nə	gaoər	NOUN	_	Case=Acc	5	obj	_	_
 7	ɬoma	ɬoma	NOUN	_	_	5	obj	_	_
 8	χarənʁar=da	χarənʁar	NOUN	_	Case=Dat	5	obl	_	_
 9	nəkə	nəkə	NUM	_	_	10	nummod	_	_
-10	pisai-ʁa-tɕi	pisai	VERB	_	VerbForm=Caus	5	xcomp	_	SpaceAfter=No
+10	pisai-ʁa-tɕi	pisai	VERB	_	_	5	xcomp	_	NativeVerbForm=Caus|SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_260
 # text = jaŋgə kʰəl=kʊ səkʰa χa-tɕo.
 # text[eng] = (He) looked like he had something to say.
 1	jaŋgə	jaŋgə	PRON	_	PronType=Prs	4	nsubj	_	_
-2	kʰəl=kʊ	kʰəl	VERB	_	VerbForm=ImpfNmlz	4	aux	_	_
+2	kʰəl=kʊ	kʰəl	AUX	_	_	4	aux	_	NativeVerbForm=ImpfNmlz
 3	səkʰa	səkʰa	NOUN	_	_	4	obj	_	_
-4	χa-tɕo	χa	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+4	χa-tɕo	χa	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_261
@@ -2892,21 +2892,21 @@
 # text[eng] = The girl Dorje gave a gift to lives here.
 1	dortɕə	dortɕə	PROPN	_	_	4	nsubj	_	_
 2	tsʰamdoχ	tsʰamdoχ	NOUN	_	_	3	obj	_	_
-3	oχ-saŋ	oχ	VERB	_	VerbForm=PerfNmlz	4	aux	_	_
+3	oχ-saŋ	oχ	AUX	_	_	4	aux	_	NativeVerbForm=PerfNmlz
 4	aku	aku	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
 5	əndə	əndə	ADV	_	_	4	advmod	_	_
-6	su-tɕo	su	VERB	_	VerbForm=ImpfObj	4	xcomp	_	SpaceAfter=No
+6	su-tɕo	su	VERB	_	_	4	xcomp	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_262
 # text = tʰalkə-sa su tʰalkə-tɕə=kʊ lan=nə ap-tɕə ərə-tɕo.
 # text[eng] = If they agreed, then I was to bring the answer of agreement back.
-1	tʰalkə-sa	tʰalkə	VERB	_	VerbForm=Cond	4	advcl	_	_
+1	tʰalkə-sa	tʰalkə	VERB	_	_	4	advcl	_	NativeVerbForm=Cond
 2	su	su	PRON	_	PronType=Prs	1	nsubj	_	_
-3	tʰalkə-tɕə=kʊ	tʰalkə	VERB	_	VerbForm=ImpfNmlz	4	aux	_	_
+3	tʰalkə-tɕə=kʊ	tʰalkə	AUX	_	_	4	aux	_	NativeVerbForm=ImpfNmlz
 4	lan=nə	lan	NOUN	_	Case=Acc	6	obj	_	_
-5	ap-tɕə	ap	VERB	_	VerbForm=Impf	6	xcomp	_	_
-6	ərə-tɕo	ərə	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	ap-tɕə	ap	VERB	_	_	6	xcomp	_	NativeVerbForm=Impf
+6	ərə-tɕo	ərə	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_263
@@ -2915,11 +2915,11 @@
 1	tʰəsanə	tʰəsanə	ADV	_	_	2	discourse	_	_
 2	pə	pə	PRON	_	PronType=Prs	4	nsubj	_	_
 3	ɬokaŋ	ɬokaŋ	NOUN	_	Case=Dat	4	obl	_	_
-4	naŋda	o	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
-5	o-tɕə	o	VERB	_	VerbForm=Impf	4	conj	_	_
+4	naŋda	o	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
+5	o-tɕə	o	VERB	_	_	4	conj	_	NativeVerbForm=Impf
 6	koʑə=nə	koʑə	PRON	_	Case=Acc|PronType=Prs	5	obj	_	_
 7	kʰama=da	kʰama	NOUN	_	Case=Dat	5	obl	_	_
-8	dondi-to	dondi	VERB	_	VerbForm=Perf	5	xcomp	_	SpaceAfter=No
+8	dondi-to	dondi	VERB	_	_	5	xcomp	_	NativeVerbForm=Perf|SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_264
@@ -2927,8 +2927,8 @@
 # text[eng] = The old ones have already passed away.
 1	de	de	DET	_	PronType=Dem	3	det	_	_
 2	apa	apa	NOUN	_	_	3	nsubj	_	_
-3	ogoŋ	ogoŋ	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
-4	warə-tɕə	warə	VERB	_	VerbForm=Perf	3	aux	_	SpaceAfter=No
+3	ogoŋ	ogoŋ	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
+4	warə-tɕə	warə	AUX	_	_	3	aux	_	NativeVerbForm=Perf|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_265
@@ -2954,9 +2954,9 @@
 # text[eng] = I want to go to Xining.
 1	mənda	mənda	PRON	_	Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	nsubj	_	_
 2	silaŋ=da	silaŋ	NOUN	_	Case=Dat	5	obl	_	_
-3	o=ku	o	VERB	_	VerbForm=ImpfNmlz	5	aux	_	_
+3	o=ku	o	AUX	_	_	5	aux	_	NativeVerbForm=ImpfNmlz
 4	taraŋ	taraŋ	NOUN	_	_	5	obj	_	_
-5	ər-na	ər	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+5	ər-na	ər	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_268
@@ -2964,7 +2964,7 @@
 # text[eng] = I like candy.
 1	pə	pə	PRON	_	Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	nsubj	_	_
 2	kara=da	kara	NOUN	_	Case=Dat	3	obj	_	_
-3	gakə-na	gakə	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+3	gakə-na	gakə	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_269
@@ -2972,7 +2972,7 @@
 # text[eng] = (I) recognized (their) faces a little.
 1	tɕəmaŋgə	tɕəmaŋgə	ADJ	_	_	3	advmod	_	_
 2	nər	nər	NOUN	_	_	3	obj	_	_
-3	medə-na	medə	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+3	medə-na	medə	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_270
@@ -2980,8 +2980,8 @@
 # text[eng] = (They) should also let us dig!
 1	manda	manda	PRON	_	Number[psor]=Plur|Person[psor]=1|PronType=Prs	4	nsubj	_	_
 2	da	da	ADV	_	_	4	advmod	_	_
-3	mantəl-ʁa	mantəl	VERB	_	VerbForm=Caus	4	aux	_	Causative=Yes
-4	kʰər-na	kʰər	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+3	mantəl-ʁa	mantəl	AUX	_	_	4	aux	_	Causative=Yes|NativeVerbForm=Caus
+4	kʰər-na	kʰər	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 5	pe	pe	PART	_	_	4	discourse	_	SpaceAfter=No|Emphatic=Yes
 6	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2999,20 +2999,20 @@
 # text = ələ odə-ʁa-tɕə jaŋ-kə-gi odə-ʁa-tɕə.
 # text[eng] = How can (I) not let (you) go?
 1	ələ	ələ	PART	_	Polarity=Neg	4	advmod	_	_
-2	odə-ʁa-tɕə	odə	VERB	_	VerbForm=Impf	4	aux	_	Causative=Yes
-3	jaŋ-kə-gi	jaŋ	PRON	_	Person[psor]=2|PronType=Prs|VerbForm=FutSubj	4	obj	_	_
-4	odə-ʁa-tɕə	odə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+2	odə-ʁa-tɕə	odə	AUX	_	_	4	aux	_	Causative=Yes|NativeVerbForm=Impf
+3	jaŋ-kə-gi	jaŋ	PRON	_	Person[psor]=2|PronType=Prs	4	obj	_	NativeVerbForm=FutSubj
+4	odə-ʁa-tɕə	odə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_273
 # text = tʰə sujo. pə o-gi.
 # text[eng] = You stay. I’m leaving.
 1	tʰə	tʰə	PRON	_	Person[psor]=2|PronType=Prs	2	nsubj	_	_
-2	su	su	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+2	su	su	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 3	jo	jo	PART	_	_	2	discourse	_	SpaceAfter=No|Deemphatic=Yes
 4	.	.	PUNCT	_	_	2	punct	_	_
 5	pə	pə	PRON	_	Person[psor]=1|PronType=Prs	6	nsubj	_	_
-6	o-gi	o	VERB	_	VerbForm=FutSubj	2	parataxis	_	SpaceAfter=No
+6	o-gi	o	VERB	_	_	2	parataxis	_	NativeVerbForm=FutSubj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_274
@@ -3022,9 +3022,9 @@
 2	tsʰeraŋ	tsʰeraŋ	PROPN	_	Case=Nom	5	ccomp	_	_
 3	roŋ	roŋ	NOUN	_	Case=Dat	5	nmod	_	SpaceAfter=No
 4	=da	=da	ADP	_	_	3	case	_	_
-5	o-gəwa	o	VERB	_	VerbForm=FutObj	0	root	_	SpaceAfter=No
+5	o-gəwa	o	VERB	_	_	0	root	_	NativeVerbForm=FutObj|SpaceAfter=No
 6	=tɕə	=tɕə	PART	_	_	5	discourse	_	Conj=Yes
-7	kʰəl-tɕo	kʰəl	VERB	_	VerbForm=Impf	5	advcl	_	SpaceAfter=No
+7	kʰəl-tɕo	kʰəl	VERB	_	_	5	advcl	_	NativeVerbForm=Impf|SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_275
@@ -3035,7 +3035,7 @@
 3	hkutə	hkutə	ADV	_	_	6	dep	_	_
 4	bəndzə	bəndzə	NOUN	_	Case=Acc	6	dep	_	SpaceAfter=No
 5	=gə	=gə	ADP	_	_	6	dep	_	_
-6	wa	wa	AUX	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+6	wa	wa	AUX	_	_	0	root	_	NativeVerbForm=Cop|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_276
@@ -3044,7 +3044,7 @@
 1	nokə	nokə	DET	_	PronType=Dem	2	det	_	_
 2	χotɕa	χotɕa	NOUN	_	Case=Nom	4	nsubj	_	_
 3	atɕaŋgaŋ	atɕaŋgaŋ	PRON	_	Person[psor]=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
-4	ba	ba	AUX	_	VerbForm=Cop	0	root	_	SpaceAfter=No
+4	ba	ba	AUX	_	_	0	root	_	NativeVerbForm=Cop|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_277
@@ -3054,7 +3054,7 @@
 2	tɕaɕi	tɕaɕi	PROPN	_	Case=Nom	5	nsubj	_	_
 3	ɬoptɕa	ɬoptɕa	NOUN	_	Case=Dat	5	nmod	_	_
 4	naŋda	naŋda	ADP	_	_	3	case	_	_
-5	wi-gəwa	wi	VERB	_	VerbForm=FutObj	0	root	_	SpaceAfter=No
+5	wi-gəwa	wi	VERB	_	_	0	root	_	NativeVerbForm=FutObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_278
@@ -3064,7 +3064,7 @@
 2	pə	pə	PRON	_	Person[psor]=1|PronType=Prs	5	nsubj	_	_
 3	ɬoptɕa	ɬoptɕa	NOUN	_	Case=Dat	5	nmod	_	_
 4	naŋda	naŋda	ADP	_	_	3	case	_	_
-5	wi-gəwa	wi	VERB	_	VerbForm=FutObj	0	root	_	SpaceAfter=No
+5	wi-gəwa	wi	VERB	_	_	0	root	_	NativeVerbForm=FutObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_279
@@ -3073,10 +3073,10 @@
 1	tʰər	tʰər	DET	_	Case=Acc|PronType=Dem	7	dep	_	SpaceAfter=No
 2	=na	=na	PART	_	_	7	dep	_	_
 3	htuŋ	htuŋ	NOUN	_	_	7	dep	_	_
-4	tɕagə-tɕə	tɕagə	VERB	_	VerbForm=Impf	7	dep	_	_
+4	tɕagə-tɕə	tɕagə	VERB	_	_	7	dep	_	NativeVerbForm=Impf
 5	tɕʰəma	Chuma	PROPN	_	Case=Dat	7	dep	_	SpaceAfter=No
 6	=da	=da	ADP	_	_	7	dep	_	_
-7	oχ-saŋ	oχ	VERB	_	VerbForm=Pos	0	root	_	SpaceAfter=No
+7	oχ-saŋ	oχ	VERB	_	_	0	root	_	NativeVerbForm=Pos|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_280
@@ -3093,13 +3093,13 @@
 # text = ənə gə-tɕərəlaŋ=la=nə nerə=nə χa-tɕə ke-tɕə-saŋ.
 # text[eng] = In this way, the army officers’ names came to be named.
 1	ənə	ənə	DET	_	PronType=Dem	2	det	_	_
-2	gə-tɕə	gə	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+2	gə-tɕə	gə	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 3	rəlaŋ	rəlaŋ	NOUN	_	Number=Plur	2	dep	_	SpaceAfter=No
 4	=la	=la	PART	_	_	2	dep	_	SpaceAfter=No
 5	=nə	=nə	ADP	_	_	2	dep	_	_
 6	nerə	nerə	NOUN	_	Case=Acc	2	dep	_	SpaceAfter=No
 7	=nə	=nə	ADP	_	_	2	dep	_	_
-8	χa-tɕə	χa	VERB	_	VerbForm=Impf	9	acl	_	_
+8	χa-tɕə	χa	VERB	_	_	9	acl	_	NativeVerbForm=Impf
 9	ke-tɕə-saŋ	ke	VERB	_	_	2	advcl	_	NativeVerbForm=ImpfPos|SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3111,7 +3111,7 @@
 3	natʰə	natʰə	NOUN	_	_	6	obj	_	SpaceAfter=No
 4	=ku	=ku	PART	_	_	3	dep	_	SpaceAfter=No
 5	=gə	=gə	PART	_	_	3	dep	_	_
-6	wi-saŋ	wi	VERB	_	VerbForm=Cop1SubjPos	0	root	_	SpaceAfter=No
+6	wi-saŋ	wi	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjPos|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_283
@@ -3119,10 +3119,10 @@
 # text[eng] = Performing one kamer equals (offering) one sheep.
 1	kʰamər	kʰamər	NOUN	_	_	6	nsubj	_	_
 2	nəkə	nəkə	NUM	_	_	3	nummod	_	_
-3	jiχ-sa	jiχ	VERB	_	VerbForm=Cond	6	acl	_	_
+3	jiχ-sa	jiχ	VERB	_	_	6	acl	_	NativeVerbForm=Cond
 4	ʁoni	ʁoni	NOUN	_	_	6	obj	_	_
 5	nəkə=nə	nəkə	NUM	_	_	6	nummod	_	_
-6	kʰama	bi	VERB	_	VerbForm=Cop2SubjPos	0	root	_	SpaceAfter=No
+6	kʰama	bi	VERB	_	_	0	root	_	NativeVerbForm=Cop2SubjPos|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_284
@@ -3132,7 +3132,7 @@
 2	χitʕʰu=da	χitʕʰu	ADV	_	Case=Dat	0	root	_	_
 3	ɬotʂa	ɬotʂa	NOUN	_	Case=Nom	2	parataxis	_	_
 4	datɕorn=nə	datɕorn	NOUN	_	Case=Acc	2	parataxis	_	_
-5	tɕarkə-tɕə-tɕo	tɕarkə	VERB	_	VerbForm=Impf	2	parataxis	_	SpaceAfter=No
+5	tɕarkə-tɕə-tɕo	tɕarkə	VERB	_	_	2	parataxis	_	NativeVerbForm=Impf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_285
@@ -3142,14 +3142,14 @@
 2	da	da	ADV	_	_	5	advmod	_	_
 3	jortɕə	jortɕə	PRON	_	PronType=Prs	5	obj	_	_
 4	tortɕə	tortɕə	PRON	_	PronType=Prs	5	obj	_	_
-5	χara-tɕə-tɕo	χara	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+5	χara-tɕə-tɕo	χara	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_286
 # text = pə o-tɕi.
 # text[eng] = I am going.
 1	pə	pə	PRON	_	Case=Nom|PronType=Prs	2	nsubj	_	_
-2	o-tɕi	o	VERB	_	VerbForm=ImpfSubj	0	root	_	SpaceAfter=No
+2	o-tɕi	o	VERB	_	_	0	root	_	NativeVerbForm=ImpfSubj|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_287
@@ -3158,7 +3158,7 @@
 1	tʰənnə	tʰənnə	PRON	_	PronType=Int	2	det	_	_
 2	gər	gər	NOUN	_	Case=Nom	4	nsubj	_	_
 3	anə	anə	PRON	_	Person=2|PronType=Prs	4	nmod:poss	_	_
-4	bi	bi	VERB	_	VerbForm=Cop2Subj	0	root	_	SpaceAfter=No
+4	bi	bi	VERB	_	_	0	root	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_288
@@ -3169,9 +3169,9 @@
 3	atɕaŋi	atɕaŋi	PRON	_	Person=3|PronType=Prs	6	nsubj	_	_
 4	roŋ	roŋ	ADV	_	Case=Dat	3	obl	_	SpaceAfter=No
 5	=da	=da	PART	_	_	4	mark	_	Feat=Loc
-6	o-gi	o-gi	VERB	_	VerbForm=FutSubj	8	xcomp	_	SpaceAfter=No
+6	o-gi	o-gi	VERB	_	_	8	xcomp	_	NativeVerbForm=FutSubj|SpaceAfter=No
 7	=tɕə	=tɕə	PART	_	_	6	discourse	_	_
-8	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+8	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 
 # sent_id = Bonan_grammar_289
 # text = nokə χotɕʰa məngaŋ bi.
@@ -3179,7 +3179,7 @@
 1	nokə	nokə	DET	_	PronType=Dem	2	det	_	_
 2	χotɕʰa	χotɕʰa	NOUN	_	Case=Nom	4	nsubj	_	_
 3	məngaŋ	məngaŋ	PRON	_	Person=1|PronType=Prs	4	nmod:poss	_	_
-4	bi	bi	VERB	_	VerbForm=Cop2Subj	0	root	_	SpaceAfter=No
+4	bi	bi	VERB	_	_	0	root	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_290
@@ -3197,7 +3197,7 @@
 # text[eng] = Originally you were (first place).
 1	ɕoŋgə	ɕoŋgə	ADV	_	_	3	advmod	_	_
 2	tɕʰə	tɕʰə	PRON	_	Person=2|PronType=Prs	3	nsubj	_	_
-3	ba	ba	VERB	_	VerbForm=Cop2Subj	0	root	_	SpaceAfter=No
+3	ba	ba	VERB	_	_	0	root	_	NativeVerbForm=Cop2Subj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_292
@@ -3207,7 +3207,7 @@
 2	au	au	NOUN	_	Case=Nom	5	nsubj	_	_
 3	silaŋ	silaŋ	PROPN	_	_	5	obl	_	SpaceAfter=No
 4	=da	=da	PART	_	_	3	case	_	_
-5	o-tɕo	o	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	o-tɕo	o	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_293
@@ -3217,7 +3217,7 @@
 2	pə	pə	PRON	_	Person=1|PronType=Prs	4	nmod:poss	_	_
 3	lo	lo	ADV	_	_	4	advmod	_	_
 4	kʰətʰoŋ	kʰətʰoŋ	ADJ	_	Degree=Pos	5	amod	_	_
-5	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+5	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_294
@@ -3227,7 +3227,7 @@
 2	dʐoma	dʐoma	PROPN	_	_	5	iobj	_	SpaceAfter=No
 3	=da	=da	PART	_	_	2	case	_	_
 4	jaŋgə	jaŋgə	PRON	_	PronType=Prs	5	obj	_	_
-5	oχ-tɕo	o	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+5	oχ-tɕo	o	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_295
@@ -3237,7 +3237,7 @@
 2	tɕʰənda	tɕʰənda	PRON	_	Person=2|PronType=Prs	5	obl	_	_
 3	utɕə-tɕə	utɕə	ADJ	_	Degree=Cmp	5	amod	_	_
 4	hko	hko	ADJ	_	_	5	cop	_	_
-5	wa	wa	VERB	_	VerbForm=Cop1Obj	0	root	_	SpaceAfter=No
+5	wa	wa	VERB	_	_	0	root	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_296
@@ -3246,7 +3246,7 @@
 1	nokə	nokə	DET	_	PronType=Dem	2	det	_	_
 2	χotɕʰa	χotɕʰa	NOUN	_	_	4	nsubj	_	_
 3	məngaŋ	məngaŋ	PRON	_	Person=1|PronType=Prs	2	nmod:poss	_	_
-4	ba	ba	VERB	_	VerbForm=Cop2Obj	0	root	_	SpaceAfter=No
+4	ba	ba	VERB	_	_	0	root	_	NativeVerbForm=Cop2Obj|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_297
@@ -3254,12 +3254,12 @@
 # text[eng] = Not a moment passed. He came up to me.
 1	jama	jama	NOUN	_	_	3	nsubj	_	_
 2	ələ	ələ	ADV	_	Polarity=Neg	3	advmod	_	_
-3	da-tɕi	da	VERB	_	VerbForm=ImpfSubj	0	root	_	SpaceAfter=No
+3	da-tɕi	da	VERB	_	_	0	root	_	NativeVerbForm=ImpfSubj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 5	mənnə	mənnə	PRON	_	Person=1|PronType=Prs	7	nsubj	_	_
 6	səpda	səpda	ADV	_	_	7	advmod	_	_
-7	χa-tɕə	χa	VERB	_	VerbForm=Impf	3	parataxis	_	_
-8	wa	wa	VERB	_	VerbForm=Cop1Obj	7	cop	_	SpaceAfter=No
+7	χa-tɕə	χa	VERB	_	_	3	parataxis	_	NativeVerbForm=Impf
+8	wa	wa	AUX	_	_	7	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_298
@@ -3268,8 +3268,8 @@
 1	pə	pə	PRON	_	Person=1|PronType=Prs	4	nsubj	_	_
 2	atɕaŋnə	atɕaŋnə	PRON	_	Person=3|PronType=Prs	4	nmod:poss	_	_
 3	χotɕʰa	χotɕʰa	NOUN	_	_	4	obj	_	_
-4	ʁui	ʁui	VERB	_	VerbForm=ImpfObj	0	root	_	_
-5	wa	wa	VERB	_	VerbForm=Cop1Obj	4	cop	_	SpaceAfter=No
+4	ʁui	ʁui	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj
+5	wa	wa	AUX	_	_	4	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_299
@@ -3278,10 +3278,10 @@
 1	tɕʰə	tɕʰə	PRON	_	Person=2|PronType=Prs	7	nsubj	_	_
 2	tsʰeraŋ	tsʰeraŋ	PROPN	_	_	4	nsubj	_	_
 3	roŋ	roŋ	NOUN	_	_	4	obl	_	Case=LOC
-4	χatɕə-to	χatɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+4	χatɕə-to	χatɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 5	=tɕə	=tɕə	CCONJ	_	_	4	cc	_	_
-6	kʰəl	kʰəl	VERB	_	VerbForm=ImpfObj	4	conj	_	_
-7	wa	wa	VERB	_	VerbForm=Cop1Obj	4	cop	_	SpaceAfter=No
+6	kʰəl	kʰəl	VERB	_	_	4	conj	_	NativeVerbForm=ImpfObj
+7	wa	wa	AUX	_	_	4	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_300
@@ -3293,8 +3293,8 @@
 4	dawu	dawu	ADV	_	_	3	compound	_	_
 5	pantʂurən	pantʂurən	NOUN	_	_	7	nsubj	_	_
 6	jo	jo	ADV	_	_	7	advmod	_	_
-7	χatɕə	χatɕə	VERB	_	VerbForm=ImpfObj	0	root	_	_
-8	wa	wa	VERB	_	VerbForm=Cop1Obj	7	cop	_	SpaceAfter=No
+7	χatɕə	χatɕə	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj
+8	wa	wa	AUX	_	_	7	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_301
@@ -3302,16 +3302,16 @@
 # text[eng] = He bought a gift and gave it to that pretty girl he met at school.
 1	atɕaŋ	atɕaŋ	PRON	_	Person=3|PronType=Prs	5	nsubj	_	_
 2	tsʰamdoχ	tsʰamdoχ	NOUN	_	_	5	obj	_	_
-3	ap-tɕə	ap	VERB	_	VerbForm=ImpfObj	5	conj	_	_
+3	ap-tɕə	ap	VERB	_	_	5	conj	_	NativeVerbForm=ImpfObj
 4	ɬoptɕa	ɬoptɕa	NOUN	_	_	7	obl	_	Case=LOC
 5	naŋda	naŋda	ADP	_	_	7	obl	_	_
-6	nərme-saŋ	nərme	VERB	_	VerbForm=PerfNmlz	7	acl	_	_
+6	nərme-saŋ	nərme	VERB	_	_	7	acl	_	NativeVerbForm=PerfNmlz
 7	aku	aku	NOUN	_	_	0	root	_	_
 8	jaksa	jaksa	ADJ	_	_	9	amod	_	_
 9	gə	gə	PRON	_	PronType=Prs	7	obj	_	_
-10	wi=ku	wi	VERB	_	VerbForm=ImpfNmlz	7	ccomp	_	_
+10	wi=ku	wi	VERB	_	_	7	ccomp	_	NativeVerbForm=ImpfNmlz
 11	tʰər=da	tʰər	ADP	_	_	10	obl	_	Case=LOC
-12	oχ-tɕo	oχ	VERB	_	VerbForm=ImpfObj	10	conj	_	SpaceAfter=No
+12	oχ-tɕo	oχ	VERB	_	_	10	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_302
@@ -3322,7 +3322,7 @@
 3	wi-sa	wi	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjCond
 4	da	also	ADV	_	_	3	advmod	_	_
 5	gomərəlaŋ	Gomerelang	PROPN	_	_	3	obj	_	_
-6	wa	wa	VERB	_	VerbForm=Cop1Obj	3	cop	_	SpaceAfter=No
+6	wa	wa	AUX	_	_	3	cop	_	NativeVerbForm=Cop1Obj|SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_303
@@ -3330,7 +3330,7 @@
 # text[eng] = Which (clan animal) are we?
 1	maŋgə	1PL.INCL.COLL	PRON	_	Person=1|PronType=Prs	3	nsubj	_	_
 2	anə	which	DET	_	PronType=Dem	3	det	_	_
-3	bi-saŋ	bi	VERB	_	VerbForm=Cop2SubjPos	0	root	_	SpaceAfter=No
+3	bi-saŋ	bi	VERB	_	_	0	root	_	NativeVerbForm=Cop2SubjPos|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_304
@@ -3338,7 +3338,7 @@
 # text[eng] = Jiashi is a Tibetan.
 1	tɕaɕi	Jiashi	PROPN	_	_	3	nsubj	_	_
 2	wəldə	Tibetan	ADJ	_	_	3	acl	_	_
-3	bi-saŋ	bi	VERB	_	VerbForm=Cop2SubjPos	0	root	_	SpaceAfter=No
+3	bi-saŋ	bi	VERB	_	_	0	root	_	NativeVerbForm=Cop2SubjPos|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_305
@@ -3347,25 +3347,25 @@
 1	atɕaŋda	3SG.LOC	PRON	_	Person=3|PronType=Prs	4	nsubj	_	_
 2	ɕaʑə	child	NOUN	_	_	4	obj	_	_
 3	taun	five	NUM	_	_	2	nummod	_	_
-4	wi-saŋ	wi	VERB	_	VerbForm=Cop1SubjPos	0	root	_	SpaceAfter=No
+4	wi-saŋ	wi	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjPos|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_306
 # text = tʰər çi-sa ənə tsʰowa~tsʰowa gə=tɕə ər wa-sa kʰəri tsʰowa=da natʰə-la-tɕə kʰər-saŋ ço.
 # text[eng] = If it weren’t for that, there wouldn’t be any of (this) every single clan coming to dance for a particular clan.
 1	tʰər	that	PRON	_	PronType=Prs	2	det	_	_
-2	çi-sa	NEG.COP2.SUBJ-COND	VERB	_	VerbForm=Cond	0	root	_	_
+2	çi-sa	NEG.COP2.SUBJ-COND	VERB	_	_	0	root	_	NativeVerbForm=Cond
 3	ənə	this	DET	_	PronType=Dem	5	det	_	_
 4	tsʰowa~tsʰowa	clan~clan	NOUN	_	_	5	compound	_	_
 5	gə	SG.INDEF	NUM	_	_	2	nsubj	_	SpaceAfter=No
 6	=tɕə	and	CCONJ	_	_	5	cc	_	_
 7	ər	come	VERB	_	_	2	advcl	_	NativeVerbForm=Cop1ObjCond
-8	wa-sa	COP1-OBJ-COND	VERB	_	_	7	aux	_	_
+8	wa-sa	COP1-OBJ-COND	AUX	_	_	7	aux	_	_
 9	kʰəri	particular	ADJ	_	_	11	amod	_	_
 10	tsʰowa	clan	NOUN	_	_	11	compound	_	SpaceAfter=No
 11	=da	LOC	ADP	_	_	7	obl	_	_
 12	natʰə-la-tɕə	dance-PURP-IMPF	VERB	_	_	11	acl	_	_
-13	kʰər-saŋ	be.required-PERF.NMLZ	VERB	_	_	11	aux	_	_
+13	kʰər-saŋ	be.required-PERF.NMLZ	AUX	_	_	11	aux	_	_
 14	ço	NEG.COP2.OBJ	ADV	_	_	2	advmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3387,7 +3387,7 @@
 3	tɕʰəχaŋnaŋ	time	NOUN	_	_	4	obl	_	_
 4	pə	1SG	PRON	_	Person=1|PronType=Prs	0	root	_	_
 5	kela	sleep	VERB	_	_	4	acl	_	_
-6	su-tɕi	stay-IMPF.SUBJ	VERB	_	_	5	aux	_	SpaceAfter=No
+6	su-tɕi	stay-IMPF.SUBJ	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_309
@@ -3400,7 +3400,7 @@
 5	tɕʰəχaŋnaŋ	time	NOUN	_	_	4	obl	_	_
 6	pə	1SG	PRON	_	Person=1|PronType=Prs	7	nsubj	_	_
 7	welə-gə	work-VBZ	VERB	_	_	4	acl	_	_
-8	su-tɕi	stay-IMPF.SUBJ	VERB	_	_	7	aux	_	SpaceAfter=No
+8	su-tɕi	stay-IMPF.SUBJ	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_310
@@ -3411,7 +3411,7 @@
 3	hko	big	ADJ	_	_	2	amod	_	SpaceAfter=No
 4	=gə	SG.INDEF	NUM	_	_	2	det	_	_
 5	war	hold	VERB	_	_	0	root	_	_
-6	su-tɕo	stay-IMPF.OBJ	VERB	_	_	5	aux	_	SpaceAfter=No
+6	su-tɕo	stay-IMPF.OBJ	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_311
@@ -3432,10 +3432,10 @@
 # text[eng] = I finished working, then I had dinner.
 1	pə	1SG	PRON	_	Person=1|PronType=Prs	2	nsubj	_	_
 2	welə-gə	work-VBZ	VERB	_	_	4	acl	_	_
-3	war-tɕə	hold-IMPF	VERB	_	_	2	aux	_	_
+3	war-tɕə	hold-IMPF	AUX	_	_	2	aux	_	_
 4	tɕʰa	tea	NOUN	_	_	5	obj	_	_
 5	u	drink	VERB	_	_	0	root	_	_
-6	wa	COP1.OBJ	VERB	_	_	5	aux	_	SpaceAfter=No
+6	wa	COP1.OBJ	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_313
@@ -3446,7 +3446,7 @@
 3	kʰoju	spoken.language	NOUN	_	_	5	obj	_	_
 4	oloŋ	many	ADJ	_	_	3	amod	_	_
 5	ɕaŋ=gə	COP1.OBJ=SG.INDEF	VERB	_	_	0	root	_	_
-6	wa	COP1.OBJ	VERB	_	_	5	aux	_	SpaceAfter=No
+6	wa	COP1.OBJ	AUX	_	_	5	aux	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_314
@@ -3459,7 +3459,7 @@
 5	pantʂurən	class.teacher	NOUN	_	_	6	nsubj	_	_
 6	jo	arrive	VERB	_	_	0	root	_	_
 7	χa-tɕə	again	ADV	_	_	6	advmod	_	_
-8	wa	COP1.OBJ	VERB	_	_	6	aux	_	SpaceAfter=No
+8	wa	COP1.OBJ	AUX	_	_	6	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_315
@@ -3474,14 +3474,14 @@
 # sent_id = Bonan_grammar_316
 # text = atɕaŋ χənə tʕʰorhtən welə-kə-tɕə ke-tɕə=ku naŋda su tɕo.
 # text[eng] = He lives in (the one) where (they’re) building the new stupa.
-1	atɕaŋ	3SG	PRON	_	PronType=Prs	9	nsubj	_	_
+1	atɕaŋ	3SG	PRON	_	PronType=Prs	7	nsubj	_	_
 2	χənə	new	ADJ	_	_	3	amod	_	_
 3	tʕʰorhtən	stupa	NOUN	_	_	7	obj	_	_
 4	welə-kə-tɕə	work-VBZ-IMPF	VERB	_	_	7	acl	_	_
-5	ke-tɕə=ku	put-IMPF=IMPF.NMLZ	VERB	_	_	7	aux	_	_
+5	ke-tɕə=ku	put-IMPF=IMPF.NMLZ	AUX	_	_	7	aux	_	_
 6	naŋda	in	ADP	_	_	7	case	_	_
 7	su	stay	VERB	_	_	0	root	_	_
-8	tɕo	PERF	VERB	_	_	7	aux	_	SpaceAfter=No
+8	tɕo	PERF	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_317
@@ -3518,7 +3518,7 @@
 6	ana	ana	NOUN	_	_	10	dep	_	_
 7	seŋgu	seŋgu	PROPN	_	_	10	dep	_	SpaceAfter=No
 8	=da	=da	PART	_	_	10	dep	_	_
-9	ap-tɕə	ap-tɕə	VERB	_	VerbForm=Impf	10	acl	_	_
+9	ap-tɕə	ap-tɕə	VERB	_	_	10	acl	_	NativeVerbForm=Impf
 10	ər-əʁa-saŋ	ər-əʁa-saŋ	VERB	_	_	0	root	_	NativeVerbForm=CausPos|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
 
@@ -3576,7 +3576,7 @@
 4	ər-sa	come-COND	VERB	_	_	3	acl:relcl	_	_
 5	jaŋ-kə-tɕə	what-VBZ-IMPF	PRON	_	PronType=Prs	6	obj	_	_
 6	kʰəl-də	say-IMP	VERB	_	_	4	conj	_	_
-7	tʰəke-saŋ	permit-POS	VERB	_	_	6	aux	_	SpaceAfter=No
+7	tʰəke-saŋ	permit-POS	AUX	_	_	6	aux	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_326
@@ -3589,7 +3589,7 @@
 5	χamdə	together	ADV	_	_	6	advmod	_	_
 6	hkuraŋ=gə	circle=SG.INDEF	NOUN	_	_	0	root	_	_
 7	jiχ-sa	do-COND	VERB	_	_	6	acl	_	_
-8	tʰəke-saŋ	permit-POS	VERB	_	_	7	aux	_	SpaceAfter=No
+8	tʰəke-saŋ	permit-POS	AUX	_	_	7	aux	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_327
@@ -3680,9 +3680,9 @@
 # sent_id = Bonan_grammar_337
 # text = aku=ʁala çuru=nə nəkə~nəkə kʰada jiχ(-tɕʰe)-tɕo.
 # text[eng] = The (two) girls threw mud on each other.
-1	aku=ʁala	girl=DU	PROPN	_	_	6	nsubj	_	_
-2	çuru=nə	dirt=ACC	NOUN	_	_	6	obj	_	_
-3	nəkə~nəkə	one~one	PRON	_	PronType=Prs	6	obl	_	_
+1	aku=ʁala	girl=DU	PROPN	_	_	5	nsubj	_	_
+2	çuru=nə	dirt=ACC	NOUN	_	_	5	obj	_	_
+3	nəkə~nəkə	one~one	PRON	_	PronType=Prs	5	obl	_	_
 4	kʰada	on	ADP	_	_	3	case	_	_
 5	jiχ(-tɕʰe)-tɕo	hit(-RECP)-IMPF.OBJ	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -3723,7 +3723,7 @@
 1	aku=ʁala	aku=ʁala	PROPN	_	Gender=Fem|Number=Dual	4	nsubj	_	_
 2	atɕaŋʁalanə	atɕaŋʁalanə	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Dual|Person[psor]=3|Poss=Yes	4	obl	_	_
 3	kʰətʰə=la=də	kʰətʰə=la=də	NOUN	_	Case=Dat|Number=Plur|Number[psor]=Dual|Person[psor]=3|Poss=Yes	4	obl	_	_
-4	o-tɕʰe-tɕo	o-tɕʰe-tɕo	VERB	_	VerbForm=Impf|Voice=Rcp	0	root	_	SpaceAfter=No
+4	o-tɕʰe-tɕo	o-tɕʰe-tɕo	VERB	_	Voice=Rcp	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_342
@@ -3915,9 +3915,9 @@
 # sent_id = Bonan_grammar_363
 # text = atɕaŋ mənda htema de-ʁa-tɕo.
 # text[eng] = She feeds me bread.
-1	atɕaŋ	3SG	PRON	_	PronType=Prs	5	nsubj	_	_
-2	mənda	1SG.LOC	PRON	_	PronType=Prs	5	iobj	_	_
-3	htema	bread	NOUN	_	_	5	obj	_	_
+1	atɕaŋ	3SG	PRON	_	PronType=Prs	4	nsubj	_	_
+2	mənda	1SG.LOC	PRON	_	PronType=Prs	4	iobj	_	_
+3	htema	bread	NOUN	_	_	4	obj	_	_
 4	de-ʁa-tɕo	eat-CAUS-IMPF.OBJ	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4000,9 +4000,9 @@
 # sent_id = Bonan_grammar_373
 # text = kʰətʰə χəpgə-ʁa-sa rakə oχ-tɕi-gə.
 # text[eng] = If (one) invited (him) to one’s home, (one) would give (him) alcohol.
-1	kʰətʰə	home	NOUN	_	_	5	obl	_	_
-2	χəpgə-ʁa-sa	come-CAUS-COND	VERB	_	_	5	mark	_	_
-3	rakə	alcohol	NOUN	_	_	5	obj	_	_
+1	kʰətʰə	home	NOUN	_	_	4	obl	_	_
+2	χəpgə-ʁa-sa	come-CAUS-COND	VERB	_	_	4	mark	_	_
+3	rakə	alcohol	NOUN	_	_	4	obj	_	_
 4	oχ-tɕi-gə	give-IMPF.SUBJ-POS	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4045,9 +4045,9 @@
 4	jortɕə	here	ADV	_	_	10	advmod	_	_
 5	aː	hesitation	PART	_	_	10	discourse	_	_
 6	saŋ	offering	NOUN	_	_	10	nsubj	_	_
-7	ki-sa	NEG.COP1.SUBJ-COND	VERB	_	_	10	cop	_	_
+7	ki-sa	NEG.COP1.SUBJ-COND	AUX	_	_	10	cop	_	_
 8	tʕʰopa	food.offering	NOUN	_	_	10	nsubj	_	_
-9	ki-sa	NEG.COP1.SUBJ-COND	VERB	_	_	10	cop	_	_
+9	ki-sa	NEG.COP1.SUBJ-COND	AUX	_	_	10	cop	_	_
 10	da	also	ADV	_	_	0	root	_	_
 11	natʰə-tɕə=ku	dance-IMPF=IMPF.NMLZ	VERB	_	_	10	xcomp	_	_
 12	χani	all	DET	_	PronType=Dem	11	det	_	_
@@ -4136,10 +4136,10 @@
 2	o-saŋ=NƏ	go-PERF.NMLZ=ACC	VERB	_	_	5	advcl	_	_
 3	tɕu	exam	NOUN	_	_	6	obj	_	_
 4	ap-saŋ	take-PERF.NMLZ	VERB	_	_	6	xcomp	_	_
-5	ɬaoʂi	teacher	NOUN	_	_	10	nsubj	_	_
+5	ɬaoʂi	teacher	NOUN	_	_	9	nsubj	_	_
 6	χani=la	all=PL	DET	_	PronType=Dem	5	det	_	_
-7	nər=NƏ	face=ACC	NOUN	_	_	10	obj	_	_
-8	tɕəmaŋgə	a.little	ADV	_	_	10	advmod	_	_
+7	nər=NƏ	face=ACC	NOUN	_	_	9	obj	_	_
+8	tɕəmaŋgə	a.little	ADV	_	_	9	advmod	_	_
 9	medə-na	know-DUR	VERB	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -4189,9 +4189,9 @@
 # sent_id = Bonan_grammar_391
 # text = ɕoŋjisa atɕaŋla ələ odə-m.
 # text[eng] = They don’t usually go.
-1	ɕoŋjisa	originally	ADV	_	_	5	advmod	_	_
-2	atɕaŋla	3PL	PRON	_	PronType=Prs	5	nsubj	_	_
-3	ələ	NEG	PART	_	_	5	advmod	_	_
+1	ɕoŋjisa	originally	ADV	_	_	4	advmod	_	_
+2	atɕaŋla	3PL	PRON	_	PronType=Prs	4	nsubj	_	_
+3	ələ	NEG	PART	_	_	4	advmod	_	_
 4	odə-m	go-NARR	VERB	_	_	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -4203,7 +4203,7 @@
 3	ələ	ələ	PART	_	_	5	advmod	_	_
 4	medə-m	medə-m	VERB	_	Mood=Ind|VerbForm=Fin	5	ccomp	_	SpaceAfter=No
 5	=	tɕə	PART	_	_	6	discourse	_	_
-6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_394
@@ -4218,10 +4218,10 @@
 # text = ələ pʰitɕə-tɕə naptə o-gə ço.
 # text[eng] = It's not okay (for me) not to write (it).
 1	ələ	ələ	PART	_	Polarity=Neg	2	advmod	_	_
-2	pʰitɕə-tɕə	pʰitɕə-tɕə	VERB	_	VerbForm=Impf	0	root	_	_
+2	pʰitɕə-tɕə	pʰitɕə-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf
 3	naptə	naptə	NOUN	_	_	2	obj	_	_
-4	o-gə	o-gə	VERB	_	VerbForm=Fut	2	xcomp	_	_
-5	ço	ço	AUX	_	Polarity=Neg|VerbForm=Cop2	2	cop	_	SpaceAfter=No
+4	o-gə	o-gə	VERB	_	_	2	xcomp	_	NativeVerbForm=Fut
+5	ço	ço	AUX	_	Polarity=Neg	2	cop	_	NativeVerbForm=Cop2|SpaceAfter=No
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_396
@@ -4268,22 +4268,22 @@
 # sent_id = Bonan_grammar_400
 # text = noŋʁarhte pə silaŋ=da əsə o-to.
 # text[eng] = I didn’t go to Xining this morning.
-1	noŋʁarhte	this.morning	ADV	_	_	6	advmod	_	_
-2	pə	1SG	PRON	_	PronType=Prs	6	nsubj	_	_
-3	silaŋ=da	Xining=LOC	PROPN	_	_	6	obl	_	_
-4	əsə	NEG	PART	_	_	6	advmod	_	_
+1	noŋʁarhte	this.morning	ADV	_	_	5	advmod	_	_
+2	pə	1SG	PRON	_	PronType=Prs	5	nsubj	_	_
+3	silaŋ=da	Xining=LOC	PROPN	_	_	5	obl	_	_
+4	əsə	NEG	PART	_	_	5	advmod	_	_
 5	o-to	go-PERF	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_401
 # text = pə dʐoma jaŋgə ʁali-tɕə=ku=nə əsə med-o.
 # text[eng] = I didn’t know what Droma was looking at.
-1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 2	dʐoma	dʐoma	PROPN	_	_	4	nsubj	_	_
 3	jaŋgə	jaŋgə	PRON	_	PronType=Prs	4	obj	_	_
-4	ʁali-tɕə=ku=nə	ʁali-tɕə=ku=nə	VERB	_	VerbForm=ImpfNmlz	7	ccomp	_	_
-5	əsə	əsə	PART	_	_	7	advmod	_	_
-6	med-o	med-o	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+4	ʁali-tɕə=ku=nə	ʁali-tɕə=ku=nə	VERB	_	_	6	ccomp	_	NativeVerbForm=ImpfNmlz
+5	əsə	əsə	PART	_	_	6	advmod	_	_
+6	med-o	med-o	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_402
@@ -4300,7 +4300,7 @@
 9	laoʂi	laoʂi	NOUN	_	_	12	nsubj	_	_
 10	mənda	mənda	PRON	_	PronType=Prs	12	iobj	_	_
 11	dʐəsi	dʐəsi	NOUN	_	_	12	obj	_	_
-12	asaχ-tɕo	asaχ-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+12	asaχ-tɕo	asaχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = Bonan_grammar_403
@@ -4317,10 +4317,10 @@
 # text = əsə orə-sa dʐoŋtɕa=la χuo-gəwa.
 # text[eng] = If it doesn’t rain, the crops will wither.
 1	əsə	əsə	PART	_	_	2	advmod	_	_
-2	orə-sa	orə-sa	VERB	_	VerbForm=Cond	5	advcl	_	_
+2	orə-sa	orə-sa	VERB	_	_	5	advcl	_	NativeVerbForm=Cond
 3	dʐoŋtɕa	dʐoŋtɕa	NOUN	_	_	5	nsubj	_	SpaceAfter=No
 4	=la	=la	PART	_	_	3	case	_	_
-5	χuo-gəwa	χuo-gəwa	VERB	_	VerbForm=FutObj	0	root	_	SpaceAfter=No
+5	χuo-gəwa	χuo-gəwa	VERB	_	_	0	root	_	NativeVerbForm=FutObj|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_405
@@ -4540,13 +4540,13 @@
 # text[eng] = Once (I) passed the test, again (my) mother and father (said), "when you go to school, don't compare (your) food and clothing to (other) students"...
 1	dʐiχ	dʐiχ	NOUN	_	_	3	nsubj	_	_
 2	tɕʰoχgə	tɕʰoχgə	VERB	_	_	3	compound	_	_
-3	war-tɕə	war-tɕə	VERB	_	VerbForm=Impf	0	root	_	_
+3	war-tɕə	war-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Impf
 4	jaŋ	jaŋ	ADV	_	_	3	advmod	_	_
 5	papa	papa	NOUN	_	_	6	nsubj	_	_
 6	anə=ʁala	anə=ʁala	PROPN	_	_	3	conj	_	_
 7	ɬoptɕa	ɬoptɕa	NOUN	_	_	9	obl	_	_
 8	naŋda	naŋda	ADP	_	_	7	case	_	_
-9	o-tɕə	o-tɕə	VERB	_	VerbForm=Impf	3	ccomp	_	_
+9	o-tɕə	o-tɕə	VERB	_	_	3	ccomp	_	NativeVerbForm=Impf
 10	mərku=tɕə	mərku=tɕə	NOUN	_	Case=Acc	14	obj	_	_
 11	deku=nə	deku=nə	NOUN	_	Case=Acc	14	obj	_	_
 12	ɬoma=la=da	ɬoma=la=da	NOUN	_	Case=Dat|Number=Plur	14	obl	_	_
@@ -4609,7 +4609,7 @@
 4	ənda	here	ADV	_	_	1	obl	_	_
 5	tʰər	that	DET	_	PronType=Dem	6	det	_	_
 6	jantɕʰada	before	ADV	_	_	1	advmod	_	_
-7	wa	COP1.OBJ	VERB	_	_	1	cop	_	SpaceAfter=No
+7	wa	COP1.OBJ	AUX	_	_	1	cop	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Bonan_grammar_433
@@ -4636,8 +4636,8 @@
 6	kʰamər	ceremonial.skewer	NOUN	_	_	5	obj	_	_
 7	jiχ=ku	time	ADV	_	_	6	obl	_	_
 8	tɕʰəχaŋnaŋ	harm	VERB	_	_	5	xcomp	_	_
-9	nopʰa	will	VERB	_	_	8	aux	_	_
-10	wi	COP1.SUBJ	VERB	_	_	5	cop	_	SpaceAfter=No
+9	nopʰa	will	AUX	_	_	8	aux	_	_
+10	wi	COP1.SUBJ	AUX	_	_	5	cop	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_435
@@ -4652,9 +4652,9 @@
 # sent_id = Bonan_grammar_436
 # text = tɕaɕi daŋ dʐama=ʁala=nə htɕida su-tɕo.
 # text[eng] = Jiashi is sitting between the door and the window.
-1	tɕaɕi	Jiashi	PROPN	_	_	6	nsubj	_	_
-2	daŋ	door	NOUN	_	_	6	obl	_	_
-3	dʐama=ʁala=nə	window=DU=ACC	NOUN	_	_	6	obl	_	_
+1	tɕaɕi	Jiashi	PROPN	_	_	5	nsubj	_	_
+2	daŋ	door	NOUN	_	_	5	obl	_	_
+3	dʐama=ʁala=nə	window=DU=ACC	NOUN	_	_	5	obl	_	_
 4	htɕida	between	ADP	_	_	2	case	_	_
 5	su-tɕo	stay-IMPF.OBJ	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -4677,11 +4677,11 @@
 2	sanə	sanə	ADV	_	_	3	advmod	_	_
 3	mortɕə	mortɕə	NOUN	_	_	9	nsubj	_	_
 4	dewa=gə	dewa	DET	_	PronType=Dem	3	det	_	_
-5	ər-tɕə	ər-tɕə	VERB	_	VerbForm=Impf	9	dep	_	_
-6	natʰə-sa	natʰə-sa	VERB	_	VerbForm=Cond	9	dep	_	_
+5	ər-tɕə	ər-tɕə	VERB	_	_	9	dep	_	NativeVerbForm=Impf
+6	natʰə-sa	natʰə-sa	VERB	_	_	9	dep	_	NativeVerbForm=Cond
 7	tʰər	tʰər	DET	_	PronType=Dem	9	det	_	_
 8	napdə	napdə	ADJ	_	_	9	amod	_	_
-9	o-saŋ	o-saŋ	VERB	_	VerbForm=Pos	0	root	_	_
+9	o-saŋ	o-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Pos
 10	ço	ço	PART	_	_	9	advmod	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -4689,13 +4689,13 @@
 # text = məχ χun=tɕə ur=ku sanə kəri ʑanba hko=gə də=ku ço.
 # text[eng] = Besides calling (them) “army officer”, there is no way of calling (them) anything higher.
 1	məχ	məχ	NOUN	_	_	2	obj	_	_
-2	χun=tɕə	χun=tɕə	VERB	_	VerbForm=Impf	3	acl	_	Quot=Yes
-3	ur=ku	ur=ku	VERB	_	VerbForm=ImpfNmlz	8	advcl	_	_
+2	χun=tɕə	χun=tɕə	VERB	_	_	3	acl	_	NativeVerbForm=Impf|Quot=Yes
+3	ur=ku	ur=ku	VERB	_	_	8	advcl	_	NativeVerbForm=ImpfNmlz
 4	sanə	sanə	ADV	_	_	3	advmod	_	_
 5	kəri	kəri	ADV	_	_	6	advmod	_	_
 6	ʑanba	ʑanba	ADJ	_	_	7	amod	_	_
-7	hko=gə	hko=gə	VERB	_	VerbForm=ImpfNmlz	8	xcomp	_	_
-8	də=ku	də=ku	VERB	_	VerbForm=Cop1SubjPos	0	root	_	_
+7	hko=gə	hko=gə	VERB	_	_	8	xcomp	_	NativeVerbForm=ImpfNmlz
+8	də=ku	də=ku	VERB	_	_	0	root	_	NativeVerbForm=Cop1SubjPos
 9	ço	ço	PART	_	_	8	advmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -4703,12 +4703,12 @@
 # text = pə ʁalʁa=ku o-saŋ=nə rəta mənnə nerə çəwa-tɕo.
 # text[eng] = While I was happy; it was not my name.
 1	pə	pə	PRON	_	PronType=Prs	3	nsubj	_	_
-2	ʁalʁa=ku	ʁalʁa=ku	ADJ	_	VerbForm=ImpfNmlz	3	advcl	_	_
-3	o-saŋ=nə	o-saŋ=nə	VERB	_	Case=Acc|VerbForm=PerfNmlz	7	advcl	_	_
+2	ʁalʁa=ku	ʁalʁa=ku	ADJ	_	_	3	advcl	_	NativeVerbForm=ImpfNmlz
+3	o-saŋ=nə	o-saŋ=nə	VERB	_	Case=Acc	7	advcl	_	NativeVerbForm=PerfNmlz
 4	rəta	rəta	ADV	_	_	3	mark	_	_
 5	mənnə	mənnə	PRON	_	Case=Gen|PronType=Prs	6	nmod:poss	_	_
 6	nerə	nerə	NOUN	_	_	7	nsubj	_	_
-7	çəwa-tɕo	çəwa-tɕo	VERB	_	Polarity=Neg|VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+7	çəwa-tɕo	çəwa-tɕo	VERB	_	Polarity=Neg	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_441
@@ -4737,7 +4737,7 @@
 2	derə	on	ADP	_	_	1	case	_	_
 3	əpsun	grass	NOUN	_	_	4	nsubj	_	_
 4	wor	grow	VERB	_	_	0	root	_	_
-5	su-tɕo	stay-IMPF.OBJ	VERB	_	_	4	aux	_	SpaceAfter=No
+5	su-tɕo	stay-IMPF.OBJ	AUX	_	_	4	aux	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_444
@@ -4789,8 +4789,8 @@
 # sent_id = Bonan_grammar_449
 # text = alma=nə naŋda ke-də.
 # text[eng] = Put the fruit inside.
-1	alma=nə	fruit=ACC	NOUN	_	_	4	obj	_	_
-2	naŋda	in	ADP	_	_	4	obl	_	_
+1	alma=nə	fruit=ACC	NOUN	_	_	3	obj	_	_
+2	naŋda	in	ADP	_	_	3	obl	_	_
 3	ke-də	put-IMP	VERB	_	_	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -4872,9 +4872,9 @@
 1	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	6	nsubj	_	_
 2	dzəjal=nə	dzəjal	NOUN	_	Case=Acc	6	obj	_	_
 3	gaga	gaga	NOUN	_	_	4	nsubj	_	_
-4	welə-gə-saŋ	welə-gə-saŋ	VERB	_	VerbForm=PerfNmlz	5	acl:relcl	_	_
+4	welə-gə-saŋ	welə-gə-saŋ	VERB	_	_	5	acl:relcl	_	NativeVerbForm=PerfNmlz
 5	derə	derə	ADP	_	_	6	obl	_	_
-6	ke-tɕo	ke-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	ke-tɕo	ke-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_459
@@ -4892,7 +4892,7 @@
 3	χənə	χənə	ADJ	_	_	4	amod	_	_
 4	tɕʰaka	tɕʰaka	NOUN	_	_	6	obl	_	_
 5	derə	derə	ADP	_	_	4	case	_	_
-6	ke-tɕo	ke-tɕo	VERB	_	VerbForm=ImpfObj	0	root	_	SpaceAfter=No
+6	ke-tɕo	ke-tɕo	VERB	_	_	0	root	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_461
@@ -6081,7 +6081,7 @@
 3	samtəχ	samtəχ	NOUN	_	Definite=Ind|Number=Sing	5	obj	_	_
 4	oχ	oχ	VERB	_	Aspect=Imp|VerbForm=Ger	7	xcomp	_	Nominalized=Yes
 5	taraŋ	taraŋ	NOUN	_	_	7	obj	_	_
-6	ər	ər	VERB	_	Mood=Ind|VerbForm=Fin	7	aux	_	NativeAspect=Dur
+6	ər	ər	AUX	_	Mood=Ind|VerbForm=Fin	7	aux	_	NativeAspect=Dur
 7	na	na	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -6337,7 +6337,7 @@
 3	htema	htema	NOUN	_	_	4	obj	_	_
 4	de	de	VERB	_	VerbForm=Inf	5	xcomp	_	_
 5	kʰər	kʰər	VERB	_	Aspect=Perf|Mood=Nec	6	ccomp	_	Quot=Yes
-6	kʰapda	kʰapda	VERB	_	Aspect=Imp|VerbForm=VBZ	0	root	_	_
+6	kʰapda	kʰapda	VERB	_	Aspect=Imp	0	root	_	NativeVerbForm=VBZ
 7	htema	htema	NOUN	_	_	8	obj	_	_
 8	de	de	VERB	_	Aspect=Imp|Polarity=Obj|Voice=Cau	6	xcomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
@@ -6349,7 +6349,7 @@
 2	ɬotɕa	ɬotɕa	NOUN	_	Case=Acc	5	obj	_	_
 3	ɬoʂi	ɬoʂi	NOUN	_	Number=Plur	5	nsubj	_	_
 4	mənda	mənda	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	_
-5	ɕuan	ɕuan	VERB	_	Aspect=Perf|VerbForm=VBZ	0	root	_	SpaceAfter=No|Quot=Yes
+5	ɕuan	ɕuan	VERB	_	Aspect=Perf	0	root	_	NativeVerbForm=VBZ|Quot=Yes|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_597
@@ -6369,7 +6369,7 @@
 # text[eng] = (I/we said), “we are choosing you”.
 1	pətəla	pətəla	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	tcʰənda	tcʰənda	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	3	obj	_	_
-3	ɕuan	ɕuan	VERB	_	Aspect=Imp|VerbForm=VBZ	0	root	_	SpaceAfter=No|Quot=Yes
+3	ɕuan	ɕuan	VERB	_	Aspect=Imp	0	root	_	NativeVerbForm=VBZ|Quot=Yes|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_599
@@ -6547,7 +6547,7 @@
 1	øi	øi	PRON	_	Number=Plur|Person=2|PronType=Prs	5	nsubj	_	_
 2	kʰoldaku	kʰoldaku	ADV	_	_	5	advmod	_	Collective=Yes
 3	øi	øi	PRON	_	Number=Plur|Person=2|PronType=Prs	4	nsubj	_	_
-4	tɕʰaɲum	tɕʰaɲum	VERB	_	Aspect=Imp|VerbForm=VBZ	5	advcl	_	_
+4	tɕʰaɲum	tɕʰaɲum	VERB	_	Aspect=Imp	5	advcl	_	NativeVerbForm=VBZ
 5	mər	mər	VERB	_	VerbForm=Inf	6	xcomp	_	_
 6	kʰər	kʰər	VERB	_	Mood=Nec	0	root	_	NativeAspect=Dur|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -6584,7 +6584,7 @@
 # text = ula kʰeχue kʰəl tʕəkələm.
 # text[eng] = On the mountain, a meeting is held and rules are stated.
 1	ula	ula	NOUN	_	Case=Dat	2	obl	_	_
-2	kʰeχue	kʰeχue	VERB	_	Aspect=Imp|VerbForm=VBZ	0	root	_	_
+2	kʰeχue	kʰeχue	VERB	_	Aspect=Imp	0	root	_	NativeVerbForm=VBZ
 3	kʰəl	kʰəl	VERB	_	Aspect=Imp	2	conj	_	_
 4	tʕəkələm	tʕəkələm	NOUN	_	Case=Acc	3	obj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	2	punct	_	_
@@ -6667,11 +6667,11 @@
 # text = pə o-sa kʰətʰə o-tɕə tʕiatʂaŋ kʰəl.
 # text[eng] = If I was going to go, I was to go home and talk to my parents.
 1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	o-sa	o-sa	VERB	_	VerbForm=VBZ	3	advmod	_	AspectOrig=Cond
+2	o-sa	o-sa	VERB	_	_	3	advmod	_	AspectOrig=Cond|NativeVerbForm=VBZ
 3	kʰətʰə	kʰətʰə	NOUN	_	_	6	obl	_	_
 4	o-tɕə	o-tɕə	VERB	_	Aspect=Imp	6	conj	_	_
 5	tʕiatʂaŋ	tʕiatʂaŋ	NOUN	_	Case=Dat	6	obj	_	_
-6	kʰəl	kʰəl	VERB	_	Aspect=Imp|VerbForm=VBZ	0	root	_	SpaceAfter=No
+6	kʰəl	kʰəl	VERB	_	Aspect=Imp	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_625
@@ -6680,7 +6680,7 @@
 1	talo	talo	NOUN	_	_	3	obl	_	_
 2	naŋda	naŋda	ADP	_	_	1	case	_	_
 3	noʁi	noʁi	NOUN	_	_	6	nsubj	_	_
-4	doχ-kə-sa	doχ-kə-sa	VERB	_	VerbForm=VBZ	6	acl	_	AspectOrig=Cond
+4	doχ-kə-sa	doχ-kə-sa	VERB	_	_	6	acl	_	AspectOrig=Cond|NativeVerbForm=VBZ
 5	hkamo	hkamo	ADJ	_	_	6	xcomp	_	_
 6	wa	wa	AUX	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -6701,9 +6701,9 @@
 3	ol-sa	ol-sa	VERB	_	_	4	advmod	_	AspectOrig=Cond
 4	maba	maba	NOUN	_	_	7	obj	_	_
 5	gə	gə	ADP	_	_	4	case	_	_
-6	htɕər	htɕər	VERB	_	Aspect=Imp|VerbForm=VBZ	7	xcomp	_	_
+6	htɕər	htɕər	VERB	_	Aspect=Imp	7	xcomp	_	NativeVerbForm=VBZ
 7	taraŋ	taraŋ	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	_
-8	ər	ər	VERB	_	Aspect=Perf	6	aux	_	SpaceAfter=No
+8	ər	ər	AUX	_	Aspect=Perf	6	aux	_	SpaceAfter=No
 9	-tɕo	tɕo	AUX	_	_	7	aux	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -6726,7 +6726,7 @@
 1	mannə	mannə	PRON	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
 2	ɲəntʰoχ	ɲəntʰoχ	PROPN	_	_	5	nsubj	_	_
 3	ma	ma	PART	_	_	5	discourse	_	_
-4	ji-sa	ji-sa	VERB	_	VerbForm=Cond	5	cop	_	NativePolarity=COP2
+4	ji-sa	ji-sa	AUX	_	_	5	cop	_	NativePolarity=COP2|NativeVerbForm=Cond
 5	gomə	gomə	PROPN	_	_	0	root	_	_
 6	relaŋ	relaŋ	NOUN	_	_	5	appos	_	_
 7	∅	_	PUNCT	_	_	5	punct	_	_
@@ -6736,7 +6736,7 @@
 # text[eng] = As for Gaser village, (they) called (him) “Officer Wantenzohe”.
 1	gasər	gasər	PROPN	_	_	4	nsubj	_	_
 2	ma	ma	PART	_	_	4	discourse	_	_
-3	wi-sa	wi-sa	VERB	_	VerbForm=Cond	4	cop	_	NativePolarity=COP1
+3	wi-sa	wi-sa	AUX	_	_	4	cop	_	NativePolarity=COP1|NativeVerbForm=Cond
 4	wantʰəndzoçə	wantʰəndzoçə	PROPN	_	_	0	root	_	_
 5	relaŋ	relaŋ	NOUN	_	_	4	appos	_	_
 6	ge-ko	ge-ko	VERB	_	Voice=Act	4	xcomp	_	NativeVerbForm=Past
@@ -6747,7 +6747,7 @@
 # text = de-sa tʰəke-saŋ.
 # text[eng] = (you) can eat (it).
 1	de-sa	de-sa	VERB	_	_	2	advmod	_	AspectOrig=Cond
-2	tʰəke-saŋ	tʰəke-saŋ	VERB	_	Polarity=Pos|VerbForm=VBZ	0	root	_	SpaceAfter=No
+2	tʰəke-saŋ	tʰəke-saŋ	VERB	_	Polarity=Pos	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_632
@@ -6760,7 +6760,7 @@
 5	pətənə	pətənə	NOUN	_	_	7	nmod:poss	_	_
 6	kʰətʰə	kʰətʰə	NOUN	_	_	7	obj	_	_
 7	su-sa	su-sa	VERB	_	_	8	xcomp	_	AspectOrig=Cond
-8	tʰəke-saŋ	tʰəke-saŋ	VERB	_	Polarity=Pos|VerbForm=VBZ	0	root	_	SpaceAfter=No
+8	tʰəke-saŋ	tʰəke-saŋ	VERB	_	Polarity=Pos	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Bonan_grammar_633
@@ -6770,7 +6770,7 @@
 2	teraŋ	teraŋ	NUM	_	_	5	obl	_	_
 3	də	də	ADP	_	_	2	case	_	_
 4	manda	manda	PRON	_	Clusivity=In|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
-5	natʰə-la	natʰə-la	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Purp	0	root	_	_
+5	natʰə-la	natʰə-la	VERB	_	Aspect=Imp|Polarity=Pos	0	root	_	NativeVerbForm=Purp
 6	ər-tɕi-saŋ	ər-tɕi-saŋ	VERB	_	Aspect=Imp|Polarity=Pos	5	conj	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -6781,7 +6781,7 @@
 2	da	da	PART	_	_	5	discourse	_	_
 3	ɲəntoχlakʰa	ɲəntoχlakʰa	PROPN	_	_	5	obl	_	SpaceAfter=No
 4	=da	da	ADP	_	_	3	case	_	_
-5	natʰə-la	natʰə-la	VERB	_	Aspect=Imp|Polarity=Pos|VerbForm=Purp	0	root	_	_
+5	natʰə-la	natʰə-la	VERB	_	Aspect=Imp|Polarity=Pos	0	root	_	NativeVerbForm=Purp
 6	o	o	VERB	_	Aspect=Imp	5	xcomp	_	_
 7	kʰər-saŋ	kʰər-saŋ	VERB	_	Aspect=Imp|Polarity=Pos	6	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
@@ -6790,7 +6790,7 @@
 # text = naroŋ wi-sada pə taroŋ tarə-na.
 # text[eng] = Although the sun is out, I still feel cold.
 1	naroŋ	naroŋ	NOUN	_	_	2	nsubj	_	_
-2	wi-sada	wi-sada	VERB	_	VerbForm=Conc	0	root	_	NativePolarity=COP1
+2	wi-sada	wi-sada	VERB	_	_	0	root	_	NativePolarity=COP1|NativeVerbForm=Conc
 3	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 4	taroŋ	taroŋ	ADJ	_	_	5	amod	_	_
 5	tarə-na	tarə-na	VERB	_	_	2	ccomp	_	NativeAspect=Dur|SpaceAfter=No
@@ -6828,8 +6828,8 @@
 4	udər	udər	NOUN	_	_	7	obl	_	SpaceAfter=No
 5	=da	da	ADP	_	_	4	case	_	_
 6	kʰatsʰaŋ	kʰatsʰaŋ	ADJ	_	_	7	amod	_	_
-7	tsoχkə	tsoχkə	VERB	_	VerbForm=Pos	0	root	_	_
-8	kʰər-tsʰoŋ	kʰər-tsʰoŋ	VERB	_	Polarity=Pos|VerbForm=Pos	7	conj	_	_
+7	tsoχkə	tsoχkə	VERB	_	_	0	root	_	NativeVerbForm=Pos
+8	kʰər-tsʰoŋ	kʰər-tsʰoŋ	VERB	_	Polarity=Pos	7	conj	_	NativeVerbForm=Pos
 9	da	da	PART	_	_	7	discourse	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -7328,9 +7328,9 @@
 # text = ula kʰeχue tɕəkələm kʰəl kʰər.
 # text[eng] = On the mountain, a meeting is held and rules must be stated.
 1	ula	ula	NOUN	_	Case=Dat	2	obl	_	_
-2	kʰeχue	kʰeχue	VERB	_	Aspect=Imp|VerbForm=VBZ	6	advcl	_	_
+2	kʰeχue	kʰeχue	VERB	_	Aspect=Imp	5	advcl	_	NativeVerbForm=VBZ
 3	tɕəkələm	tɕəkələm	NOUN	_	Case=Acc	4	obj	_	_
-4	kʰəl	kʰəl	VERB	_	VerbForm=Inf	6	xcomp	_	_
+4	kʰəl	kʰəl	VERB	_	VerbForm=Inf	5	xcomp	_	_
 5	kʰər	kʰər	VERB	_	Mood=Nec	0	root	_	NativeAspect=Dur|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -7378,10 +7378,10 @@
 # text = ŋaregaŋ ɲəm ŋaregaŋ əsə ɲəm jaksa kina.
 # text[eng] = If some dance together and some do not, it doesn’t look nice.
 1	ŋaregaŋ	ŋaregaŋ	PRON	_	PronType=Prs	2	nsubj	_	_
-2	ɲəm	ɲəm	VERB	_	VerbForm=VBZ	6	advcl	_	_
+2	ɲəm	ɲəm	VERB	_	_	6	advcl	_	NativeVerbForm=VBZ
 3	ŋaregaŋ	ŋaregaŋ	PRON	_	PronType=Prs	6	nsubj	_	_
 4	əsə	əsə	PART	_	Polarity=Neg	5	advmod	_	_
-5	ɲəm	ɲəm	VERB	_	Mood=Cnd|VerbForm=VBZ	6	advcl	_	_
+5	ɲəm	ɲəm	VERB	_	Mood=Cnd	6	advcl	_	NativeVerbForm=VBZ
 6	jaksa	jaksa	ADJ	_	_	7	xcomp	_	_
 7	kina	kina	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
@@ -7428,8 +7428,8 @@
 # text[eng] = And at Lapsi they burn offerings and taunt Chuma.
 1	lapsi	lapsi	PROPN	_	Case=Dat	3	obl	_	_
 2	saŋ	saŋ	NOUN	_	_	3	obj	_	_
-3	χəra	χəra	VERB	_	Aspect=Imp	6	conj	_	_
-4	tɕʰəma	tɕʰəma	PROPN	_	Case=Acc	6	obj	_	_
+3	χəra	χəra	VERB	_	Aspect=Imp	5	conj	_	_
+4	tɕʰəma	tɕʰəma	PROPN	_	Case=Acc	5	obj	_	_
 5	χara	χara	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -7552,7 +7552,7 @@
 7	oχ	oχ	VERB	_	Aspect=Imp|VerbForm=Vnoun	11	csubj	_	Nmlz=Impf
 8	tɕənsan	tɕənsan	NOUN	_	_	11	nmod	_	_
 9	tʰər	tʰər	PRON	_	PronType=Prs	11	nsubj	_	_
-10	bi	bi	VERB	_	CopType=Yes|Mood=Ind	11	aux	_	_
+10	bi	bi	AUX	_	CopType=Yes|Mood=Ind	11	aux	_	_
 11	saŋ	saŋ	VERB	_	Polarity=Pos	0	root	_	SpaceAfter=No|Quot=Yes
 12	.	.	PUNCT	_	_	11	punct	_	_
 
@@ -7670,9 +7670,9 @@
 # sent_id = Bonan_grammar_722
 # text = tʰər ʁar kʰoŋ tʰola.
 # text[eng] = So we count that as two people.
-1	tʰər	tʰər	PRON	_	Case=Acc|PronType=Prs	5	obj	_	_
+1	tʰər	tʰər	PRON	_	Case=Acc|PronType=Prs	4	obj	_	_
 2	ʁar	ʁar	NUM	_	NumType=Card	4	nummod	_	_
-3	kʰoŋ	kʰoŋ	NOUN	_	Case=Dat	5	obl	_	_
+3	kʰoŋ	kʰoŋ	NOUN	_	Case=Dat	4	obl	_	_
 4	tʰola	tʰola	VERB	_	Aspect=Imp|Polarity=Pos	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -7842,7 +7842,7 @@
 # sent_id = Bonan_grammar_751
 # text = çɵ mənɢan çɵ. tərə tɕinɢaŋ wa.
 # text[eng] = No, not mine, yours.
-1	çɵ	çɵ	AUX	_	CopType=Cop1|Polarity=Neg|Tense=Past	3	root	_	_
+1	çɵ	çɵ	AUX	_	CopType=Cop1|Polarity=Neg|Tense=Past	3	dep	_	_
 2	mənɢan	mənɢan	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	xcomp	_	_
 3	çɵ	çɵ	AUX	_	CopType=Cop1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -7935,9 +7935,9 @@
 3	gergə	gergə	NOUN	_	_	4	xcomp	_	Sig=Yes
 4	çɵ	çɵ	AUX	_	CopType=Cop1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
-6	tərə	tərə	PRON	_	PronType=Dem	10	nsubj	_	_
-7	da	da	PART	_	_	10	advmod	_	_
-8	gergə	gergə	NOUN	_	_	10	xcomp	_	Sig=Yes
+6	tərə	tərə	PRON	_	PronType=Dem	9	nsubj	_	_
+7	da	da	PART	_	_	9	advmod	_	_
+8	gergə	gergə	NOUN	_	_	9	xcomp	_	Sig=Yes
 9	çɵ	çɵ	AUX	_	CopType=Cop1|Polarity=Neg	4	parataxis	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -8213,8 +8213,8 @@
 # sent_id = Bonan_grammar_781
 # text = tɕin kətɕi ɵl.
 # text[eng] = Which year were you born in?
-1	tɕin	tɕin	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	obl	_	_
-2	kətɕi	kətɕi	PRON	_	PronType=Int	4	obl	_	_
+1	tɕin	tɕin	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	3	obl	_	_
+2	kətɕi	kətɕi	PRON	_	PronType=Int	3	obl	_	_
 3	ɵl	ɵl	VERB	_	Tense=Past	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -8752,13 +8752,13 @@
 # sent_id = Bonan_grammar_824
 # text = ɵdʑaŋ ħarəŋ dɵlɵŋ nasəla ɕan kuar naŋda suː.
 # text[eng] = He had lived in the city until he was seventeen.
-1	ɵdʑaŋ	ɵdʑaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+1	ɵdʑaŋ	ɵdʑaŋ	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2	ħarəŋ	ħarəŋ	NUM	_	NumType=Card	4	nummod	_	_
 3	dɵlɵŋ	dɵlɵŋ	NUM	_	NumType=Card	4	nummod	_	_
-4	nasəla	nasəla	VERB	_	VerbForm=Conv	9	advcl	_	NativeAspect=Term
+4	nasəla	nasəla	VERB	_	VerbForm=Conv	8	advcl	_	NativeAspect=Term
 5	ɕan	ɕan	NOUN	_	Case=Gen	6	nmod	_	_
 6	kuar	kuar	NOUN	_	_	7	nmod	_	_
-7	naŋda	naŋda	ADP	_	Case=Dat	9	obl	_	_
+7	naŋda	naŋda	ADP	_	Case=Dat	8	obl	_	_
 8	suː	suː	VERB	_	Aspect=Prog|Mood=Ind|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -8835,9 +8835,9 @@
 # text = tɕinə tɕimsi kətɕi aldʑa er.
 # text[eng] = When did your neighbor move in?
 1	tɕinə	tɕi	PRON	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	2	nmod	_	_
-2	tɕimsi	tɕimsi	NOUN	_	_	6	nsubj	_	_
-3	kətɕi	kətɕi	ADV	_	PronType=Int	6	advmod	_	_
-4	aldʑa	aldʑa	VERB	_	Aspect=Prog|VerbForm=Conv	6	xcomp	_	_
+2	tɕimsi	tɕimsi	NOUN	_	_	5	nsubj	_	_
+3	kətɕi	kətɕi	ADV	_	PronType=Int	5	advmod	_	_
+4	aldʑa	aldʑa	VERB	_	Aspect=Prog|VerbForm=Conv	5	xcomp	_	_
 5	er	er	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -8846,11 +8846,11 @@
 # text[eng] = I was still a small child when they moved in.
 1	ɵdʑaŋ-saŋ	ɵdʑaŋ	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	aldʑa	aldʑa	VERB	_	Aspect=Prog|VerbForm=Conv	4	xcomp	_	_
-3	er	er	VERB	_	VerbForm=Conv	9	advcl	_	_
-4	tɕiχaŋ	tɕiχaŋ	NOUN	_	Case=Dat	9	obl	_	_
-5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-6	dawu	dawu	ADV	_	_	9	advmod	_	_
-7	bədɢaŋ	bədɢaŋ	ADJ	_	_	9	xcomp	_	_
+3	er	er	VERB	_	VerbForm=Conv	8	advcl	_	_
+4	tɕiχaŋ	tɕiχaŋ	NOUN	_	Case=Dat	8	obl	_	_
+5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	dawu	dawu	ADV	_	_	8	advmod	_	_
+7	bədɢaŋ	bədɢaŋ	ADJ	_	_	8	xcomp	_	_
 8	wa	wa	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -9041,9 +9041,9 @@
 # text = enə çɵɢdəg ħsaŋma ˡgina, tɕi mən ħsaŋma abtɕir təgegə mbɵ.
 # text[eng] = This umbrella is dirty could you give me a clean one ?
 1	enə	enə	DET	_	PronType=Dem	2	det	_	_
-2	çɵɢdəg	çɵɢdəg	NOUN	_	_	5	nsubj	_	_
-3	ħsaŋma	ħsaŋma	ADJ	_	Polarity=Neg	5	amod	_	_
-4	ˡgina	ˡgina	PART	_	_	5	discourse	_	SpaceAfter=No
+2	çɵɢdəg	çɵɢdəg	NOUN	_	_	10	nsubj	_	_
+3	ħsaŋma	ħsaŋma	ADJ	_	Polarity=Neg	10	amod	_	_
+4	ˡgina	ˡgina	PART	_	_	10	discourse	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	_
 6	tɕi	tɕi	PRON	_	Number=Sing|Person=2|PronType=Prs	10	nsubj	_	_
 7	mən	mən	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	iobj	_	_
@@ -9137,8 +9137,8 @@
 # text[eng] = Is it raining now ?
 1	ede	ede	ADV	_	_	3	advmod	_	_
 2	teŋgərəg	teŋgərəg	NOUN	_	_	3	nsubj	_	_
-3	ɵr	ɵr	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
-4	-dʑ	-dʑ	VERB	_	_	3	aux	_	Deriv=IMPF
+3	ɵr	ɵr	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
+4	-dʑ	-dʑ	AUX	_	_	3	aux	_	Deriv=IMPF
 5	wɵ	wɵ	AUX	_	_	3	cop	_	SpaceAfter=No|Deriv=ITP
 6	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9148,7 +9148,7 @@
 1	ˡnudə	ˡnudə	ADV	_	_	3	advmod	_	_
 2	ɕiruda	ɕiruda	NOUN	_	_	3	nsubj	_	_
 3	teŋgərəg	teŋgərəg	NOUN	_	_	0	root	_	_
-4	giː-na	giː-na	VERB	_	Mood=Ind|VerbForm=Fin	3	aux	_	Deriv=NPT
+4	giː-na	giː-na	AUX	_	Mood=Ind|VerbForm=Fin	3	aux	_	Deriv=NPT
 5	ba	ba	AUX	_	_	3	cop	_	SpaceAfter=No|PTL=Yes
 6	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -9158,7 +9158,7 @@
 1	teŋgərəg	teŋgərəg	NOUN	_	_	3	nsubj	_	_
 2	jiŋgeː	jiŋgeː	ADV	_	_	3	advmod	_	_
 3	dʑɵd	dʑɵd	ADJ	_	Degree=Pos	0	root	_	_
-4	buː-dʑə	buː-dʑə	VERB	_	_	3	aux	_	SpaceAfter=No|Deriv=PRG
+4	buː-dʑə	buː-dʑə	AUX	_	_	3	aux	_	SpaceAfter=No|Deriv=PRG
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_862
@@ -9167,7 +9167,7 @@
 1	ˡnudə	ˡnudə	ADV	_	_	5	advmod	_	_
 2	tɕinə	tɕinə	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 3	kam	kam	ADJ	_	Degree=Pos	5	xcomp	_	_
-4	daŋmɵgədʑi	daŋmɵgədʑi	VERB	_	_	5	aux	_	Deriv=IMPF
+4	daŋmɵgədʑi	daŋmɵgədʑi	AUX	_	_	5	aux	_	Deriv=IMPF
 5	wɵ	wɵ	AUX	_	_	0	root	_	SpaceAfter=No|Deriv=ITP
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9177,7 +9177,7 @@
 1	nəmɢudartə	nəmɢudartə	ADV	_	_	5	advmod	_	_
 2	mənə	mənə	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	kam	kam	ADJ	_	Degree=Pos	5	xcomp	_	_
-4	damɵngə	damɵngə	VERB	_	_	5	aux	_	Deriv=IMPF
+4	damɵngə	damɵngə	AUX	_	_	5	aux	_	Deriv=IMPF
 5	çɵ	çɵ	AUX	_	Polarity=Neg	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9187,7 +9187,7 @@
 1	ʂgudə	ʂgudə	ADV	_	_	5	advmod	_	_
 2	mən-da	mən-da	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	ebˡdətɵ	ebˡdətɵ	ADJ	_	Degree=Pos	5	xcomp	_	_
-4	dʑi-sa-da	dʑi-sa-da	VERB	_	_	5	aux	_	Deriv=CON
+4	dʑi-sa-da	dʑi-sa-da	AUX	_	_	5	aux	_	Deriv=CON
 5	ˡnudə	ˡnudə	ADV	_	_	0	root	_	_
 6	dʑimda-ngə	dʑimda-ngə	ADJ	_	Degree=Pos	5	parataxis	_	_
 7	ʂagə	ʂagə	AUX	_	_	5	parataxis	_	SpaceAfter=No|Deriv=AUX
@@ -9198,7 +9198,7 @@
 # text[eng] = I went to see the doctor yesterday.
 1	ʂgudə	ʂgudə	ADV	_	_	5	advmod	_	_
 2	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-3	ɵd-dʑi	ɵd-dʑi	VERB	_	_	5	aux	_	Deriv=IMPF
+3	ɵd-dʑi	ɵd-dʑi	AUX	_	_	5	aux	_	Deriv=IMPF
 4	manba-da-ngə	manba-da-ngə	NOUN	_	Case=Dat	5	obl	_	Deriv=SIG
 5	dʑaŋtşagə-ɢa-wa	dʑaŋtşagə-ɢa-wa	VERB	_	Tense=Past	0	root	_	SpaceAfter=No|Deriv=CAU
 6	.	.	PUNCT	_	_	5	punct	_	_
@@ -9225,7 +9225,7 @@
 # text[eng] = The fever has gone, but I still cough.
 1	mənə	mənə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	sa	sa	ADV	_	_	4	advmod	_	_
-3	ˡɬɵdgər-dʑi	ˡɬɵdgər-dʑi	VERB	_	_	4	aux	_	Deriv=IMPF
+3	ˡɬɵdgər-dʑi	ˡɬɵdgər-dʑi	AUX	_	_	4	aux	_	Deriv=IMPF
 4	sada	sada	AUX	_	_	0	root	_	SpaceAfter=No
 5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dep	_	_
 6	dawu	dawu	ADV	_	_	4	dep	_	_
@@ -9238,11 +9238,11 @@
 1	mənə	mənə	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	ħɵŋ	ħɵŋ	NOUN	_	_	5	obj	_	_
 3	jərtɕ	jərtɕ	VERB	_	Aspect=Imp	5	acl	_	Deriv=Come
-4	er-gu-nə	er-gu-nə	VERB	_	Case=Gen	5	aux	_	Deriv=IMPF
+4	er-gu-nə	er-gu-nə	AUX	_	Case=Gen	5	aux	_	Deriv=IMPF
 5	tɕeda	tɕeda	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=PTL
 6	de	de	ADP	_	_	5	obl	_	_
 7	jan-nə	jan-nə	NOUN	_	_	5	obl	_	_
-8	dasar-se	dasar-se	VERB	_	_	5	aux	_	SpaceAfter=No|Deriv=IMPF
+8	dasar-se	dasar-se	AUX	_	_	5	aux	_	SpaceAfter=No|Deriv=IMPF
 9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_870
@@ -9542,10 +9542,10 @@
 # sent_id = Bonan_grammar_894
 # text = ʂgudə erte tɕi kətɕiχaŋ-nə wiləgə-wa.
 # text[eng] = When did you start your work yesterday morning?
-1	ʂgudə	ʂgudə	ADV	_	_	6	obl	_	_
-2	erte	erte	ADJ	_	_	6	amod	_	_
-3	tɕi	tɕi	PRON	_	Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
-4	kətɕiχaŋ-nə	kətɕiχaŋ-nə	NOUN	_	_	6	obj	_	NativeCase=Ref
+1	ʂgudə	ʂgudə	ADV	_	_	5	obl	_	_
+2	erte	erte	ADJ	_	_	5	amod	_	_
+3	tɕi	tɕi	PRON	_	Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+4	kətɕiχaŋ-nə	kətɕiχaŋ-nə	NOUN	_	_	5	obj	_	NativeCase=Ref
 5	wiləgə-wa	wiləgə-wa	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=PST
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9665,9 +9665,9 @@
 2	mən-da	mən-da	PRON	_	Case=Dat|PronType=Prs	3	obl	_	_
 3	dzaːgə-gu	dzaːgə-gu	VERB	_	_	4	advcl	_	Deriv=IMPF
 4	tɕiχaːʑi	tɕiχaːʑi	NOUN	_	_	0	root	_	_
-5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	ŋgutɕi	ŋgutɕi	NOUN	_	_	8	obj	_	_
-7	uː-dʑi	uː-dʑi	VERB	_	_	8	ccomp	_	SpaceAfter=No|Deriv=PRG
+5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	ŋgutɕi	ŋgutɕi	NOUN	_	_	4	obj	_	_
+7	uː-dʑi	uː-dʑi	VERB	_	_	4	ccomp	_	SpaceAfter=No|Deriv=PRG
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_905
@@ -9766,7 +9766,7 @@
 5	χua	χua	NOUN	_	Number=Plur	6	conj	_	_
 6	nəgə	nəgə	NUM	_	_	2	obj	_	_
 7	kutɵŋ	kutɵŋ	VERB	_	_	6	acl	_	_
-8	geː-dʑi	geː-dʑi	VERB	_	_	7	aux	_	SpaceAfter=No|Deriv=PRG
+8	geː-dʑi	geː-dʑi	AUX	_	_	7	aux	_	SpaceAfter=No|Deriv=PRG
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_913
@@ -9811,7 +9811,7 @@
 1	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	maχɕi	maχɕi	ADV	_	_	3	advmod	_	_
 3	ŋasiχaŋnaŋ	ŋasiχaŋnaŋ	VERB	_	_	0	root	_	Deriv=NPT
-4	serə-m	serə-m	VERB	_	_	3	aux	_	SpaceAfter=No|Deriv=NPT
+4	serə-m	serə-m	AUX	_	_	3	aux	_	SpaceAfter=No|Deriv=NPT
 5	disɵ	disɵ	PRON	_	PronType=Prs	8	obl	_	_
 6	dʑirɢɵŋ	dʑirɢɵŋ	NUM	_	_	8	nummod	_	_
 7	ɵle-da	ɵle-da	NUM	_	_	8	obl	_	_
@@ -9825,7 +9825,7 @@
 2	tʂɵda	tʂɵda	ADV	_	_	4	advmod	_	_
 3	tɕi	tɕi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 4	jaŋ-gə	jaŋ-gə	VERB	_	_	0	root	_	Deriv=NPT
-5	wiləgə-m	wiləgə-m	VERB	_	_	4	aux	_	SpaceAfter=No|Deriv=NPT
+5	wiləgə-m	wiləgə-m	AUX	_	_	4	aux	_	SpaceAfter=No|Deriv=NPT
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_918
@@ -9837,7 +9837,7 @@
 4	wara-dʑi	wara-dʑi	VERB	_	_	0	root	_	Deriv=IMPF
 5	su	su	PART	_	_	4	discourse	_	_
 6	χɵlɵ	χɵlɵ	VERB	_	_	4	advcl	_	_
-7	uː-gi	uː-gi	VERB	_	_	4	aux	_	SpaceAfter=No|Deriv=FUT
+7	uː-gi	uː-gi	AUX	_	_	4	aux	_	SpaceAfter=No|Deriv=FUT
 8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_919
@@ -9871,35 +9871,35 @@
 # text[eng] = After breakfast, I am ready to go to work.
 1	χɵlɵ-nə	χɵlɵ-nə	NOUN	_	_	5	obl	_	_
 2	uː	uː	VERB	_	_	5	acl	_	Deriv=ITP
-3	wara-dʑi	wara-dʑi	VERB	_	_	5	aux	_	SpaceAfter=No|Deriv=IMPF
+3	wara-dʑi	wara-dʑi	AUX	_	_	5	aux	_	SpaceAfter=No|Deriv=IMPF
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	_
 6	mɵr-ta	mɵr-ta	NOUN	_	_	5	obl	_	_
 7	χar-dʑi	χar-dʑi	VERB	_	_	5	acl	_	Deriv=IMPF
 8	ʂaŋban-da	ʂaŋban-da	NOUN	_	_	7	obl	_	_
 9	ɵd	ɵd	VERB	_	_	5	conj	_	_
-10	kɵrɵg	kɵrɵg	VERB	_	_	9	aux	_	SpaceAfter=No|Deriv=NPT
+10	kɵrɵg	kɵrɵg	AUX	_	_	9	aux	_	SpaceAfter=No|Deriv=NPT
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_922
 # text = bə nɵr kur-gu tɕiχaːʑi ŋaːtʂɵŋ-da ħɵŋɢəra kər-na.
 # text[eng] = When I am sleepy, I will probably get ready to go to bed.
-1	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-2	nɵr	nɵr	VERB	_	_	8	advmod	_	Deriv=NPT
+1	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+2	nɵr	nɵr	VERB	_	_	7	advmod	_	Deriv=NPT
 3	kur-gu	kur-gu	VERB	_	_	2	acl	_	Deriv=IMPF
-4	tɕiχaːʑi	tɕiχaːʑi	NOUN	_	_	8	obl	_	_
-5	ŋaːtʂɵŋ-da	ŋaːtʂɵŋ-da	NOUN	_	_	8	obl	_	_
-6	ħɵŋɢəra	ħɵŋɢəra	VERB	_	_	8	advmod	_	Deriv=NPT
+4	tɕiχaːʑi	tɕiχaːʑi	NOUN	_	_	7	obl	_	_
+5	ŋaːtʂɵŋ-da	ŋaːtʂɵŋ-da	NOUN	_	_	7	obl	_	_
+6	ħɵŋɢəra	ħɵŋɢəra	VERB	_	_	7	advmod	_	Deriv=NPT
 7	kər-na	kər-na	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=NPT
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_923
 # text = nɵr esə kur-sa-da ħɵŋɢəra kər-na.
 # text[eng] = Although I cannot sleep, I would like to lie down.
-1	nɵr	nɵr	VERB	_	_	6	advmod	_	Deriv=NPT
+1	nɵr	nɵr	VERB	_	_	5	advmod	_	Deriv=NPT
 2	esə	esə	PART	_	_	3	advmod	_	_
-3	kur-sa-da	kur-sa-da	VERB	_	_	6	acl	_	Deriv=ConPtl
-4	ħɵŋɢəra	ħɵŋɢəra	VERB	_	_	6	advmod	_	Deriv=NPT
+3	kur-sa-da	kur-sa-da	VERB	_	_	5	acl	_	Deriv=ConPtl
+4	ħɵŋɢəra	ħɵŋɢəra	VERB	_	_	5	advmod	_	Deriv=NPT
 5	kər-na	kər-na	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=NPT
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -9955,7 +9955,7 @@
 3	esə	esə	PART	_	_	5	advmod	_	_
 4	medə-sa	medə-sa	VERB	_	_	5	acl	_	Deriv=CON
 5	ʂdʑiɡdɵdə	ʂdʑiɡdɵdə	NOUN	_	_	0	root	_	_
-6	ɡeː	ɡeː	VERB	_	_	5	aux	_	Deriv=IMPF
+6	ɡeː	ɡeː	AUX	_	_	5	aux	_	Deriv=IMPF
 7	daː-ɡə	daː-ɡə	VERB	_	_	5	acl	_	Deriv=IMPF
 8	çə	çə	PART	_	_	5	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
@@ -10033,7 +10033,7 @@
 2	məʂgu	məʂgu	NOUN	_	_	0	root	_	_
 3	ħani	ħani	DET	_	PronType=Dem	2	det	_	_
 4	saŋma	saŋma	ADJ	_	_	2	amod	_	_
-5	ˡgina	ˡgina	VERB	_	_	2	cop	_	SpaceAfter=No|Deriv=NEG
+5	ˡgina	ˡgina	AUX	_	_	2	cop	_	SpaceAfter=No|Deriv=NEG
 6	.	.	PUNCT	_	_	2	punct	_	_
 7	məʂ-gu	məʂ-gu	NOUN	_	_	9	nsubj	_	_
 8	tabra	tabra	ADJ	_	_	9	amod	_	_
@@ -10167,7 +10167,7 @@
 4	ɵd	ɵd	VERB	_	_	5	acl	_	Deriv=PRG
 5	kərəg	kərəg	VERB	_	_	0	root	_	SpaceAfter=No|Deriv=MOD
 6	.	.	PUNCT	_	_	5	punct	_	_
-7	taŋ	taŋ	PRON	_	PronType=Prs	11	nsubj	_	_
+7	taŋ	taŋ	PRON	_	PronType=Prs	10	nsubj	_	_
 8	nɵkər-ngə	nɵkər-ngə	NOUN	_	_	10	obl	_	_
 9	saːɢa	saːɢa	ADV	_	_	10	advmod	_	_
 10	suːr-tɕ	suːr-tɕ	VERB	_	_	5	conj	_	SpaceAfter=No|Deriv=PRG
@@ -10246,7 +10246,7 @@
 4	jiχdi-dʑi	jiχdi-dʑi	VERB	_	_	6	xcomp	_	Deriv=IMPF
 5	wadʑiˡ-sa-da	wadʑiˡ-sa-da	VERB	_	_	6	conj	_	Deriv=ConPtl
 6	jiχ	jiχ	VERB	_	_	0	root	_	Deriv=NEG
-7	daː-dʑi	daː-dʑi	VERB	_	_	6	aux	_	Deriv=NEG
+7	daː-dʑi	daː-dʑi	AUX	_	_	6	aux	_	Deriv=NEG
 8	ˡgina	ˡgina	PART	_	_	6	discourse	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -10326,7 +10326,7 @@
 # text = disɵ dɵlɵŋ təmtə-ngə-da, bə uː-dʑɵ.
 # text[eng] = I have my dinner around seven o’clock.
 1	disɵ	disɵ	NOUN	_	_	2	nmod	_	_
-2	dɵlɵŋ	dɵlɵŋ	NUM	_	NumType=Card	4	nummod	_	_
+2	dɵlɵŋ	dɵlɵŋ	NUM	_	NumType=Card	6	nummod	_	_
 3	təmtə-ngə-da	təmtə	NOUN	_	Case=Dat	6	obl:tmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
 5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
@@ -10410,10 +10410,10 @@
 1	tɕi	tɕi	PRON	_	Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
 2	naː-dʑi	naː	VERB	_	Aspect=Prog	4	advcl	_	_
 3	esə	esə	PART	_	Polarity=Neg	4	advmod	_	_
-4	ɵdgi-sa	ɵdgi	VERB	_	VerbForm=Conv	9	advcl	_	_
+4	ɵdgi-sa	ɵdgi	VERB	_	VerbForm=Conv	8	advcl	_	_
 5	tɕinə	tɕi	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	6	nmod	_	_
-6	kɵl-nə	kɵl	NOUN	_	Case=Acc	9	obj	_	_
-7	elə	elə	PART	_	Polarity=Neg	9	advmod	_	_
+6	kɵl-nə	kɵl	NOUN	_	Case=Acc	8	obj	_	_
+7	elə	elə	PART	_	Polarity=Neg	8	advmod	_	_
 8	ɢɵɢɵlə-m	ɢɵɢɵlə	VERB	_	Mood=Irr|Polarity=Neg	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -10465,9 +10465,9 @@
 1	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	ŋɢuː-da	ŋɢuː	NOUN	_	Case=Dat	4	obl	_	_
 3	mər-nə	mər	NOUN	_	Case=Acc	4	obj	_	_
-4	asaχgi-sa	asaχgi	VERB	_	VerbForm=Conv	8	advcl	_	_
-5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
-6	mɵr-nə	mɵr	NOUN	_	Case=Acc	8	obj	_	_
+4	asaχgi-sa	asaχgi	VERB	_	VerbForm=Conv	7	advcl	_	_
+5	bə	bə	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	mɵr-nə	mɵr	NOUN	_	Case=Acc	7	obj	_	_
 7	ˡtɕigə-dʑiˡgi-wə	ˡtɕigə	VERB	_	Mood=Irr|Polarity=Neg	0	root	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
@@ -10942,7 +10942,7 @@
 2	ɬotʂa	ɬotʂa	NOUN	_	Case=Acc	6	nsubj	_	_
 3	ɬoʂi	ɬoʂi	NOUN	_	Number=Plur	2	nmod	_	_
 4	mənda	mənda	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
-5	ɕuan	ɕuan	VERB	_	Aspect=Perf|VerbForm=VBZ	6	compound:svc	_	_
+5	ɕuan	ɕuan	VERB	_	Aspect=Perf	6	compound:svc	_	NativeVerbForm=VBZ
 6	tɕə	tɕə	VERB	_	Aspect=Imp|Mood=Ind|VerbForm=Fin|Voice=Obj	0	root	_	SpaceAfter=No
 7	=tɕo	=tɕo	PART	_	_	6	discourse	_	NativePartType=Quot|SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	_	_
@@ -11088,7 +11088,7 @@
 # text = au wilə.
 # text[eng] = A man is working.
 1	au	au	NOUN	_	Definite=Ind|Number=Sing	2	nsubj	_	_
-2	wilə	wilə	VERB	_	Aspect=Imp|Polarity=Obj|VerbForm=VBZ	0	root	_	SpaceAfter=No
+2	wilə	wilə	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_1033
@@ -11133,7 +11133,7 @@
 6	thər	thər	PRON	_	PronType=Dem	10	nsubj	_	_
 7	da	da	ADV	_	_	10	advmod	_	_
 8	ələ	ələ	PART	_	Polarity=Neg	10	advmod	_	_
-9	dʐək	dʐək	VERB	_	VerbForm=VBZ	10	xcomp	_	NativeAspect=Dur
+9	dʐək	dʐək	VERB	_	_	10	xcomp	_	NativeAspect=Dur|NativeVerbForm=VBZ
 10	pe	pe	PART	_	_	4	discourse	_	SpaceAfter=No|Emph=Yes
 11	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11141,13 +11141,13 @@
 # text = χeɕaŋ nathə tɕhəχaŋnaŋ khoŋ χani khol χar dabla jaksa nathə khər.
 # text[eng] = When dancing Ləru, the people should all raise their feet and hands and dance nicely.
 1	χeɕaŋ	χeɕaŋ	PROPN	_	Number=Sing	2	nsubj	_	_
-2	nathə	nathə	VERB	_	Aspect=Imp|VerbForm=Vnoun	12	advcl	_	_
-3	tɕhəχaŋnaŋ	tɕhəχaŋnaŋ	NOUN	_	_	12	obl	_	_
-4	khoŋ	khoŋ	NOUN	_	Number=Plur	12	nsubj	_	_
+2	nathə	nathə	VERB	_	Aspect=Imp|VerbForm=Vnoun	11	advcl	_	_
+3	tɕhəχaŋnaŋ	tɕhəχaŋnaŋ	NOUN	_	_	11	obl	_	_
+4	khoŋ	khoŋ	NOUN	_	Number=Plur	11	nsubj	_	_
 5	χani	χani	DET	_	PronType=Tot	4	det	_	_
 6	khol	khol	NOUN	_	_	8	obj	_	_
 7	χar	χar	NOUN	_	Case=Acc	6	conj	_	_
-8	dabla	dabla	VERB	_	Aspect=Imp	12	conj	_	_
+8	dabla	dabla	VERB	_	Aspect=Imp	11	conj	_	_
 9	jaksa	jaksa	ADV	_	_	10	advmod	_	_
 10	nathə	nathə	VERB	_	Aspect=Imp	8	conj	_	_
 11	khər	khər	VERB	_	Mood=Nec	0	root	_	NativeAspect=Dur|SpaceAfter=No
@@ -11208,7 +11208,7 @@
 8	phəthoŋ	phəthoŋ	DET	_	PronType=Tot	7	det	_	_
 9	atɕaŋnə	atɕaŋnə	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod	_	_
 10	məχ	məχ	NOUN	_	Number=Plur	12	xcomp	_	_
-11	ol	ol	VERB	_	Aspect=Perf	12	aux	_	_
+11	ol	ol	AUX	_	Aspect=Perf	12	aux	_	_
 12	tshoŋ	tshoŋ	VERB	_	Mood=Ind|VerbForm=Fin	0	root	_	_
 13	da	da	ADV	_	_	12	advmod	_	_
 14	ole	ole	INTJ	_	_	12	discourse	_	SpaceAfter=No
@@ -11217,10 +11217,10 @@
 # sent_id = Bonan_grammar_1043
 # text = thəsanə lokə khada epsu χəmdu htar.
 # text[eng] = Next, burn grass and leaves on top of the pans.
-1	thəsanə	thəsanə	ADV	_	_	7	advmod	_	_
+1	thəsanə	thəsanə	ADV	_	_	6	advmod	_	_
 2	lokə	lokə	NOUN	_	_	3	compound	_	_
-3	khada	khada	NOUN	_	Case=Dat	7	obl	_	_
-4	epsu	epsu	NOUN	_	_	7	obj	_	_
+3	khada	khada	NOUN	_	Case=Dat	6	obl	_	_
+4	epsu	epsu	NOUN	_	_	6	obj	_	_
 5	χəmdu	χəmdu	NOUN	_	Case=Acc	4	conj	_	_
 6	htar	htar	VERB	_	Aspect=Perf|Voice=Cau	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -11382,7 +11382,7 @@
 1	au	au	NOUN	_	Definite=Ind|Number=Sing	5	nsubj	_	_
 2	aku	aku	NOUN	_	Case=Dat|Definite=Ind|Number=Sing	5	obl	_	_
 3	samtəχ	samtəχ	NOUN	_	Definite=Ind|Number=Sing	5	obj	_	_
-4	oχ	oχ	VERB	_	Aspect=Imp	5	aux	_	_
+4	oχ	oχ	AUX	_	Aspect=Imp	5	aux	_	_
 5	oχ-tɕo	oχ	VERB	_	Aspect=Imp	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11400,9 +11400,9 @@
 # sent_id = Bonan_grammar_1061
 # text = au ça tʰəmtʰoχ tɕəl.
 # text[eng] = A woman made mianpian noodles for the children.
-1	au	au	NOUN	_	Definite=Ind|Number=Sing	5	nsubj	_	_
-2	ça	ça	NOUN	_	Case=Dat|Number=Plur	5	obl	_	_
-3	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	5	obj	_	_
+1	au	au	NOUN	_	Definite=Ind|Number=Sing	4	nsubj	_	_
+2	ça	ça	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
+3	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	4	obj	_	_
 4	tɕəl	tɕəl	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -11643,13 +11643,13 @@
 # text = əsə çorigə χena kʰətʰə ər orhtɕə dʐiχ pʰakʰə kʰər.
 # text[eng] = If you don't study hard, when you come home you will have to take the test again.
 1	əsə	əsə	PART	_	Polarity=Neg	2	advmod	_	_
-2	çorigə	çorigə	VERB	_	Mood=Cnd	10	advcl	_	_
+2	çorigə	çorigə	VERB	_	Mood=Cnd	9	advcl	_	_
 3	χena	χena	ADV	_	_	6	advmod	_	_
 4	kʰətʰə	kʰətʰə	NOUN	_	Case=Dat	6	obl	_	_
-5	ər	ər	VERB	_	Mood=Cnd	10	advcl	_	_
-6	orhtɕə	orhtɕə	ADV	_	_	10	advmod	_	_
+5	ər	ər	VERB	_	Mood=Cnd	9	advcl	_	_
+6	orhtɕə	orhtɕə	ADV	_	_	9	advmod	_	_
 7	dʐiχ	dʐiχ	NOUN	_	_	8	obj	_	_
-8	pʰakʰə	pʰakʰə	VERB	_	VerbForm=Inf	10	xcomp	_	_
+8	pʰakʰə	pʰakʰə	VERB	_	VerbForm=Inf	9	xcomp	_	_
 9	kʰər	kʰər	VERB	_	Aspect=Perf|Mood=Nec	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -11696,7 +11696,7 @@
 3	nə	nə	ADP	_	Case=Acc	2	case	_	_
 4	çaŋ	çaŋ	NOUN	_	_	6	obl	_	_
 5	ʁala	ʁala	ADP	_	Case=Ins	4	case	_	_
-6	welə	welə	VERB	_	Aspect=Perf|VerbForm=VBZ	0	root	_	SpaceAfter=No
+6	welə	welə	VERB	_	Aspect=Perf	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = Bonan_grammar_1091
@@ -11758,10 +11758,10 @@
 # sent_id = Bonan_grammar_1096
 # text = dortɕə atɕaŋ ʁala χapa jiχ.
 # text[eng] = Dorje uses them (two) to hit the dog.
-1	dortɕə	dortɕə	PROPN	_	_	6	nsubj	_	_
-2	atɕaŋ	atɕaŋ	PRON	_	Number=Dual|Person=3|PronType=Prs	6	obl	_	_
+1	dortɕə	dortɕə	PROPN	_	_	5	nsubj	_	_
+2	atɕaŋ	atɕaŋ	PRON	_	Number=Dual|Person=3|PronType=Prs	5	obl	_	_
 3	ʁala	ʁala	ADP	_	Case=Ins	2	case	_	_
-4	χapa	χapa	NOUN	_	_	6	obj	_	_
+4	χapa	χapa	NOUN	_	_	5	obj	_	_
 5	jiχ	jiχ	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -11825,7 +11825,7 @@
 # text[eng] = One man works.
 1	au	au	NOUN	_	_	3	nsubj	_	_
 2	nəkə	nəkə	NUM	_	NumType=Card	1	nummod	_	_
-3	welə	welə	VERB	_	Aspect=Imp|Polarity=Obj|VerbForm=VBZ	0	root	_	SpaceAfter=No
+3	welə	welə	VERB	_	Aspect=Imp|Polarity=Obj	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1102
@@ -12101,7 +12101,7 @@
 4	pʰitətɕə	pʰitətɕə	VERB	_	Aspect=Imp|VerbForm=Part	6	acl	_	_
 5	kʰoŋ	kʰoŋ	NOUN	_	_	8	obl	_	_
 6	tsʰaŋ	tsʰaŋ	NOUN	_	Case=Dat	5	flat	_	_
-7	o	o	VERB	_	_	8	aux	_	AspectOrig=Fut
+7	o	o	AUX	_	_	8	aux	_	AspectOrig=Fut
 8	gi	gi	VERB	_	Mood=Sub	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -12210,7 +12210,7 @@
 2	ənə	ənə	DET	_	PronType=Dem	1	det	_	_
 3	dʐoma	dʐoma	PROPN	_	_	5	obj	_	_
 4	tsʰaŋ	tsʰaŋ	NOUN	_	Number=Plur	3	nmod:poss	_	_
-5	doχdaχap	doχdaχap	VERB	_	Aspect=Perf|VerbForm=VBZ	0	root	_	SpaceAfter=No
+5	doχdaχap	doχdaχap	VERB	_	Aspect=Perf	0	root	_	NativeVerbForm=VBZ|SpaceAfter=No
 6	-gə-tɕə	-gə-tɕə	X	_	Voice=Cau	5	dep	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12238,13 +12238,13 @@
 1	mərku	mərku	NOUN	_	_	3	nsubj	_	_
 2	m~ərku	m~ərku	NOUN	_	_	3	conj	_	Redup=Yes
 3	oloŋ	oloŋ	ADJ	_	Number=Plur	0	root	_	SpaceAfter=No
-4	wa	wa	VERB	_	VerbForm=Cop	3	cop	_	SpaceAfter=No
+4	wa	wa	AUX	_	_	3	cop	_	NativeVerbForm=Cop|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1140
 # text = natʰə-saŋ sokə.
 # text[eng] = The dancing was fun.
-1	natʰə-saŋ	natʰə-saŋ	VERB	_	VerbForm=PerfNmlz	2	nsubj	_	_
+1	natʰə-saŋ	natʰə-saŋ	VERB	_	_	2	nsubj	_	NativeVerbForm=PerfNmlz
 2	sokə	sokə	ADJ	_	_	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -12252,9 +12252,9 @@
 # text = ənə de amtʰawa.
 # text[eng] = This food is delicious.
 1	ənə	ənə	DET	_	PronType=Dem	3	det	_	_
-2	de	de	NOUN	_	VerbForm=ImpfNmlz	3	nsubj	_	_
+2	de	de	NOUN	_	_	3	nsubj	_	NativeVerbForm=ImpfNmlz
 3	amtʰa	amtʰa	ADJ	_	_	0	root	_	SpaceAfter=No
-4	wa	wa	VERB	_	VerbForm=Cop	3	cop	_	SpaceAfter=No
+4	wa	wa	AUX	_	_	3	cop	_	NativeVerbForm=Cop|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1142
@@ -12262,7 +12262,7 @@
 # text[eng] = How to say (it)...?
 1	jaŋgətçə	jaŋgətçə	ADV	_	_	2	advmod	_	_
 2	kʰəl	kʰəl	VERB	_	_	0	root	_	SpaceAfter=No
-3	kʰə-saŋ	kʰə-saŋ	VERB	_	_	2	cop	_	NativeVerbForm=BeRequiredPos|SpaceAfter=No
+3	kʰə-saŋ	kʰə-saŋ	AUX	_	_	2	cop	_	NativeVerbForm=BeRequiredPos|SpaceAfter=No
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_1143
@@ -12270,19 +12270,19 @@
 # text[eng] = Kuantaiji ate noodles and Jiashi ate meat.
 1	kʰontʰarhtɕə	kʰontʰarhtɕə	NOUN	_	_	5	nsubj	_	_
 2	tʰəmtʰoχ	tʰəmtʰoχ	NOUN	_	_	3	obj	_	_
-3	u-tɕə	u-tɕə	VERB	_	VerbForm=Impf	5	ccomp	_	_
+3	u-tɕə	u-tɕə	VERB	_	_	5	ccomp	_	NativeVerbForm=Impf
 4	tɕaçi	tɕaçi	NOUN	_	_	5	nsubj	_	_
 5	maʁa	maʁa	NOUN	_	_	0	root	_	SpaceAfter=No
-6	de-tɕo	de-tɕo	VERB	_	VerbForm=ImpfObj	5	conj	_	SpaceAfter=No
+6	de-tɕo	de-tɕo	VERB	_	_	5	conj	_	NativeVerbForm=ImpfObj|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_1144
 # text = əsə ora dʐoŋtɕa-la χuo wa.
 # text[eng] = If it doesn't rain, the crops will wither.
 1	əsə	əsə	PART	_	Polarity=Neg	3	mark	_	_
-2	ora	ora	VERB	_	VerbForm=Cond	3	advcl	_	_
+2	ora	ora	VERB	_	_	3	advcl	_	NativeVerbForm=Cond
 3	dʐoŋtɕa-la	dʐoŋtɕa	VERB	_	Number=Plur	5	nsubj	_	_
-4	χuo	χuo	VERB	_	VerbForm=VBZ	5	ccomp	_	_
+4	χuo	χuo	VERB	_	_	5	ccomp	_	NativeVerbForm=VBZ
 5	wa	wa	VERB	_	_	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -12293,8 +12293,8 @@
 2	roŋ	roŋ	NOUN	_	Case=Dat	5	obl	_	SpaceAfter=No
 3	=da	=da	PART	_	_	2	compound	_	_
 4	tsʰi	tsʰi	NOUN	_	_	5	obj	_	_
-5	ap-la	ap	VERB	_	VerbForm=Purp	0	root	_	SpaceAfter=No
-6	o-gi	o-gi	VERB	_	VerbForm=FutSubj	5	xcomp	_	SpaceAfter=No
+5	ap-la	ap	VERB	_	_	0	root	_	NativeVerbForm=Purp|SpaceAfter=No
+6	o-gi	o-gi	VERB	_	_	5	xcomp	_	NativeVerbForm=FutSubj|SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_1146
@@ -12310,7 +12310,7 @@
 # text = la/j-aŋ χara-tɕo.
 # text[eng] = [he] cried and cursed.
 1	la/j-aŋ	la/j-aŋ	VERB	_	_	0	root	_	NativeVerbForm=Mod
-2	χara-tɕo	χara-tɕo	VERB	_	Polarity=Obj|VerbForm=Impf	1	conj	_	SpaceAfter=No
+2	χara-tɕo	χara-tɕo	VERB	_	Polarity=Obj	1	conj	_	NativeVerbForm=Impf|SpaceAfter=No
 3	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = Bonan_grammar_1148
@@ -12335,7 +12335,7 @@
 # text = pə o-kə çi.
 # text[eng] = I am not going to go.
 1	pə	pə	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
-2	o-kə	o-kə	VERB	_	VerbForm=FutSubj	3	xcomp	_	_
+2	o-kə	o-kə	VERB	_	_	3	xcomp	_	NativeVerbForm=FutSubj
 3	çi	çi	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12348,7 +12348,7 @@
 4	wi=ku	wi=ku	VERB	_	_	7	acl:relcl	_	_
 5	dewa	dewa	NOUN	_	_	7	obl	_	_
 6	naŋda	naŋda	ADP	_	_	5	case	_	_
-7	su-tçi	su-tçi	VERB	_	VerbForm=ImpfSubj	0	root	_	SpaceAfter=No
+7	su-tçi	su-tçi	VERB	_	_	0	root	_	NativeVerbForm=ImpfSubj|SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = Bonan_grammar_1152
@@ -12357,8 +12357,8 @@
 1	dʐoma	dʐoma	PROPN	_	_	5	nsubj	_	_
 2	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	5	nsubj	_	_
 3	roŋ=da	roŋ=da	NOUN	_	_	4	obl	_	_
-4	o-gi=o	o-gi=IMPF	VERB	_	VerbForm=FutSubj	5	xcomp	_	_
-5	kʰəl-tɕo	kʰəl-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	o-gi=o	o-gi=IMPF	VERB	_	_	5	xcomp	_	NativeVerbForm=FutSubj
+5	kʰəl-tɕo	kʰəl-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_1153
@@ -12373,7 +12373,7 @@
 # text = atɕaŋ o-tɕə=ku gunpa roŋ-gunpa ba.
 # text[eng] = The monastery he goes to is the city monastery.
 1	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	2	nsubj	_	_
-2	o-tɕə=ku	o-tɕə=ku	VERB	_	VerbForm=ImpfNmlz	5	acl	_	_
+2	o-tɕə=ku	o-tɕə=ku	VERB	_	_	5	acl	_	NativeVerbForm=ImpfNmlz
 3	gunpa	gunpa	NOUN	_	_	5	compound	_	_
 4	roŋ-gunpa	roŋ-gunpa	NOUN	_	_	5	obl	_	_
 5	ba	ba	VERB	_	_	0	root	_	SpaceAfter=No
@@ -12393,15 +12393,15 @@
 1	tɕaçi	tɕaçi	PROPN	_	_	4	nsubj	_	_
 2	dʐoma=da	dʐoma=da	PROPN	_	_	4	iobj	_	_
 3	tsʰamtoχ-gə	tsʰamtoχ-gə	NOUN	_	_	4	obj	_	_
-4	oχ-tɕo	oχ-tɕo	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+4	oχ-tɕo	oχ-tɕo	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1157
 # text = jitsʰaŋda tɕaçi silaŋ=da wi-gəwa.
 # text[eng] = Jiashi will be in Xining next year.
-1	jitsʰaŋda	jitsʰaŋda	ADV	_	_	5	advmod	_	_
-2	tɕaçi	tɕaçi	PROPN	_	_	5	nsubj	_	_
-3	silaŋ=da	silaŋ=da	PROPN	_	_	5	obl	_	_
+1	jitsʰaŋda	jitsʰaŋda	ADV	_	_	4	advmod	_	_
+2	tɕaçi	tɕaçi	PROPN	_	_	4	nsubj	_	_
+3	silaŋ=da	silaŋ=da	PROPN	_	_	4	obl	_	_
 4	wi-gəwa	wi-gəwa	VERB	_	Tense=Fut	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -12409,7 +12409,7 @@
 # text = pə o-gə çi.
 # text[eng] = I am not going.
 1	pə	pə	PRON	_	PronType=Prs	3	nsubj	_	_
-2	o-gə	o-gə	VERB	_	VerbForm=Fut	3	acl	_	_
+2	o-gə	o-gə	VERB	_	_	3	acl	_	NativeVerbForm=Fut
 3	çi	çi	VERB	_	Polarity=Neg	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12463,14 +12463,14 @@
 # text[eng] = Do you need money?
 1	tɕʰanda	tɕʰanda	PRON	_	PronType=Prs	3	nsubj	_	_
 2	kormu	kormu	NOUN	_	_	3	obj	_	_
-3	kʰər-u	kʰər-u	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+3	kʰər-u	kʰər-u	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1166
 # text = htema de-u.
 # text[eng] = Do (you) eat bread?
 1	htema	htema	NOUN	_	_	2	obj	_	_
-2	de-u	de-u	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+2	de-u	de-u	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_1167
@@ -12478,7 +12478,7 @@
 # text[eng] = Is Jiashi in Xining?
 1	tɕaçi	tɕaçi	PROPN	_	_	3	nsubj	_	_
 2	silaŋ=da	silaŋ=da	PROPN	_	_	3	obl	_	_
-3	wa-u	wa-u	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+3	wa-u	wa-u	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1168
@@ -12486,7 +12486,7 @@
 # text[eng] = Is s/he a teacher?
 1	atɕaŋ	atɕaŋ	PRON	_	PronType=Prs	2	nsubj	_	_
 2	gərgən	gərgən	NOUN	_	_	3	obj	_	_
-3	ba-u	ba-u	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+3	ba-u	ba-u	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1169
@@ -12495,7 +12495,7 @@
 1	χeɕaŋ	χeɕaŋ	PROPN	_	_	4	obl	_	_
 2	jaŋgətçə	jaŋgətçə	NOUN	_	_	4	obj	_	_
 3	natʰa	natʰa	ADV	_	_	4	advmod	_	_
-4	kʰər-si	kʰər-si	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+4	kʰər-si	kʰər-si	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1170
@@ -12504,7 +12504,7 @@
 1	lo	lo	NOUN	_	_	4	obl	_	_
 2	jaŋgətçə	jaŋgətçə	NOUN	_	_	4	obj	_	_
 3	jiχ	jiχ	ADV	_	_	4	advmod	_	_
-4	kʰər-si	kʰər-si	VERB	_	VerbForm=Q	0	root	_	SpaceAfter=No
+4	kʰər-si	kʰər-si	VERB	_	_	0	root	_	NativeVerbForm=Q|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1171
@@ -12512,9 +12512,9 @@
 # text[eng] = Those (things), should I tell about (them) all?
 1	tʰə=la	tʰə=la	PRON	_	PronType=Prs	4	nsubj	_	_
 2	χani=nə	χani=nə	DET	_	PronType=Dem	4	obj	_	_
-3	kʰəl	kʰəl	VERB	_	_	4	aux	_	_
-4	kʰər-saŋ	kʰər-saŋ	VERB	_	VerbForm=PerfNmlz	0	root	_	_
-5	ba-u	ba-u	VERB	_	VerbForm=Q	4	cop	_	SpaceAfter=No
+3	kʰəl	kʰəl	AUX	_	_	4	aux	_	_
+4	kʰər-saŋ	kʰər-saŋ	VERB	_	_	0	root	_	NativeVerbForm=PerfNmlz
+5	ba-u	ba-u	AUX	_	_	4	cop	_	NativeVerbForm=Q|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1172
@@ -12523,14 +12523,14 @@
 1	pə	pə	PRON	_	PronType=Prs	4	nsubj	_	_
 2	wela=da	wela=da	NOUN	_	_	4	obl	_	_
 3	ələ	ələ	PART	_	_	4	advmod	_	_
-4	gakə-na	gakə-na	VERB	_	VerbForm=Dur	0	root	_	SpaceAfter=No
+4	gakə-na	gakə-na	VERB	_	_	0	root	_	NativeVerbForm=Dur|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1173
 # text = tɕaçi ger wela-kə-tɕo.
 # text[eng] = Jiashi is building a house.
-1	tɕaçi	tɕaçi	PROPN	_	_	4	nsubj	_	_
-2	ger	ger	NOUN	_	_	4	obj	_	_
+1	tɕaçi	tɕaçi	PROPN	_	_	3	nsubj	_	_
+2	ger	ger	NOUN	_	_	3	obj	_	_
 3	wela-kə-tɕo	wela-kə-tɕo	VERB	_	_	0	root	_	NativeVerbForm=VbzImpfObj|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -12539,8 +12539,8 @@
 # text[eng] = Who participates in this?
 1	ə-naŋda	ə-naŋda	DET	_	PronType=Dem	4	obl	_	_
 2	kʰaŋ=gə	kʰaŋ=gə	PRON	_	PronType=Prs	4	nsubj	_	_
-3	tsʰantɕa-kə	tsʰantɕa-kə	VERB	_	_	4	aux	_	_
-4	kʰər-saŋ	kʰər-saŋ	VERB	_	VerbForm=Pos	0	root	_	SpaceAfter=No
+3	tsʰantɕa-kə	tsʰantɕa-kə	AUX	_	_	4	aux	_	_
+4	kʰər-saŋ	kʰər-saŋ	VERB	_	_	0	root	_	NativeVerbForm=Pos|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1175
@@ -12550,7 +12550,7 @@
 2	ɬotʂʰa=nə	ɬotʂʰa=nə	NOUN	_	_	6	obj	_	_
 3	loʂi=la	loʂi=la	NOUN	_	_	2	compound	_	_
 4	mənda	mənda	PRON	_	PronType=Prs	6	obj	_	_
-5	ɕuan-kə-tɕə	ɕuan-kə-tɕə	VERB	_	VerbForm=Perf	6	conj	_	SpaceAfter=No
+5	ɕuan-kə-tɕə	ɕuan-kə-tɕə	VERB	_	_	6	conj	_	NativeVerbForm=Perf|SpaceAfter=No
 6	=tɕo	=tɕo	PART	_	_	0	root	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -12558,14 +12558,14 @@
 # text = ɕaʑə lolun-kə-tɕə.
 # text[eng] = The child became old.
 1	ɕaʑə	ɕaʑə	NOUN	_	_	2	nsubj	_	_
-2	lolun-kə-tɕə	lolun-kə-tɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+2	lolun-kə-tɕə	lolun-kə-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_1177
 # text = ɕaʑə tʰarʁoŋ-la-tɕə.
 # text[eng] = The child became fat.
 1	ɕaʑə	ɕaʑə	NOUN	_	_	2	nsubj	_	_
-2	tʰarʁoŋ-la-tɕə	tʰarʁoŋ-la-tɕə	VERB	_	VerbForm=Perf	0	root	_	SpaceAfter=No
+2	tʰarʁoŋ-la-tɕə	tʰarʁoŋ-la-tɕə	VERB	_	_	0	root	_	NativeVerbForm=Perf|SpaceAfter=No
 3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = Bonan_grammar_1178
@@ -12573,7 +12573,7 @@
 # text[eng] = 'Today I danced and danced and then came.'
 1	nudə	today	ADV	_	_	6	advmod	_	_
 2	pə	1SG	PRON	_	PronType=Prs	6	nsubj	_	_
-3	natʰə~natʰə-tɕə	dance~dance-IMPF	VERB	_	VerbForm=Impf	6	conj	_	_
+3	natʰə~natʰə-tɕə	dance~dance-IMPF	VERB	_	_	6	conj	_	NativeVerbForm=Impf
 4	ər	then	PART	_	_	6	discourse	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	6	punct	_	_
 6	wa	come	AUX	_	_	0	root	_	_
@@ -12583,16 +12583,16 @@
 # text[eng] = 'He killed and killed (many) antelope, (so he) will have a lot of bad karma.'
 1	atɕaŋ	3SG	PRON	_	PronType=Prs	2	nsubj	_	_
 2	bəldʐir	antelope	NOUN	_	_	5	obj	_	_
-3	ala~ala-tɕə	kill~kill-IMPF	VERB	_	VerbForm=Impf	2	conj	_	_
+3	ala~ala-tɕə	kill~kill-IMPF	VERB	_	_	2	conj	_	NativeVerbForm=Impf
 4	niwa	crime	NOUN	_	_	5	obj	_	_
-5	wi-gəwa	will-be	AUX	_	VerbForm=Fut	0	root	_	SpaceAfter=No
+5	wi-gəwa	will-be	AUX	_	_	0	root	_	NativeVerbForm=Fut|SpaceAfter=No
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = Bonan_grammar_1180
 # text = mərku mər~mər-tɕə dasəra su. tɕo
 # text[eng] = '(s.b.) wore the clothing for a long time, and it was torn (worn out).'
 1	mərku	clothing	NOUN	_	_	2	obj	_	_
-2	mər~mər-tɕə	wear~wear-IMPF	VERB	_	VerbForm=Impf	6	conj	_	_
+2	mər~mər-tɕə	wear~wear-IMPF	VERB	_	_	6	conj	_	NativeVerbForm=Impf
 3	dasəra	tear	VERB	_	_	6	conj	_	_
 4	su	stay	VERB	_	_	6	conj	_	SpaceAfter=No
 5	.	.	PUNCT	_	_	6	punct	_	_
@@ -12602,17 +12602,17 @@
 # text = mərku mər~mər su-tɕo.
 # text[eng] = '(He) wears a lot (many layers) of clothing.'
 1	mərku	clothing	NOUN	_	_	2	obj	_	_
-2	mər~mər	wear~wear	VERB	_	_	3	root	_	_
-3	su-tɕo	stay-IMPF	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+2	mər~mər	wear~wear	VERB	_	_	3	dep	_	_
+3	su-tɕo	stay-IMPF	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = Bonan_grammar_1182
 # text = ɕaʑə dʐoma=da tʰəmtʰoχ htɕəl-əʁa-tɕo.
 # text[eng] = 'The children make Droma prepare mianpian noodles.'
-1	ɕaʑə	children	NOUN	_	_	5	nsubj	_	_
-2	dʐoma=da	Droma=LOC	PROPN	_	_	5	iobj	_	_
-3	tʰəmtʰoχ	mianpian	NOUN	_	_	5	obj	_	_
-4	htɕəl-əʁa-tɕo	prepare-CAUS-IMPF	VERB	_	VerbForm=Impf	0	root	_	SpaceAfter=No
+1	ɕaʑə	children	NOUN	_	_	4	nsubj	_	_
+2	dʐoma=da	Droma=LOC	PROPN	_	_	4	iobj	_	_
+3	tʰəmtʰoχ	mianpian	NOUN	_	_	4	obj	_	_
+4	htɕəl-əʁa-tɕo	prepare-CAUS-IMPF	VERB	_	_	0	root	_	NativeVerbForm=Impf|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = Bonan_grammar_1183
@@ -12621,6 +12621,6 @@
 1	pətənə	1PL.EXCL.COLL.GEN	PRON	_	PronType=Prs	3	nmod:poss	_	_
 2	ana	mother	NOUN	_	_	3	nsubj	_	_
 3	mənda	1SG.ACC	PRON	_	PronType=Prs	4	obj	_	_
-4	o-ʁa-saŋ	go-CAUS-POS	VERB	_	VerbForm=Caus	0	root	_	SpaceAfter=No
+4	o-ʁa-saŋ	go-CAUS-POS	VERB	_	_	0	root	_	NativeVerbForm=Caus|SpaceAfter=No
 5	.	.	PUNCT	_	_	4	punct	_	_
 
