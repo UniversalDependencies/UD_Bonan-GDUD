@@ -817,7 +817,7 @@
 9	kʰər-na	kʰər	VERB	_	Polarity=Pos	12	xcomp	_	NativeAspect=Dur|SpaceAfter=No
 10	=tɕə	=tɕə	PART	_	_	9	advmod	_	Feat=Quotative
 11	kʰəl-saŋ	kʰəl	VERB	_	Aspect=Imp|Polarity=Pos	12	ccomp	_	SpaceAfter=No|Quotative=Yes
-12	.	.	PUNCT	_	_	0	punct	_	_
+12	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_82
 # text = ɕida χargu-tɕə gər na-tɕə=tɕo.
@@ -1481,7 +1481,7 @@
 4	mantəl-ʁa	mantəl-ʁa	VERB	_	_	7	xcomp	_	NativeVerbForm=Caus
 5	kʰər-na	kʰər-na	AUX	_	_	4	dep	_	NativeVerbForm=Dur
 6	pe	pe	PART	_	_	7	discourse	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	0	punct	_	_
+7	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_144
 # text = wadzə=nə χani=la tɕʰaɲum-kə-tɕə mər kʰər-na.
@@ -1916,7 +1916,7 @@
 2	tɕaɕi	tɕaɕi	PROPN	_	_	5	nsubj	_	_
 3	ɕikə	ɕikə	ADJ	_	_	5	advmod	_	_
 4	gakə-gəwa	gakə-gəwa	ADJ	_	_	5	xcomp	_	NativeVerbForm=FutObj|SpaceAfter=No
-5	.	.	PUNCT	_	_	0	punct	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_185
 # text = ɲəntoχlakʰa attʰogə ŋamada natʰə-tɕo.
@@ -8904,7 +8904,7 @@
 2	ndʑukaŋ	ndʑukaŋ	NOUN	_	Case=Gen	5	dep	_	_
 3	eməla	eməla	NOUN	_	_	5	dep	_	_
 4	wa	wa	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	dep	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	0	punct	_	_
+5	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_838
 # text = tɕi dʑaːgə elə ɵl ˡçɵ.
@@ -9346,7 +9346,7 @@
 # text = eŋ, ana wara-dʑi. enə ŋɢuː-nə ɕintɕi-da ebdə-wa dʑi-sa ede mənə ħɵŋ.
 # text[eng] = Yes, I am fine now. Although I was sick last week, I feel fine now.
 1	eŋ	eŋ	INTJ	_	_	2	discourse	_	SpaceAfter=No
-2	,	,	PUNCT	_	_	0	punct	_	_
+2	,	,	PUNCT	_	_	0	root	_	_
 3	ana	ana	ADJ	_	_	4	xcomp	_	_
 4	wara-dʑi	wara-dʑi	AUX	_	Polarity=Pos	2	parataxis	_	SpaceAfter=No|Deriv=PRG
 5	.	.	PUNCT	_	_	4	punct	_	_
@@ -10156,7 +10156,7 @@
 3	-la	-la	PART	_	_	2	case	_	_
 4	kabˡdagə	kabˡdagə	VERB	_	_	6	acl	_	Deriv=PRG
 5	suːr-dʑɵ	suːr-dʑɵ	VERB	_	_	6	ccomp	_	SpaceAfter=No|Deriv=IMPF
-6	.	.	PUNCT	_	_	0	punct	_	_
+6	.	.	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_946
 # text = ede bə daɢ-tala ɵd kərəg. taŋ nɵkər-ngə saːɢa suːr-tɕ.
@@ -10219,7 +10219,7 @@
 8	məʂ	məʂ	AUX	_	_	7	dep	_	_
 9	jaˡda-na	jaˡda-na	VERB	_	_	11	ccomp	_	SpaceAfter=No|Deriv=NPT
 10	.	.	PUNCT	_	_	11	punct	_	_
-11	0	0	PUNCT	_	_	0	punct	_	_
+11	0	0	PUNCT	_	_	0	root	_	_
 
 # sent_id = Bonan_grammar_951
 # text = bə ɵdʑaŋ-nə nər dʑi χar ɢuala-nə waɢa-dʑi su ɵdʑaŋ-da məʂəg-nə məʂəg-dʑi.
