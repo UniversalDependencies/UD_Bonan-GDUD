@@ -768,7 +768,7 @@
 # text[eng] = They are stronger than us.
 1	atɕaŋla	atɕaŋla	PRON	_	Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
 2	pətəlanə	pətəlanə	PRON	_	Clusivity=Ex|Number=Plur|Person=1|PronType=Prs	4	obj	_	_
-3	utɕə-tɕə	utɕə-tɕə	VERB	_	Degree=Cmp	4	advcl	_	NativeVerbForm=Impf
+3	utɕə-tɕə	utɕə-tɕə	VERB	_	_	4	advcl	_	NativeVerbForm=Impf
 4	χedə	χedə	ADJ	_	_	0	root	_	_
 5	wa	wa	AUX	_	_	4	cop	_	NativeCopType=Cop1|SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	_	_
@@ -1350,7 +1350,7 @@
 # text = atɕaŋ kʰaŋ wa.
 # text[eng] = Who is he?
 1	atɕaŋ	atɕaŋ	PRON	_	Number=Sing|PronType=Prs	3	nsubj	_	_
-2	kʰaŋ	kʰaŋ	PRON	_	PronType=Int	3	nsubj:pass	_	_
+2	kʰaŋ	kʰaŋ	PRON	_	PronType=Int	3	nsubj:outer	_	_
 3	wa	wa	AUX	_	_	0	root	_	NativeCopType=Cop1|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -7173,7 +7173,7 @@
 5	tsʰəmtɕʰən=nə	tsʰəmtɕʰən	PRON	_	Case=Acc|PronType=Prs	8	obl	_	_
 6	tɕəp=sa	tɕəp	NOUN	_	Case=Abl	5	nmod	_	_
 7	htɕor-də	htɕor	VERB	_	Mood=Imp	8	xcomp	_	SpaceAfter=No
-8	-ʁa	-	PART	_	Voice=Cau	0	root	_	SpaceAfter=No
+8	-ʁa	-	PART	_	_	0	root	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = Bonan_grammar_674
@@ -8197,7 +8197,7 @@
 # text[eng] = Today is Friday, August 1, 1980.
 1	ˡnudə	ˡnudə	ADV	_	_	2	advmod	_	_
 2	ji	ji	AUX	_	VerbForm=Conv	10	advcl	_	_
-3	şdʑəggə	şdʑəggə	NUM	_	NumType=Card	10	appos	_	_
+3	şdʑəggə	şdʑəggə	NUM	_	NumType=Card	10	nmod	_	_
 4	dʑatɕi	dʑatɕi	NUM	_	NumType=Card	3	flat	_	_
 5	lɵ	lɵ	NOUN	_	_	3	flat	_	_
 6	dawa	dawa	NOUN	_	_	3	flat	_	_
