@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1153</sentences><tokens>8002</tokens><words>8002</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>1153</sentences><tokens>8002</tokens><words>8002</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="2209" /><!-- ., wa, da, bə, wi, tɕi, kʰər, o, atɕaŋ, pə, kʰəl, naŋda, su, ənə, , -->
+  <forms unique="2215" /><!-- ., wa, da, bə, pə, atɕaŋ, =da, =nə, naŋda, tɕi, wi, ənə, ,, su, tʰər -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">278</tag><!-- hko, jaksa, ʂgɵ, ʂakə, new, oloŋ, big, erte, pitəʁaŋ, ɕikə -->
+    <tag name="ADP">220</tag><!-- naŋda, da, nə, ʁala, on, sa, in, =da, =nə, kʰada -->
+    <tag name="ADV">430</tag><!-- da, su, dawu, tʰəsanə, ede, maχɕi, χamda, elə, jaŋgətɕə, tʰəŋgətɕə -->
+    <tag name="AUX">375</tag><!-- wa, wi, ba, ji, çɵ, bi, kʰər, mbɵ, wo, ki -->
+    <tag name="CCONJ">42</tag><!-- tɕə, da, =tɕə, ai, also, and, dʑi, dʑi-sa, dʑisa, or -->
+    <tag name="DET">207</tag><!-- ənə, nokə, tʰər, χani, enə, ħani, that, this, anə, nə -->
+    <tag name="INTJ">18</tag><!-- mba, aː, wakə, aa, dʑəntɕnbɵ, esə, eŋ, ja, mbi, ole -->
+    <tag name="NOUN">1555</tag><!-- aku, au, disɵ, mərku, ana, htema, jama, tsʰaŋ, udər, kʰətʰə -->
+    <tag name="NUM">163</tag><!-- nəkə, tʰaun, ʁar, nəgə, ɢuar, tawɵŋ, guraŋ, ɢuraŋ, dɵlɵŋ, neke -->
+    <tag name="PART">509</tag><!-- da, =ku, =da, =nə, =la, NEG, nə, ələ, əsə, =tɕə -->
+    <tag name="PRON">875</tag><!-- bə, tɕi, atɕaŋ, pə, ɵdʑaŋ, mənə, tɕʰə, mən, koʑə, 1SG -->
+    <tag name="PROPN">278</tag><!-- dʐoma, silaŋ, dortɕə, tɕaçi, tɕaɕi, Jiashi, χeɕaŋ, tsʰeraŋ, Droma, hɑbib -->
+    <tag name="PUNCT">1212</tag><!-- ., ,, ?, ..., –, 0, _, “, ” -->
+    <tag name="SCONJ">9</tag><!-- su, tçi, tɕala, tɕi, tɕiχaːʑi, tɕo, ˡwabgə -->
+    <tag name="VERB">1744</tag><!-- o, kʰər, kʰəl, jiχ, wi, natʰə, ɵd, oχ, ər, ap -->
+    <tag name="X">87</tag><!-- _, QUOT.IMPF, -gi-saŋ, -gə-tɕə, 0, POS, la -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="69">
+    <feat name="AdpType" value="Post" upos="ADP">7</feat><!-- naŋda, =da, kʰada -->
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- nda -->
+    <feat name="Aspect" value="Imp" upos="ADJ,ADV,AUX,NOUN,PART,PRON,VERB">326</feat><!-- o, jiχ, natʰə, kʰəl, o-tɕə, ər, jiχ-tɕo, kʰər, oχ, tɕəl -->
+    <feat name="Aspect" value="Perf" upos="ADJ,AUX,PART,VERB">163</feat><!-- kʰər, kʰəl, ər, kʰəl-tɕə, kʰəl-saŋ, natʰə, war, wi, ala, ap -->
+    <feat name="Aspect" value="Prog" upos="AUX,VERB">47</feat><!-- dʑi, ɵd-ja-dʑi, dʑə, nasəla, suː, aldʑa, geː, samgə-dʑi, ɵl, dʑaːgə -->
+    <feat name="Case" value="Abl" upos="ADP,ADV,DET,NOUN,PART,PRON,PROPN,VERB">47</feat><!-- sa, en, naŋ, =sa, tʰə=sa, ən=sa, ɵdʑaŋ, bu-sɿ, en-sa, erteˡ-sa-nə -->
+    <feat name="Case" value="Acc" upos="ADP,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">287</feat><!-- =nə, nə, mənda, koʑə, tʰər, χani, htema, lokə, mərku, atɕaŋ -->
+    <feat name="Case" value="Com" upos="PROPN">1</feat><!-- hɑbib-ʁɑlə -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,ADV,DET,NOUN,NUM,PART,PRON,PROPN,VERB">388</feat><!-- naŋda, =da, da, tɕin-da, mən-da, mənda, silaŋ, mən, roŋ, kʰətʰə -->
+    <feat name="Case" value="Gen" upos="ADJ,ADP,NOUN,PRON,PROPN,VERB">51</feat><!-- mənnə, mənə, nə, tɕinə, atɕaŋnə, erte-nə, mannə, ŋɢuː, adu-nə, atɕaŋi -->
+    <feat name="Case" value="Ins" upos="ADJ,ADP,DET,NOUN,PART,PRON,VERB">33</feat><!-- ʁala, =ʁala, tʰər, tʰər=ʁala, atɕaŋ, atɕaŋla, atɕaŋʁala, dadoχ=ʁala, hko=ʁala, jinjəχ -->
+    <feat name="Case" value="Loc" upos="NOUN,PRON">9</feat><!-- silaŋ=da, kʰətʰə, mehpotɕahpo=da, tsʰəm=da, tɕʰakʰa=da, ɬokʰaŋ, χani=da -->
+    <feat name="Case" value="Nom" upos="NOUN,PART,PRON,PROPN">188</feat><!-- tɕi, bə, pə, dortɕə, papa, tɕʰəχaŋnaŋ, χapa, nasə, χotɕʰa, atɕaŋ -->
+    <feat name="Case" value="Ter" upos="VERB">1</feat><!-- tərɑ-təlɑ -->
+    <feat name="Clusivity" value="Ex" upos="PRON">14</feat><!-- pətə, pətəla, pətəlanə, pətənə, pətə~pətə, pətəʁula -->
+    <feat name="Clusivity" value="In" upos="PRON">19</feat><!-- mannə, manda, maŋgə, maŋgəla, mangə, mangɤ, mansa, mɑngɤ -->
+    <feat name="Definite" value="Ind" upos="ADJ,ADP,DET,NOUN,PART">32</feat><!-- =gə, au, aku, samtəχ, dedə, deda, dzejaŋ, gə, gəŋdəntɕawo=gə, hkora -->
+    <feat name="Degree" value="Cmp" upos="ADJ,ADV">3</feat><!-- fgo, utɕə-tɕə, ŋasiχaŋna -->
+    <feat name="Degree" value="Dim" upos="ADJ,ADV">4</feat><!-- pitəʁaŋ, tɕəmaŋgə -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">64</feat><!-- hko, jaksa, ʂgɵ, ŋɢa, jamtəg, ɕikə, bədtɢaŋ, kam, şakə, bədgaŋ -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADV">9</feat><!-- atthogə, attʰogə, atəgda, aˡtəgda, aˡtəːgdə, bədtɢaŋ, məχʑə, ɕikə, ʂgɵ -->
+    <feat name="Gender" value="Fem" upos="PROPN">1</feat><!-- aku=ʁala -->
+    <feat name="Mood" value="Cnd" upos="AUX,PART,VERB">59</feat><!-- wi, nathə, -sa, jiχ, ki, tʰa-sa, wadʑi-sa-da, wi-sa, ər, ba -->
+    <feat name="Mood" value="Imp" upos="PART,VERB">36</feat><!-- mbɵ-u, kʰəl-də, me, çorigə, -də-ʁa, -ə, abtɕir, ba, er-ja-dʑi, gə -->
+    <feat name="Mood" value="Ind" upos="ADJ,AUX,PART,VERB">246</feat><!-- wa, wi, kʰər-saŋ, ji, ɵl, kʰəl-tɕə, o-tɕə, nasəla, war, ɵd -->
+    <feat name="Mood" value="Int" upos="AUX,PART,VERB">37</feat><!-- mbɵ, wɵ, kʰər, wa, mbɵ-u, ji, meˡdə, rə, -u, ba -->
+    <feat name="Mood" value="Irr" upos="VERB">7</feat><!-- ɵd-ja-dʑi, er-gu-nə, rə-ja-dʑi, waŋ-wu, ɢɵɢɵlə-m, ˡtɕigə-dʑiˡgi-wə -->
+    <feat name="Mood" value="Jus" upos="VERB">1</feat><!-- nda-ʁə -->
+    <feat name="Mood" value="Nec" upos="AUX,VERB">50</feat><!-- kʰər, kʰər-na, kʰər-saŋ, khər, natʰə, kərəg, kʰər=ku, kʰərə -->
+    <feat name="Mood" value="Opt" upos="VERB">2</feat><!-- jɤ-ɛ, ping-ɛ -->
+    <feat name="Mood" value="Sub" upos="AUX,VERB">16</feat><!-- o, kʰər, bi, bi-saŋ, gi, kʰəl, o-gi, u-tɕi, wi-saŋ -->
+    <feat name="Number" value="Dual" upos="DET,NOUN,PART,PRON,PROPN">44</feat><!-- tsaŋtem, ana=ʁala, natʰoŋ, =ʁala, dʐama, kʰontʰarhtɕə, pʰiŋkwo, tɕaçi, ahku, aku -->
+    <feat name="Number" value="Pauc" upos="NOUN,PRON">11</feat><!-- atɕaŋʁula, atɕaŋ, au, be, gaŋzi, lərse, tsʰaŋ, tɕokse, ɕaʑə -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,DET,NOUN,NUM,PART,PRON,VERB">237</feat><!-- =la, aku, au, mannə, jama, tsʰaŋ, ɵdʑaŋ, χani, atɕaŋla, dzəjaŋ -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,DET,NOUN,PART,PRON,PROPN,VERB">485</feat><!-- bə, tɕi, pə, atɕaŋ, mənə, ɵdʑaŋ, mənda, tɕʰə, tɕin-da, tɕinə -->
+    <feat name="Number[psor]" value="Dual" upos="NOUN">2</feat><!-- atɕaŋʁalanə, kʰətʰə=la=də -->
+    <feat name="Number[psor]" value="Plur" upos="PRON">2</feat><!-- atɕaŋla, manda -->
+    <feat name="Number[psor]" value="Sing" upos="PRON">3</feat><!-- mənda, məngaŋ, pə -->
+    <feat name="NumType" value="Card" upos="ADV,DET,NUM">112</feat><!-- nəkə, ʁar, ɢuar, tʰaun, tawɵŋ, nəgə, ɢuraŋ, dɵlɵŋ, guraŋ, neke -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM,PART">7</feat><!-- -mo, səmba-mo, niwə, niwə-mo, səmba -->
+    <feat name="Person" value="1" upos="PRON,VERB">274</feat><!-- bə, pə, mənə, mənda, mənnə, mən, mən-da, mannə, bu, maŋgə -->
+    <feat name="Person" value="2" upos="PRON">142</feat><!-- tɕi, tɕʰə, tɕinə, tɕin-da, tɕin, tɕʰənda, ʨi, ta, øi, tada -->
+    <feat name="Person" value="3" upos="PRON,PROPN,VERB">130</feat><!-- atɕaŋ, ɵdʑaŋ, atɕaŋla, atɕaŋnə, koʑə, atɕaŋʁula, oroŋ, atɕaŋ=tsʰaŋ=nə, atɕaŋda, atɕaŋi -->
+    <feat name="Person[psor]" value="1" upos="NOUN,PRON">8</feat><!-- pə, manda, mənda, məngaŋ, mənə -->
+    <feat name="Person[psor]" value="2" upos="PRON">2</feat><!-- jaŋ-kə-gi, tʰə -->
+    <feat name="Person[psor]" value="3" upos="NOUN,PRON">3</feat><!-- atɕaŋgaŋ, atɕaŋʁalanə, kʰətʰə=la=də -->
+    <feat name="Polarity" value="Neg" upos="ADJ,ADV,AUX,INTJ,PART,VERB">150</feat><!-- ələ, çɵ, ço, əsə, elə, esə, kina, ki, meˡdə, çəwa -->
+    <feat name="Polarity" value="Pos" upos="ADJ,AUX,PART,VERB">77</feat><!-- kʰər-saŋ, wi, bi, kʰəl, tʰəke-saŋ, kʰər, kʰər-u, mb-u, natʰə-la, oχ-tɕo -->
+    <feat name="Poss" value="Yes" upos="NOUN,PRON">51</feat><!-- mənə, tɕinə, atɕaŋ=tsʰaŋ=nə, atɕaŋnə, gaːgaɢaŋ, mannə, mənnə, mənɢaŋ, tɕinɢaŋ, a=tsʰaŋ=nə -->
+    <feat name="PronType" value="Dem" upos="DET,PRON">205</feat><!-- ənə, nokə, tʰər, enə, tərə, nə, χani, thər, anə, en -->
+    <feat name="PronType" value="Ind" upos="DET,PART,PRON">13</feat><!-- nəgə, tɕəmaŋgə, gə, jama, jantʰoχ, koʑə, nəkə, nəkədanəkə, nɵgə, ɵlɵŋ -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">66</feat><!-- jaŋgə, ħala, jaŋgətɕə, kutɵŋ, jaŋ, kʰaŋ, anə, kətɕi, χala, kaŋ -->
+    <feat name="PronType" value="Prs" upos="DET,PRON">800</feat><!-- bə, pə, atɕaŋ, tɕi, mənda, mənə, ɵdʑaŋ, tɕinə, tɕʰə, mənnə -->
+    <feat name="PronType" value="Tot" upos="DET,PRON">20</feat><!-- χani, ħani, phəthoŋ -->
+    <feat name="Reflex" value="Yes" upos="PRON,VERB">13</feat><!-- koʑə, koʑə~koʑə, nə, oroŋ, uʂge-gu-nə -->
+    <feat name="Tense" value="Fut" upos="AUX,VERB">28</feat><!-- o, o-gi, wi, aldʑa-gi, məʂ-gi, na, nasəla, nikə-ʁa-gə, o-gə, oχ -->
+    <feat name="Tense" value="Past" upos="ADJ,AUX,PART,VERB">85</feat><!-- çɵ, wa, ɵl, bi-saŋ, wi-saŋ, ap, geː, kʰər-saŋ, medə-m, rə -->
+    <feat name="Tense" value="Pres" upos="ADV,AUX,PART,VERB">32</feat><!-- wa, meˡdə, -na, medə, na, kelə, su, təgegə, wi, wɵ -->
+    <feat name="VerbForm" value="Conv" upos="AUX,PART,VERB">84</feat><!-- ɵd, udʑi, aldʑa, medgi-sa, məş, o, wadʑi-sa-da, wi-sa, widʑi-sa, ɵrgi-sa -->
+    <feat name="VerbForm" value="Fin" upos="ADJ,AUX,PART,VERB">252</feat><!-- wa, wi, kʰər-saŋ, kʰər-na, ɵl, kʰəl-tɕə, o-tɕə, ɵd, nasəla, war -->
+    <feat name="VerbForm" value="Ger" upos="AUX,VERB">11</feat><!-- kʰəl, ap, gela, o, oχ, sasut, su -->
+    <feat name="VerbForm" value="Inf" upos="VERB">91</feat><!-- mər, kʰəl, laʁa, o, təˡgegə, ɵd, htɕirlaŋgə-ʁa, jiχ, khəl, oχ -->
+    <feat name="VerbForm" value="Part" upos="AUX,PART,VERB">25</feat><!-- ku, nathə, pʰitətɕə, wi, =ku, iu, jiχ-tɕə=ku, kal, ke, kel -->
+    <feat name="VerbForm" value="Vnoun" upos="NOUN,VERB">47</feat><!-- kʰəl-saŋ, kʰəl, kʰəl=ku, natʰə, o=ku, gakə=ku, kʰər, oχ, ʂatɕi, χara -->
+    <feat name="Voice" value="Act" upos="VERB">8</feat><!-- oχ-tɕo, ala-tɕə, ge-ko, su-tɕo, utɕə-tɕə, waʁa, ɕuan-ke-tɕi -->
+    <feat name="Voice" value="Cau" upos="VERB,X">40</feat><!-- ər, gargə, htɕirlaŋgə-ʁa, χar, -də-ʁa, -gə-tɕə, bol-ʁa, de, dəp-kə-ʁa-tɕə, ehte -->
+    <feat name="Voice" value="Mid" upos="VERB">1</feat><!-- waɢta-rtɕ -->
+    <feat name="Voice" value="Pass" upos="VERB">4</feat><!-- ap, ja, natʰe-tɕə, χaː -->
+    <feat name="Voice" value="Rcp" upos="VERB">2</feat><!-- nʥiəg, o-tɕʰe-tɕo -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="40">
+    <dep name="acl">112</dep>
+    <dep name="acl:relcl">6</dep>
+    <dep name="advcl">206</dep>
+    <dep name="advmod">505</dep>
+    <dep name="amod">128</dep>
+    <dep name="appos">12</dep>
+    <dep name="aux">62</dep>
+    <dep name="case">222</dep>
+    <dep name="cc">41</dep>
+    <dep name="ccomp">81</dep>
+    <dep name="clf">1</dep>
+    <dep name="compound">56</dep>
+    <dep name="compound:prt">2</dep>
+    <dep name="compound:svc">7</dep>
+    <dep name="conj">119</dep>
+    <dep name="cop">51</dep>
+    <dep name="csubj">7</dep>
+    <dep name="dep">599</dep>
+    <dep name="det">161</dep>
+    <dep name="discourse">155</dep>
+    <dep name="dislocated">3</dep>
+    <dep name="fixed">2</dep>
+    <dep name="flat">11</dep>
+    <dep name="iobj">69</dep>
+    <dep name="mark">57</dep>
+    <dep name="nmod">268</dep>
+    <dep name="nmod:poss">78</dep>
+    <dep name="nmod:tmod">1</dep>
+    <dep name="nsubj">1004</dep>
+    <dep name="nsubj:outer">39</dep>
+    <dep name="nsubj:pass">2</dep>
+    <dep name="nummod">97</dep>
+    <dep name="obj">517</dep>
+    <dep name="obl">504</dep>
+    <dep name="obl:tmod">26</dep>
+    <dep name="parataxis">116</dep>
+    <dep name="punct">1205</dep>
+    <dep name="root">1153</dep>
+    <dep name="vocative">1</dep>
+    <dep name="xcomp">316</dep>
+  </deps>
+</treebank>
